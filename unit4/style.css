@@ -44,12 +44,15 @@ p{
 }
 
 .pspacing{
+    display: block;
     font-family: 'Rokkitt', serif;
 	font-size: 20px;
+	height: 100px;
 	line-height: 115%;
-	margin-left: 450px;
-	margin-top: 15px;
-	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+    position: relative;
 	text-align: justify;
+
 	width: 320px;
 }
