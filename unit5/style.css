@@ -1,0 +1,39 @@
+* { margin:0;padding:0;box-sizing:border-box; }
+
+body{
+	font-size:12px;
+	font-family: "Helvetica", sans-serif;
+	margin-left: 20px;
+}
+
+header{
+	font-size:18px;
+	margin-top: 20px;
+}
+
+section{
+	margin-top: 20px;
+}
+
+#content{
+	margin-top: 20px;
+}
+
+.logovert{
+	height:250px;
+	margin: 10px 0 50px 90px;
+}
+
+.logohoriz{
+	height:100px;
+	margin: 10px 0 50px 90px;
+}
+
+.styleguide{
+	height: 800px;
+	margin: auto;
+}
+
+.wireframes{
+	width: 800px;
+}

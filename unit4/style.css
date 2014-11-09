@@ -2,9 +2,9 @@
 * { margin:0;padding:0;box-sizing:border-box; }
 
 body{
-	background: url("images/baos.png") repeat-x;
-	background-color: #52596b;
-	background-size: 1333px 700px;
+	background: url("images/baos.png") no-repeat;
+	background-color: #bebad5;
+	background-size: cover;
 	color: #ffffff;
 	margin-top: 100px;
 }
