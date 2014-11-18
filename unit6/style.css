@@ -14,6 +14,10 @@ nav a{
 	padding: 17px;
 }
 
+ul{
+	list-style-type: none;
+}
+
 nav.clearfix:after{
 	visibility: hidden;
 	display: block;
@@ -34,8 +38,8 @@ nav#fixednav{
 }
 
 a:hover{
-	color: black;
-}
+	color: #5561ba;
+} 
 
 body.index{
 	background: url("images/lizzie-speech-1.jpg") no-repeat center center fixed;
@@ -46,7 +50,7 @@ body.index{
 }
 
 body.about{
-	background: url("images/lizzie-plane-1.jpg") no-repeat center center fixed;
+	background: url("images/lizzie-plane-1-copy.jpg") no-repeat center center fixed;
 	background-color: #eef0fd;
 	background-size: cover;
 	font-family: Lato, sans-serif;
@@ -70,16 +74,24 @@ body.screenings{
 }
 
 body.gallery{
-	background-color: #282828;
+	background-color: #eef0fd;
 	background-size: cover;
 	font-family: Lato, sans-serif;
 	font-weight: 400;
 }
 
+body.test{
+	background-color: #fbfbfb;
+	background-size: cover;
+	font-family: Lato, sans-serif;
+	font-weight: 400;	
+}
+
 h1{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Alegreya Sans SC', sans-serif;
 	font-weight: 300;
-	letter-spacing: 8px;
+	font-size: 30px;
+	letter-spacing: 10px;
 }
 
 h2{
@@ -103,7 +115,7 @@ section{
 }
 
 .bios{
-	background: rgba(0,0,0,.3);
+	background: rgba(0,0,0,.4);
 	border-style: solid;
 	width:860px;
 	padding: 20px;
@@ -111,10 +123,15 @@ section{
 	margin-right: auto;
 	margin-bottom: 20px;
 	margin-top: 30px;
+	overflow: hidden;
 	color: #ebebeb;
 	font-size: 14px;
 	font-weight: 300;
 	text-align: justify;
+}
+
+p.bioflow{
+	overflow: hidden;
 }
 
 #sara{
@@ -122,21 +139,21 @@ section{
 }
 
 .saraphoto{
-	width:150px;
+	width: 140px;
 	float: left;
 	margin-right: 16px;
-	margin-top: 5px;
+	margin-top: 4px;
 }
 
 #mike{
-	height:180px;
+	height:190px;
 }
 
 .mikephoto{
-	width:150px;
+	width: 140px;
 	float: left;
 	margin-right: 16px;
-	margin-top: -10px;
+	margin-top: 4px;
 }
 
 #ben{
@@ -144,21 +161,21 @@ section{
 }
 
 .benphoto{
-	width:150px;
+	width: 140px;
 	float: left;
 	margin-right: 16px;
-	margin-top: -1px;
+	margin-top: 4px;
 }
 
 #chris{
-	height:200px;
+	height: 190px;
 }
 
 .chrisphoto{
-	width:150px;
+	width: 140px;
 	float: left;
 	margin-right: 16px;
-	margin-top: -1px;
+	margin-top: 4px;
 }
 
 #jose{
@@ -166,10 +183,10 @@ section{
 }
 
 .josephoto{
-	width:150px;
+	width: 140px;
 	float: left;
 	margin-right: 16px;
-	margin-top: -1px;
+	margin-top: 4px;
 }
 
 #jessica{
@@ -177,21 +194,21 @@ section{
 }
 
 .jessicaphoto{
-	width:150px;
+	width: 140px;
 	float: left;
 	margin-right: 16px;
-	margin-top: -1px;
+	margin-top: 4px;
 }
 
 #ngoc{
-	height:240px;
+	height:225px;
 }
 
 .ngocphoto{
-	width:150px;
+	width: 140px;
 	float: left;
 	margin-right: 16px;
-	margin-top: 30px;
+	margin-top: 4px;
 }
 
 #lizzie{
@@ -199,26 +216,25 @@ section{
 }
 
 .lizziephoto{
-	width:150px;
+	width: 140px;
 	float: left;
 	margin-right: 16px;
-	margin-top: -1px;
+	margin-top: 5px;
 }
 
 #alexis{
-	height:210px;
+	height:195px;
 }
 
 .alexisphoto{
-	width:150px;
+	width: 140px;
 	float: left;
 	margin-right: 16px;
 	margin-top: 5px;
 }
 
 .aboutthefilm{
-	margin-left: -230px;
-	margin-right: auto;
+	margin: auto;
 }
 
 div.synopsis{
@@ -227,9 +243,8 @@ div.synopsis{
 	font-size: 15.5px;
 	font-weight: 300;
 	line-height: 22px;
-	margin-right: auto;
-	margin-left: 295px;
-	margin-top: 50px;
+	margin: auto;
+	margin-top: 40px;
 	padding: 19px;
 	text-align: justify;
 	width: 385px;
@@ -256,11 +271,27 @@ div.headings{
 	font-weight: 300;
 	letter-spacing: 0.2em;
 	position: fixed;
-	left:0px;
-	bottom:0px;
-	height:30px;
-	width:100%;
-	text-align: center;
+	right: 10px;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+	text-align: right;
 	opacity: 0.5;
 }
 
+section.gallery{
+	margin: 0;
+	padding: 0;
+}
+
+.gallery{
+	width: 9355px;
+}
+
+.still{
+	float: left;
+	padding: 0;
+	margin-top: 0;
+	margin-right: 30px;
+	height: 860px;
+}
