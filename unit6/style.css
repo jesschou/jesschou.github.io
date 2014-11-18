@@ -278,7 +278,7 @@ section.gallery{
 }
 
 .gallery{
-	width: 8969px;
+	width: 7174px;
 }
 
 .still{
@@ -286,12 +286,12 @@ section.gallery{
 	padding: 0;
 	margin-top: 0;
 	margin-right: 30px;
-	height: 860px;
+	height: 685px;
 }
 
 .still-dc{
 	float: left;
 	padding: 0;
 	margin:0;
-	height: 860px;
+	height: 685px;
 }
