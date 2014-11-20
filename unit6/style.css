@@ -1,28 +1,33 @@
 * { margin:0;padding:0;box-sizing:border-box; }
+
 body {
 	background-color: #eef0fd;
-	background-size: cover;
 	font-family: Lato, sans-serif;
 	font-weight: 400;
 }
 body.index{
-	background: url("images/lizzie-speech-1.jpg") no-repeat center center fixed;
+	background: url("images/lizzie-speech-2.jpg") no-repeat center center fixed;
+	background-size: cover;
 }
 
 body.about{
-	background: url("images/lizzie-plane-1-copy.jpg") no-repeat center center fixed;
+	background: url("images/lizzie-plane-2-copy.jpg") no-repeat center center fixed;
+	background-size: cover;
 }
 
 body.filmmakers{
-	background: url("images/lizzie-london-1.jpg") no-repeat center center fixed;
+	background: url("images/lizzie-london-2.jpg") no-repeat center center fixed;
+	background-size: cover;
 }
 
 body.screenings{
-	background: url("images/lizzie-capitol-1.jpg") no-repeat center center fixed;
+	background: url("images/lizzie-capitol-2.jpg") no-repeat center center fixed;
+	background-size: cover;
 }
 
 body.gallery{
 }
+
 nav{
 	background:rgba(0,0,0,.2);
 	font-size: 12px;
@@ -41,6 +46,7 @@ nav a{
 ul{
 	list-style-type: none;
 }
+
 nav#fixednav{
 	position: fixed;
 	top: 0;
@@ -54,6 +60,10 @@ nav#fixednav{
 a:hover{
 	color: #5561ba;
 } 
+
+.active{
+	color: #5561ba;
+}
 
 h1{
 	font-family: 'Alegreya Sans SC', sans-serif;
@@ -86,6 +96,11 @@ section{
 .social{
 	float: right;
 	margin: 10px;
+}
+
+.icon{
+	width: 50px;
+	height: 50px;
 }
 
 .bios{
@@ -253,13 +268,17 @@ div.headings{
 	opacity: 0.5;
 }
 
-div.gallery{
+/*div.gallery{
 	margin: 0;
 	padding: 0;
 }
 
 .gallery{
-	width: 7200px;
+	width: 7400px;
+}
+
+ul.gallery img{
+	height: 100vh;
 }
 
 .still{
@@ -267,14 +286,58 @@ div.gallery{
 	padding: 0;
 	margin-top: 0;
 	margin-right: 30px;
-	height: 685px;
-}
+}*/
 
-.still-dc{
-	float: left;
-	padding: 0;
-	margin:0;
-	height: 685px;
+.wrap {
+   overflow: hidden;
+   margin: auto;
+   height: 100vh;
+}
+.box {
+   float: left;
+   position: relative;
+   width: 20%;
+   padding-bottom: 20%;
+}
+.boxInner {
+   position: absolute;
+   margin: 3px;
+   overflow: hidden;
+}
+.boxInner img {
+   width: 100%;
+}
+}
+body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+   margin-bottom: 0;
+}
+@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   .box {
+      width: 100%;
+      padding-bottom: 100%;
+   }
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   .box {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   .box {
+      width: 33.3%;
+      padding-bottom: 19%;
+   }
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   .box {
+      width: 33.3%;
+      padding-bottom: 19%;
+   }
 }
 
 .clearfix:after{
