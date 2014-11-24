@@ -19,9 +19,9 @@ body {
 }
 
 #filmmakers{
-	background: url("images/lizzie-london-2.jpg") no-repeat center center fixed;
+	background: url("images/lizzie-london-1.jpg") no-repeat center center fixed;
 	background-size: cover;
-	height: 360vh;
+	height: 340vh;
 }
 
 #screenings{
@@ -107,18 +107,27 @@ aside {
 }
 
 hr{
-	border: 0; 
-	height: 1px; 
-	background-image: -webkit-linear-gradient(left, rgba(255,255,255,255), rgba(255,255,255,0.75), rgba(255,255,255,255)); 
-	background-image: -moz-linear-gradient(left, rgba(255,255,255,255), rgba(255,255,255,0.75), rgba(255,255,255,255)); 
-	background-image: -ms-linear-gradient(left, rgba(255,255,255,255), rgba(255,255,255,0.75), rgba(255,255,255,255)); 
-	background-image: -o-linear-gradient(left, rgba(255,255,255,255), rgba(255,255,255,0.75), rgba(255,255,255,255));
+	border: 0;
+	color: #9E9E9E;
+	background-color: #9E9E9E;
+	height: 1px;
+	width: 45%;
+	margin: 0 auto;
 }
+
+/*hr{ 
+	border: 0; 
+	height: 1.3px; 
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}*/
 
 .filmmakerwrap{
 	background: rgba(0,0,0,.5);
 	border-style: solid;
-	width: 890px;
+	width: 870px;
 	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
@@ -132,12 +141,12 @@ hr{
 }
 
 .bios{
-	width:850px;
+	width: 830px;
 	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
-	margin-top: 5px;
+	margin-top: 12px;
 	overflow: hidden;
 	color: #ebebeb;
 	font-size: 14px;
@@ -266,7 +275,8 @@ div.synopsis{
 	word-spacing: .8px;
 }
 
-div.headings{
+
+.headings{
 	font-family: Lato, sans-serif;
 	font-weight: 100;
 	font-size: 18px;
@@ -274,9 +284,13 @@ div.headings{
 	letter-spacing: 0.2em;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 100px;
+	padding-top: 120px;
 	text-align: center;
 	width: 500px;
+}
+
+.headings_index{
+	padding-top: 1px;
 }
 
 .footer{
