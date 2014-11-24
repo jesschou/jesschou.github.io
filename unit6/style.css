@@ -5,27 +5,34 @@ body {
 	font-family: Lato, sans-serif;
 	font-weight: 400;
 }
-body.index{
+
+.index{
 	background: url("images/lizzie-speech-2.jpg") no-repeat center center fixed;
 	background-size: cover;
+	width: 100vw;
+	height: 100vh;
 }
 
-body.about{
+.about{
 	background: url("images/lizzie-plane-2-copy.jpg") no-repeat center center fixed;
 	background-size: cover;
+	width: 100vw;
+	height: 100vh
 }
 
-body.filmmakers{
+.filmmakers{
 	background: url("images/lizzie-london-2.jpg") no-repeat center center fixed;
 	background-size: cover;
+	width: 100vw;
+	height: 100vh;
 }
 
-body.screenings{
+.screenings{
 	background: url("images/lizzie-capitol-2.jpg") no-repeat center center fixed;
 	background-size: cover;
 }
 
-body.gallery{
+.gallery{
 }
 
 nav{
@@ -86,11 +93,6 @@ h2{
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-}
-
-section{
-	margin-bottom: 50px;
-	margin-top: 100px;
 }
 
 aside {
