@@ -9,24 +9,29 @@ body {
 .index{
 	background: url("images/lizzie-speech-2.jpg") no-repeat center center fixed;
 	background-size: cover;
+	height: 100vh;
 }
 
 .about{
 	background: url("images/lizzie-plane-2-copy.jpg") no-repeat center center fixed;
 	background-size: cover;
+	height: 100vh;
 }
 
 .filmmakers{
 	background: url("images/lizzie-london-2.jpg") no-repeat center center fixed;
 	background-size: cover;
+	height: 360vh;
 }
 
 .screenings{
 	background: url("images/lizzie-capitol-2.jpg") no-repeat center center fixed;
 	background-size: cover;
+	height: 100vh;
 }
 
 .gallery{
+	height: 100vh;
 }
 
 nav{
@@ -101,9 +106,32 @@ aside {
 	height: 50px;
 }
 
-.bios{
-	background: rgba(0,0,0,.4);
+hr{
+	border: 0; 
+	height: 1px; 
+	background-image: -webkit-linear-gradient(left, rgba(255,255,255,255), rgba(255,255,255,0.75), rgba(255,255,255,255)); 
+	background-image: -moz-linear-gradient(left, rgba(255,255,255,255), rgba(255,255,255,0.75), rgba(255,255,255,255)); 
+	background-image: -ms-linear-gradient(left, rgba(255,255,255,255), rgba(255,255,255,0.75), rgba(255,255,255,255)); 
+	background-image: -o-linear-gradient(left, rgba(255,255,255,255), rgba(255,255,255,0.75), rgba(255,255,255,255));
+}
+
+.filmmakerwrap{
+	background: rgba(0,0,0,.5);
 	border-style: solid;
+	width: 900px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	overflow: hidden;
+	color: #ebebeb;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: justify;
+}
+
+.bios{
 	width:860px;
 	padding: 20px;
 	margin-left: auto;
@@ -292,6 +320,7 @@ ul.gallery img{
    margin: auto;
    height: 100vh;
 }
+
 .box {
    float: left;
    position: relative;
