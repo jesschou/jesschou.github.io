@@ -6,31 +6,31 @@ body {
 	font-weight: 400;
 }
 
-.index{
+#index{
 	background: url("images/lizzie-speech-2.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 100vh;
 }
 
-.about{
+#about{
 	background: url("images/lizzie-plane-2-copy.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 100vh;
 }
 
-.filmmakers{
+#filmmakers{
 	background: url("images/lizzie-london-2.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 360vh;
 }
 
-.screenings{
+#screenings{
 	background: url("images/lizzie-capitol-2.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 100vh;
 }
 
-.gallery{
+#gallery{
 	height: 100vh;
 }
 
@@ -118,7 +118,7 @@ hr{
 .filmmakerwrap{
 	background: rgba(0,0,0,.5);
 	border-style: solid;
-	width: 900px;
+	width: 890px;
 	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
@@ -132,7 +132,7 @@ hr{
 }
 
 .bios{
-	width:860px;
+	width:850px;
 	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
