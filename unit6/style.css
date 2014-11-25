@@ -127,7 +127,7 @@ hr{
 .filmmakerwrap{
 	background: rgba(0,0,0,.5);
 	border-style: solid;
-	width: 870px;
+	width: 840px;
 	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
@@ -141,7 +141,7 @@ hr{
 }
 
 .bios{
-	width: 830px;
+	width: 800px;
 	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
@@ -243,7 +243,7 @@ p.bioflow{
 	width: 140px;
 	float: left;
 	margin-right: 16px;
-	margin-top: 5px;
+	margin-top: 4px;
 }
 
 #alexis{
@@ -254,7 +254,7 @@ p.bioflow{
 	width: 140px;
 	float: left;
 	margin-right: 16px;
-	margin-top: 5px;
+	margin-top: 4px;
 }
 
 .aboutthefilm{
