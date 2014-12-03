@@ -30,6 +30,12 @@ body {
 	height: 100vh;
 }
 
+#interviewees{
+	background: url("images/lizzie-school-2.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
 #gallery{
 	height: 100vh;
 }
@@ -337,20 +343,13 @@ ul.gallery img{
    height: 100vh;
 }
 
-.box {
+.galimg {
    float: left;
    position: relative;
    width: 33.33%;
+   padding: 2px;
 }
 
-.boxInner {
-   margin: 3px;
-   overflow: hidden;
-}
-.boxInner img {
-   width: 100%;
-}
-}
 body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
    margin-bottom: 0;
 }
