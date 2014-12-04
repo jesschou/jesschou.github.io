@@ -5,12 +5,25 @@
 	<title>The Lizzie Project</title>
 	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans|Hind:400,300|Alegreya+Sans+SC:400,300,700,500,400italic,300italic|Lato:400,300,100,700,300italic,400italic|Roboto+Condensed:400,300,700,400italic' rel='stylesheet' type='text/css'>
 	<script src="javascript/jquery-2.1.1.min.js"></script>
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+<!-- Add fancyBox -->
+	<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+	<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 </head>
 <nav class="clearfix" id="fixednav">
 	<ul>
 		<li><a href="#gallery">Gallery</a></li>
     <li><a href="#interviewees">Interviewees</a></li>
-		<li><a href="#screenings">Screenings</a></li>
+		<li><a href="#trailer">Trailer</a></li>
 		<li><a href="#filmmakers">Filmmakers</a></li>
 		<li><a href="#about">About</a></li>
 		<li><a href="#index" class="active">Home</a></li>
@@ -31,7 +44,7 @@
 		</header>
 	</section>
 	<section id="about">
-		<header class="headings">
+		<header class="headings_about">
 			<h1 class="aboutthefilm">ABOUT THE FILM</h1>
 		</header>
 		<div class="synopsis">
@@ -45,7 +58,7 @@
 		<div class="bios" id="sara">
 			<img class="saraphoto" src="images/filmmakers/f-sara3.jpg" alt="Sara Bordo photo">
 			<h2>SARA BORDO | DIRECTOR & PRODUCER</h2></br>
-			<p class="bioflow">A native Austinite, Sara has held positions in media and entertainment including Executive Director of Interactive Marketing at Paramount Pictures, VP of Digital Marketing at MGM Studios, and CEO & Co-Founder of NowLive (acquired by Live Media Group in 2013) where she executive produced live events including The Hunger Games Premiere, Macy's Fashion Night Out, and the Academy Awards Red Carpet. She was selected to attend The White House Women Entrepreneurship Conference in 2010, The White House Champions for Change Summit in 2012, and in 2012 and 2013 was nominated for Fortune's Most Powerful Women Entrepreneur. Sara is a member of The Producer's Guild of America New Media Council and Women's Impact Network. Sara met Lizzie when she executive produced the first TEDxAustinWomen, which was the most viewed 2013 TEDxWomen event worldwide. Sara is honored to be Director and Producer, building Lizzie another stage, this time on screen.</p></div>
+			<p class="bioflow">Sara has held positions in media and entertainment including Executive Director of Interactive Marketing at Paramount Pictures, VP of Digital Marketing at MGM Studios, and CEO & Co-Founder of NowLive (acquired by Live Media Group in 2013) where she executive produced live events including The Hunger Games Premiere, Macy's Fashion Night Out, and the Academy Awards Red Carpet. She was selected to attend The White House Women Entrepreneurship Conference in 2010, The White House Champions for Change Summit in 2012, and in 2012 and 2013 was nominated for Fortune's Most Powerful Women Entrepreneur. Sara is a member of The Producer's Guild of America New Media Council and Women's Impact Network. Sara met Lizzie when she executive produced the first TEDxAustinWomen, which was the most viewed 2013 TEDxWomen event worldwide. Sara is honored to be Director and Producer, building Lizzie another stage, this time on screen.</p></div>
 		<hr>
 		<div class="bios" id="mike">
 			<img class="mikephoto" src="images/filmmakers/f-mike.jpg" alt="Mike Campo photo">
@@ -59,7 +72,7 @@
 		<hr>
 		<div class="bios" id="chris">
 			<img class="chrisphoto" src="images/filmmakers/f-chris.jpg" alt="Chris Roldan photo">
-			<h2>CHRIS ROLDAN | EDITOR</h2></br>
+			<h2>CHRISTOPHER ROLDAN | EDITOR</h2></br>
 			<p class="bioflow">Chris has worked in post-production in Austin, New York, and Hollywood for over fifteen years.  He started his career as a First Assistant Editor on movies and TV shows for Warner Independent Features, Paramount, MTV, HGTV, HBO, and Fox Searchlight. Most recently, Roldan was Associate Editor on the Academy Awards nominated and 2011 Palme d'Or winning film The Tree of Life and Editor of Terrence Malick's To The Wonder.  He has edited television shows for Jerry Bruckheimer Television, TNT, TLC and the Discovery Channel.  Chris is a member of the Motion Picture Editor's Guild as well as the Academy of TV Arts and Sciences.</p></div>
 		<hr>
 		<div class="bios" id="jose">
@@ -87,9 +100,9 @@
 			<h2>ALEXIS JONES | EXECUTIVE PRODUCER</h2></br>
 			<p class="bioflow">Alexis Jones is a thought leader for the 21st century women's movement who was a producer and host of TEDxAustinWomen.   A Texas native, Alexis is the founder of the non-profit I AM THAT GIRL, and is an internationally recognized speaker, media personality, activist, and author. She has been featured as one of AOL's MAKERS Video Series along with Oprah Winfrey, Hilary Clinton, and Sheryl Sandberg; and she was featured as a life coach on MTV's hit series MADE. She was highlighted as an Ambassador for L'Oreal's new STEM initiative, and listed as one of DELL's #Inspire 100 List, Fast Company's "Female Trailblazers", ESPN's "Pop Culture's Top Ten," and recently as a Profiles in Power winner from Austin Business Journal.</p></div>
 	</section>
-	<section id="screenings">
+	<section id="trailer">
 		<header class="headings">
-		<h1>UPCOMING SCREENINGS</h1>
+		<h1>TRAILER</h1>
 		</header>
 	</section>
   <section id="interviewees">
@@ -99,24 +112,16 @@
   </section>
 	<section id="gallery">
     <div class="wrap">
-    	 <!--<img class="galimg" src="images/gallery/placeholder.jpg">-->
-      	<img class="galimg" src="images/gallery/lizziecouch.jpg">
-    	 <!--<img class="galimg" src="images/gallery/placeholder.jpg">-->
-    	<img class="galimg" src="images/gallery/chrismarina.jpg">
-    	<!--<img class="galimg" src="images/gallery/placeholder.jpg">-->
-      	<img class="galimg" src="images/gallery/lizziecam.jpg">
-    	<!--<img class="galimg" src="images/gallery/placeholder.jpg">-->
-      	<img class="galimg" src="images/gallery/ritalupe.jpg">
-    	<!--<img class="galimg" src="images/gallery/placeholder.jpg">-->
-      	<img class="galimg" src="images/gallery/lizzieschool.jpg">
-    	<!--<img class="galimg" src="images/gallery/placeholder.jpg">-->
-      	<img class="galimg" src="images/gallery/lizziedc.jpg">
-    	<!--<img class="galimg" src="images/gallery/placeholder.jpg">-->
-      	<img class="galimg" src="images/gallery/lizziecapitol.jpg">
-    	<!--<img class="galimg" src="images/gallery/placeholder.jpg">-->
-      	<img class="galimg" src="images/gallery/lizziebarce.jpg">
-    	<!--<img class="galimg" src="images/gallery/placeholder.jpg">-->
-      	<img class="galimg" src="images/gallery/lizziespeech.jpg">
+      	<a class="fancybox" rel="gallery1" href="images/gallery/lizziecouch2.jpg"><img class="galimg" src="images/gallery/lizziecouch.jpg"></a>
+		<a class="fancybox" rel="gallery1" href="images/gallery/chrismarina2.jpg"><img class="galimg" src="images/gallery/chrismarina.jpg"></a>
+		<a class="fancybox" rel="gallery1" href="images/gallery/lizziecam2.jpg"><img class="galimg" src="images/gallery/lizziecam.jpg"></a>
+		<a class="fancybox" rel="gallery1" href="images/gallery/ritalupe2.jpg"><img class="galimg" src="images/gallery/ritalupe.jpg"></a>
+		<a class="fancybox" rel="gallery1" href="images/gallery/lizzieschool2.jpg"><img class="galimg" src="images/gallery/lizzieschool.jpg"></a>
+		<a class="fancybox" rel="gallery1" href="images/gallery/lizziedc2.jpg"><img class="galimg" src="images/gallery/lizziedc.jpg"></a>
+		<a class="fancybox" rel="gallery1" href="images/gallery/lizziecapitol2.jpg"><img class="galimg" src="images/gallery/lizziecapitol.jpg"></a>
+		<a class="fancybox" rel="gallery1" href="images/gallery/lizzielinda2.jpg"><img class="galimg" src="images/gallery/lizzielinda.jpg"></a>
+		<a class="fancybox" rel="gallery1" href="images/gallery/lizziebarce2.jpg"><img class="galimg" src="images/gallery/lizziebarce.jpg"></a>
+		
   	</div>
 </section>
 </body>
@@ -172,6 +177,13 @@
   }
 
 });
+$(document).ready(function() {
+	$(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+});
 	</script>
+
 </body>
 </html>

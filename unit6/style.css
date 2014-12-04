@@ -7,13 +7,13 @@ body {
 }
 
 #index{
-	background: url("images/lizzie-speech-2.jpg") no-repeat center center fixed;
+	background: url("images/lizzie-speech-3.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 100vh;
 }
 
 #about{
-	background: url("images/lizzie-plane-2-copy.jpg") no-repeat center center fixed;
+	background: url("images/lizzie-cam-1.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 100vh;
 }
@@ -24,7 +24,7 @@ body {
 	height: 340vh;
 }
 
-#screenings{
+#trailer{
 	background: url("images/lizzie-capitol-2.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 100vh;
@@ -271,15 +271,18 @@ p.bioflow{
 
 div.synopsis{
 	/*background:rgba(0,0,0,.3);*/
-	color: black;
+	clear: both;
+	color: white;
+	float: left;
 	font-size: 15.5px;
 	font-weight: 300;
 	line-height: 22px;
 	margin: auto;
 	margin-top: 40px;
+	margin-left: 50px;
 	padding: 19px;
 	text-align: justify;
-	width: 385px;
+	width: 465px;
 	word-spacing: .8px;
 }
 
@@ -299,6 +302,21 @@ div.synopsis{
 
 .headings_index{
 	padding-top: 1px;
+}
+
+.headings_about{
+	float: left;
+	font-family: Lato, sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	color: #ebebeb;
+	letter-spacing: 0.2em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-left: 40px;
+	padding-top: 120px;
+	text-align: center;
+	width: 500px;
 }
 
 .footer{
@@ -380,7 +398,6 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
       width: 33.3%;
       padding-bottom: 19%;
    }
-}
 
 .clearfix:after{
 	visibility: hidden;
