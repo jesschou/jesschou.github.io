@@ -22,11 +22,11 @@
 <nav class="clearfix" id="fixednav">
 	<ul>
 		<li><a href="#gallery">Gallery</a></li>
-    <li><a href="#interviewees">Interviewees</a></li>
+    		<li><a href="#interviewees">Interviewees</a></li>
 		<li><a href="#trailer">Trailer</a></li>
 		<li><a href="#filmmakers">Filmmakers</a></li>
 		<li><a href="#about">About</a></li>
-		<li><a href="#index" class="active">Home</a></li>
+		<li><a href="#index">Home</a></li>
 	</ul>
 </nav>
 <aside>
@@ -183,12 +183,12 @@ $(document).ready(function() {
 		closeEffect	: 'none'
 	});
 });
-$(function(){
-    $('nav a').click(function () {
-        $('nav a').removeClass('active');
+$(document).ready(function () {
+    $('#fixednav a').on("click", function () {
+        $(this).parent().siblings().find("a").removeClass('active');
         $(this).addClass('active');
-     });
- });
+    });
+});
 	</script>
 
 </body>
