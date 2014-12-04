@@ -73,7 +73,8 @@
 		<div class="bios" id="chris">
 			<img class="chrisphoto" src="images/filmmakers/f-chris.jpg" alt="Chris Roldan photo">
 			<h2>CHRISTOPHER ROLDAN | EDITOR</h2></br>
-			<p class="bioflow">Chris has worked in post-production in Austin, New York, and Hollywood for over fifteen years.  He started his career as a First Assistant Editor on movies and TV shows for Warner Independent Features, Paramount, MTV, HGTV, HBO, and Fox Searchlight. Most recently, Roldan was Associate Editor on the Academy Awards nominated and 2011 Palme d'Or winning film The Tree of Life and Editor of Terrence Malick's To The Wonder.  He has edited television shows for Jerry Bruckheimer Television, TNT, TLC and the Discovery Channel.  Chris is a member of the Motion Picture Editor's Guild as well as the Academy of TV Arts and Sciences.</p></div>
+			<p class="bioflow">Chris has worked in post-production in Austin, New York, and Hollywood for over fifteen years.  He started his career as a First Assistant Editor on movies and TV shows for Warner Independent Features, Paramount, MTV, HGTV, HBO, and Fox Searchlight. Most recently, Roldan was Associate Editor on the Academy Awards nominated and 2011 Palme d'Or winning film The Tree of Life and Editor of Terrence Malick's To The Wonder.  He has edited television shows for Jerry Bruckheimer Television, TNT, TLC and the Discovery Channel.  Chris is a member of the Motion Picture Editor's Guild as well as the Academy of TV Arts and Sciences.</p>
+		</div>
 		<hr>
 		<div class="bios" id="jose">
 			<img class="josephoto" src="images/filmmakers/f-jose.jpg" alt="Jose Marcelino Ortiz photo">
@@ -138,7 +139,54 @@ $(document).ready(function(){
         evn.preventDefault();
         $('html,body').scrollTo(this.hash, this.hash); 
     });
+ function filterPath(string) {
+  return string
+    .replace(/^\//,'')
+    .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+    .replace(/\/$/,'');
+  }
+  var locationPath = filterPath(location.pathname);
+  var scrollElem = scrollableElement('html', 'body');
+ 
+  $('a[href*=#]').each(function() {
+    var thisPath = filterPath(this.pathname) || locationPath;
+    if (  locationPath == thisPath
+    && (location.hostname == this.hostname || !this.hostname)
+    && this.hash.replace(/#/,'') ) {
+      var $target = $(this.hash), target = this.hash;
+      if (target) {
+        var targetOffset = $target.offset().top;
+        $(this).click(function(event) {
+          event.preventDefault();
+          $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
+            location.hash = target;
+          });
+        });
+      }
+    }
+  });
+ 
+  // use the first element that is "scrollable"
+  function scrollableElement(els) {
+    for (var i = 0, argLength = arguments.length; i <argLength; i++) {
+      var el = arguments[i],
+          $scrollElement = $(el);
+      if ($scrollElement.scrollTop()> 0) {
+        return el;
+      } else {
+        $scrollElement.scrollTop(1);
+        var isScrollable = $scrollElement.scrollTop()> 0;
+        $scrollElement.scrollTop(0);
+        if (isScrollable) {
+          return el;
+        }
+      }
+    }
+    return [];
+  }
 
+});
+$(document) .ready(function() {
     /**
      * This part handles the highlighting functionality.
      * We use the scroll functionality again, some array creation and 
