@@ -131,6 +131,32 @@
 	</footer>
 	<script>
 $(document).ready(function(){
+  function filterPath(string) {
+  return string
+    .replace(/^\//,'')
+    .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+    .replace(/\/$/,'');
+  }
+  var locationPath = filterPath(location.pathname);
+  var scrollElem = scrollableElement('html', 'body');
+ 
+  $('a[href*=#]').each(function() {
+    var thisPath = filterPath(this.pathname) || locationPath;
+    if (  locationPath == thisPath
+    && (location.hostname == this.hostname || !this.hostname)
+    && this.hash.replace(/#/,'') ) {
+      var $target = $(this.hash), target = this.hash;
+      if (target) {
+        var targetOffset = $target.offset().top;
+        $(this).click(function(event) {
+          event.preventDefault();
+          $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
+            location.hash = target;
+          });
+        });
+      }
+    }
+  });
   // use the first element that is "scrollable"
   function scrollableElement(els) {
     for (var i = 0, argLength = arguments.length; i <argLength; i++) {
@@ -151,7 +177,7 @@ $(document).ready(function(){
   }
 
 });
-$(document) .ready(function() {
+$(document).ready(function() {
     /**
      * This part handles the highlighting functionality.
      * We use the scroll functionality again, some array creation and 
