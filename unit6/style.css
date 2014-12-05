@@ -25,7 +25,7 @@ body {
 }
 
 #trailer{
-	background: url("images/lizzie-capitol-2.jpg") no-repeat center center fixed;
+	background: url("images/lizzie-school-2.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 100vh;
 }
@@ -33,7 +33,7 @@ body {
 #interviewees{
 	background: url("images/capitol.jpg") no-repeat center center fixed;
 	background-size: cover;
-	height: 100vh;
+	height: 120vh;
 }
 
 #gallery{
@@ -89,6 +89,7 @@ h2{
 	letter-spacing: 1px;
 	font-weight: 400;
 	margin-bottom: -12px;
+	text-align: left;
 }
 
 .logo{
@@ -167,107 +168,47 @@ p.bioflow{
 	overflow: hidden;
 }
 
-#sara{
-	height:245px;
-}
-
-.saraphoto{
+.biophoto{
 	width: 140px;
 	float: left;
 	margin-right: 16px;
 	margin-top: 4px;
+}
+
+#sara{
+	height:245px;
 }
 
 #mike{
 	height:190px;
 }
 
-.mikephoto{
-	width: 140px;
-	float: left;
-	margin-right: 16px;
-	margin-top: 4px;
-}
-
 #ben{
 	height:190px;
-}
-
-.benphoto{
-	width: 140px;
-	float: left;
-	margin-right: 16px;
-	margin-top: 4px;
 }
 
 #chris{
 	height: 190px;
 }
 
-.chrisphoto{
-	width: 140px;
-	float: left;
-	margin-right: 16px;
-	margin-top: 4px;
-}
-
 #jose{
 	height:190px;
-}
-
-.josephoto{
-	width: 140px;
-	float: left;
-	margin-right: 16px;
-	margin-top: 4px;
 }
 
 #jessica{
 	height:190px;
 }
 
-.jessicaphoto{
-	width: 140px;
-	float: left;
-	margin-right: 16px;
-	margin-top: 4px;
-}
-
 #ngoc{
 	height:225px;
-}
-
-.ngocphoto{
-	width: 140px;
-	float: left;
-	margin-right: 16px;
-	margin-top: 4px;
 }
 
 #lizzie{
 	height:190px;
 }
 
-.lizziephoto{
-	width: 140px;
-	float: left;
-	margin-right: 16px;
-	margin-top: 4px;
-}
-
 #alexis{
 	height:195px;
-}
-
-.alexisphoto{
-	width: 140px;
-	float: left;
-	margin-right: 16px;
-	margin-top: 4px;
-}
-
-.aboutthefilm{
-	margin: auto;
 }
 
 div.synopsis{
@@ -296,7 +237,7 @@ div.synopsis{
 	letter-spacing: 0.2em;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 120px;
+	padding-top: 100px;
 	text-align: center;
 	width: 500px;
 }
@@ -312,7 +253,6 @@ div.synopsis{
 	font-size: 18px;
 	color: #ebebeb;
 	letter-spacing: 0.2em;
-	margin-left: auto;
 	margin-right: auto;
 	margin-left: 40px;
 	padding-top: 120px;
@@ -320,20 +260,72 @@ div.synopsis{
 	width: 500px;
 }
 
-.footer{
-	clear: both;
-	color: white;
-	font-size: 11px;
-	font-family: Roboto Condensed, sans-serif;
-	font-weight: 300;
+.headings_interviewees{
+	font-family: Lato, sans-serif;
+	font-weight: 100;
+	font-size: 16px;
+	color: #ebebeb;
 	letter-spacing: 0.2em;
-	position: fixed;
-	right: 10px;
-	bottom: 0px;
-	height: 30px;
-	width: 100%;
-	text-align: right;
-	opacity: 0.5;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 600px;
+}
+
+.intwrap{
+	width: 1080px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.intbio{
+	background: rgba(0,0,0,.5);
+	border: solid;
+	width: 340px;
+	height: 450px;
+	color: #ebebeb;
+	font-size: 14px;
+	font-weight: 300;
+	float: left;
+	margin: 10px;
+	padding: 15px;
+	text-align: left;
+}
+
+.intphoto{
+	width: 140px;
+	display: block;
+	float: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+h2.intname{
+	clear: both;
+	letter-spacing: 0.1em;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+span.inttitle{
+	font-size: 15px;
+	font-weight: 200;
+	letter-spacing: 0em;
+}
+
+span.bobtitle{
+	font-size: 13px;
+	font-weight: 200;
+	letter-spacing: 0em;
+}
+
+p.intbioflow{
+	clear: both;
+	padding-top: 10px;
+	text-align: justify;
 }
 
 /*div.gallery{
@@ -399,6 +391,22 @@ body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleB
       width: 33.3%;
       padding-bottom: 19%;
    }
+
+.footer{
+	clear: both;
+	color: white;
+	font-size: 11px;
+	font-family: Roboto Condensed, sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.2em;
+	position: fixed;
+	right: 10px;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+	text-align: right;
+	opacity: 0.5;
+}
 
 .clearfix:after{
 	visibility: hidden;
