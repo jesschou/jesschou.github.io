@@ -1,0 +1,28 @@
+* { margin:0;padding:0;box-sizing:border-box; }
+
+
+h1{
+	font-family: helvetica;
+	margin: 10px 0 10px 10px;
+}
+
+hr{
+	width: 50%;
+	margin: 10px 0px 10px 0px;
+}
+
+h2{
+	font-family: helvetica;
+	font-size: 25px;
+	margin-left: 10px;
+}
+
+img.mobile{
+	width: 25%;
+	margin: 10px;
+}
+
+img.tablet{
+	width: 30%;
+	margin: 10px;
+}
