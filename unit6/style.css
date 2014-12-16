@@ -385,6 +385,7 @@ ul.gallery img{
 		float: none;
 		margin-left: auto;
 		margin-right: auto;
+		margin-bottom: 30px;
 	}
 
 	.galwrap{
@@ -411,7 +412,7 @@ ul.gallery img{
 	}
 
 	#interviewees{
-		height: 245vh;
+		height: 250vh;
 	}
 
 	#gallery{
@@ -497,7 +498,6 @@ ul.gallery img{
 		padding: 20px;
 		text-align: justify;
 		width: 105%;
-		height: 100%;
 	}
 
 	.intphoto{
