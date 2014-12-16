@@ -327,7 +327,7 @@ ul.gallery img{
    padding: 2px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen (min-width:361px) and (max-width: 768px){
 	#about{
 		background: url("images/lizzie-cam-1.jpg") no-repeat center center fixed;
 		background-size: cover;
