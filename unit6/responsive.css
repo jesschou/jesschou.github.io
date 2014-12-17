@@ -6,7 +6,7 @@
 	}
 
 	#filmmakers{
-		height: 390vh;
+		height: 410vh;
 	}
 
 	#interviewees{
@@ -207,6 +207,17 @@
     	margin-right: auto;
     	padding-bottom: 10px;
 	}
+
+	span.inttitle{
+		font-size: 1em;
+		font-weight: 400;
+	}
+
+	span.bobtitle{
+	font-size: 0.8em;
+	font-weight: 400;
+}
+
 
 
 	.galwrap{
