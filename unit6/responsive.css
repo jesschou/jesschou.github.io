@@ -1,4 +1,4 @@
-@media only screen (min-width:361px) and (max-width: 768px){
+@media only screen and (min-width:481px) and (max-width: 768px){
 	#about{
 		background: url("images/lizzie-cam-1.jpg") no-repeat center center fixed;
 		background-size: cover;
@@ -67,7 +67,213 @@
 		width: 50%;
 	}
 }
-@media only screen and (max-width: 360px) {
+
+@media only screen and (min-width:321px) and (max-width: 480px){
+	#index{
+		background: url("images/lizzie-speech-360.jpg") no-repeat center center fixed;
+		background-size: cover;
+		height: 100vh;
+	}
+
+	#about{
+		background: url("images/lizzie-cam-360.jpg") no-repeat center center fixed;
+		background-size: cover;
+		height: 120vh;
+	}
+
+	#filmmakers{
+		background: url("images/lizzie-london-360.jpg") no-repeat center center fixed;
+		background-size: cover;
+		height: 760vh;
+	}
+
+	#interviewees{
+		height: 280vh;
+	}
+
+	#gallery{
+		height: 250vh;
+	}
+
+	nav{
+		visibility: hidden;
+	}
+
+	.mobile-nav{
+		visibility: visible;
+	}
+
+	.menu-btn div {
+		position: absolute;
+		left: 100%;
+		top: 64%;
+		padding-right: 8px;
+		margin-top: -0.50em;
+		line-height: 1.2;
+		font-size: 18px;
+		font-weight: 200;
+		vertical-align: middle;
+		z-index: 99;
+	}
+ 
+	.menu-btn span {
+		display: block;
+		width: 19px;
+		height: 3px;
+		margin: 4px 0;
+		background: rgb(0,0,0);
+		z-index: 99;
+	}
+ 
+	.responsive-menu{
+		display: none;
+	}
+ 
+	.expand {
+		display: block !important;
+	}
+
+	.biophoto{
+		width: 20%;
+	}
+
+	body{
+		font-size: 12px;
+	}
+
+	img.logo{
+		width: 250px;
+	}
+
+	aside {
+		visibility: hidden;
+	}	
+
+	.mobile_social{
+		visibility: visible;
+	}
+
+	.icon{
+		width: 30px;
+		height: 30px;
+	}
+
+	h1{
+		font-size: 1.1em;
+	}
+
+	h2{
+		clear: both;
+		font-size: 1em;
+		text-align: center;
+	}
+
+	.headings{
+		font-size: 1.4em;
+		padding-top: 50px;
+		padding-bottom: 10px;
+	}
+
+	.headings_about{
+		float: none;
+		font-size: 1.4em;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 60px;
+		width: 80%;
+	}
+
+	div.synopsis{
+		float: none;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.biophoto{
+		width: 50%;
+		display: block;
+		float: none;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-bottom: 10px;
+}
+
+	.filmmakerwrap{
+		background: rgba(0,0,0,0);
+		width: 100%;
+		border: none;
+	}
+
+	.bios{
+		width: 100%;
+	}
+
+	p.bioflow{
+		clear: both;
+		padding-top: 10px;
+		text-align: justify;
+	}
+
+	.headings_interviewees{
+		padding-top: 50px;
+		padding-bottom: 10px;
+	}
+
+	.intwrap{
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+		margin-top: 30px;
+		overflow: hidden;
+		padding: 20px;
+		text-align: justify;
+		width: 100%;
+	}
+
+	.intbio{
+		background: rgba(0,0,0,0);
+		border: none;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+		margin-top: 12px;
+		overflow: hidden;
+		padding: 20px;
+		text-align: justify;
+		width: 100%;
+	}
+
+	.intphoto{
+		width: 50%;
+		display: block;
+		float: center;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-bottom: 10px;
+	}
+
+	span.inttitle{
+		font-size: 1em;
+		font-weight: 400;
+	}
+
+	span.bobtitle{
+		font-size: 0.8em;
+		font-weight: 400;
+	}
+
+	.galwrap{
+		height: 289vh;
+	}
+
+	.galimg{
+		width: 100%;
+	}
+}
+
+
+@media only screen and (max-width: 320px) {
 	#index{
 		background: url("images/lizzie-speech-360.jpg") no-repeat center center fixed;
 		background-size: cover;
