@@ -27,13 +27,14 @@
 	<nav class="clearfix" id="fixednav">
 		<ul>
 			<li><a href="#gallery">Gallery</a></li>
-	    		<li><a href="#interviewees">Interviewees</a></li>
+	    	<li><a href="#interviewees">Interviewees</a></li>
 			<li><a href="#trailer">Trailer</a></li>
 			<li><a href="#filmmakers">Filmmakers</a></li>
 			<li><a href="#about">About</a></li>
 			<li><a href="#index">Home</a></li>
 		</ul>
 	</nav>
+</div>
 	<aside>
 		<ul>
 			<li><a href="http://facebook.com/thelizzieproject" target="_blank"><img class="icon" src="images/social/facebook.png" alt="Facebook social icon"></a></li>
@@ -248,6 +249,19 @@ $(document).ready(function() {
 		closeEffect	: 'none'
 	});
 });
+
+$jQuery(function($){
+     $( '.menu-btn' ).click(function(){
+     $('.responsive-menu').addClass('expand')
+     $('.menu-btn').addClass('btn-none')
+     });
+    
+     $( '.close-btn' ).click(function(){
+     $('.responsive-menu').removeClass('expand')
+     $('.menu-btn').removeClass('btn-none')
+     });
+});
+</script>
 	</script>
 
 </body>
