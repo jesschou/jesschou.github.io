@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style.css" type="text/css">
 	<link rel="stylesheet" href="responsive.css" type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans|Hind:400,300|Alegreya+Sans+SC:400,300,700,500,400italic,300italic|Lato:400,300,100,700,300italic,400italic|Roboto+Condensed:400,300,700,400italic' rel='stylesheet' type='text/css'>
@@ -25,16 +25,26 @@
 </head>
 <body>
 	<nav class="clearfix" id="fixednav">
-		<ul>
-			<li><a href="#gallery">Gallery</a></li>
-	    	<li><a href="#interviewees">Interviewees</a></li>
-			<li><a href="#trailer">Trailer</a></li>
-			<li><a href="#filmmakers">Filmmakers</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#index">Home</a></li>
-		</ul>
+	<div class="mobile-nav">
+		<div class="menu-btn" id="menu-btn">
+	<div></div>
+	<span></span>
+	<span></span>
+	<span></span>
+		</div>
+
+		<div class="responsive-menu">
+			<ul>
+				<li><a href="#gallery">Gallery</a></li>
+	    		<li><a href="#interviewees">Interviewees</a></li>
+				<li><a href="#trailer">Trailer</a></li>
+				<li><a href="#filmmakers">Filmmakers</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#index">Home</a></li>
+			</ul>
+		</div>
+	</div>	
 	</nav>
-</div>
 	<aside>
 		<ul>
 			<li><a href="http://facebook.com/thelizzieproject" target="_blank"><img class="icon" src="images/social/facebook.png" alt="Facebook social icon"></a></li>
@@ -159,7 +169,20 @@
 <footer>
 	<p class="footer">&copy; 2014 WOMEN RISING CORPORATION. ALL RIGHTS RESERVED.</p>
 </footer>
-	<script>
+<script type="text/javascript">
+jQuery(function($){
+     $( '.menu-btn' ).click(function(){
+     $('.responsive-menu').addClass('expand')
+     $('.menu-btn').addClass('btn-none')
+     })
+    
+     $( '.close-btn' ).click(function(){
+     $('.responsive-menu').removeClass('expand')
+     $('.menu-btn').removeClass('btn-none')
+     })
+   })
+</script>
+<script>
 $(document).ready(function(){
   function filterPath(string) {
   return string

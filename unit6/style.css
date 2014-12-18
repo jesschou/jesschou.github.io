@@ -49,9 +49,8 @@ nav{
 
 nav a{
 	color: white;
-	display: block;
-	text-decoration: none;
 	float: right;
+	text-decoration: none;
 	padding: 1.4em;
 	text-transform: uppercase;
 }

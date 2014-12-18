@@ -191,7 +191,7 @@
 	}
 
 	.biophoto{
-		width: 50%;
+		width: 40%;
 		display: block;
 		float: none;
     	margin-left: auto;
@@ -245,7 +245,7 @@
 	}
 
 	.intphoto{
-		width: 50%;
+		width: 40%;
 		display: block;
 		float: center;
     	margin-left: auto;
@@ -300,19 +300,22 @@
 		height: 250vh;
 	}
 
-	nav{
-		visibility: hidden;
+	.biophoto{
+		width: 20%;
 	}
 
-	.mobile-nav{
-		visibility: visible;
+	body{
+		font-size: 12px;
+	}
+
+	img.logo{
+		width: 250px;
 	}
 
 	.menu-btn div {
 		position: absolute;
 		left: 100%;
 		top: 64%;
-		padding-right: 8px;
 		margin-top: -0.50em;
 		line-height: 1.2;
 		font-size: 18px;
@@ -326,7 +329,7 @@
 		width: 19px;
 		height: 3px;
 		margin: 4px 0;
-		background: rgb(0,0,0);
+		background: rgb(255,255,255);
 		z-index: 99;
 	}
  
@@ -336,31 +339,6 @@
  
 	.expand {
 		display: block !important;
-	}
-
-	.biophoto{
-		width: 20%;
-	}
-
-	body{
-		font-size: 12px;
-	}
-
-	img.logo{
-		width: 250px;
-	}
-
-	aside {
-		visibility: hidden;
-	}	
-
-	.mobile_social{
-		visibility: visible;
-	}
-
-	.icon{
-		width: 30px;
-		height: 30px;
 	}
 
 	h1{
