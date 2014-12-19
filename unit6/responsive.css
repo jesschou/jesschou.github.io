@@ -231,7 +231,7 @@
 @media only screen and (max-width: 320px) {
 	#index{
 		background: url("images/lizzie-speech-360.jpg") no-repeat center center fixed;
-		background-size: initial;
+		background-size: cover;
 		height: 100vh;
 	}
 
