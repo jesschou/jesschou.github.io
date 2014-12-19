@@ -49,6 +49,7 @@ nav{
 
 nav a{
 	color: white;
+	display: inline-block;
 	float: right;
 	text-decoration: none;
 	padding: 1.4em;
@@ -106,14 +107,6 @@ aside {
 	top: 50px;
 	right: 10px;
 	z-index: 2;
-}
-
-.mobile_social{
-	display: block;
-	visibility: hidden;
-	margin-left: auto;
-	margin-right: auto;
-	position: fixed;
 }
 
 .icon{

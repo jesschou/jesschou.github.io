@@ -26,13 +26,12 @@
 <body>
 	<nav class="clearfix" id="fixednav">
 	<div class="mobile-nav">
-		<div class="menu-btn" id="menu-btn">
-	<div></div>
-	<span></span>
-	<span></span>
-	<span></span>
-		</div>
-
+    	<div class="menu-btn" id="menu-btn">
+			<div></div>
+				<span></span>
+				<span></span>
+				<span></span>
+    	</div>
 		<div class="responsive-menu">
 			<ul>
 				<li><a href="#gallery">Gallery</a></li>
@@ -171,16 +170,10 @@
 </footer>
 <script type="text/javascript">
 jQuery(function($){
-     $( '.menu-btn' ).click(function(){
-     $('.responsive-menu').addClass('expand')
-     $('.menu-btn').addClass('btn-none')
-     })
-    
-     $( '.close-btn' ).click(function(){
-     $('.responsive-menu').removeClass('expand')
-     $('.menu-btn').removeClass('btn-none')
-     })
-   })
+          $( '.menu-btn' ).click(function(){
+          $('.responsive-menu').toggleClass('expand')
+          })
+        })
 </script>
 <script>
 $(document).ready(function(){
