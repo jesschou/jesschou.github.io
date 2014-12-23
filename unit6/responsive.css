@@ -1,4 +1,4 @@
-@media only screen and (min-width:481px) and (max-width: 768px){
+/*@media only screen and (min-width:481px) and (max-width: 768px){
 	#about{
 		background: url("images/lizzie-cam-1.jpg") no-repeat center center fixed;
 		background-size: cover;
@@ -226,7 +226,7 @@
 		width: 100%;
 	}
 }
-
+*/
 
 @media only screen and (max-width: 320px) {
 	#index{
