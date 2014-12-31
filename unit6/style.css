@@ -22,7 +22,7 @@ body {
 #filmmakers{
 	background: url("images/lizzie-london-1.jpg") no-repeat center center fixed;
 	background-size: cover;
-	height: 350vh;
+	height: 400vh;
 }
 
 #video{
@@ -38,7 +38,7 @@ body {
 }
 
 #gallery{
-	height: 100vh;
+	height: 199vh;
 }
 
 nav{
@@ -147,7 +147,7 @@ hr{
 	overflow: hidden;
 	padding: 20px;
 	text-align: justify;
-	width: 70%;
+	width: 67%;
 }
 
 h2.fname{
@@ -320,13 +320,13 @@ ul.gallery img{
 .galwrap {
    overflow: hidden;
    margin: auto;
-   height: 100vh;
+   height: 199vh;
 }
 
 .galimg {
    float: left;
    position: relative;
-   width: 33.33%;
+   width: 50%;
    padding: 2px;
 }
 
