@@ -8,25 +8,31 @@ body {
 }
 
 #index{
-	background: url("images/lizzie-speech-3.jpg") no-repeat center center fixed;
+	background: url("images/lizzie-speech-4.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 100vh;
 }
 
 #about{
-	background: url("images/lizzie-cam-1.jpg") no-repeat center center fixed;
+	background: url("images/lizzie-cam-2.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 100vh;
 }
 
-#filmmakers{
-	background: url("images/lizzie-london-1.jpg") no-repeat center center fixed;
+#directorsstatement{
+	background: url("images/austinflag.jpg") no-repeat center center fixed;
 	background-size: cover;
-	height: 400vh;
+	height: 160vh;
+}
+
+#filmmakers{
+	background: url("images/lizzie-london-2.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 390vh;
 }
 
 #video{
-	background: url("images/lizzie-school-2.jpg") no-repeat center center fixed;
+	background: url("images/capitol-2.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 100vh;
 }
@@ -197,6 +203,23 @@ div.synopsis{
 	word-spacing: .8px;
 }
 
+div.directorsstatement{
+	/*background:rgba(0,0,0,.3);*/
+	clear: both;
+	color: white;
+	float: right;
+	font-size: 1.1em;
+	font-weight: 300;
+	line-height: 22px;
+	margin: auto;
+	margin-top: 15px;
+	margin-right: 80px;
+	padding: 19px;
+	text-align: justify;
+	width: 60%;
+	word-spacing: .8px;
+}
+
 
 .headings{
 	font-family: Lato, sans-serif;
@@ -213,6 +236,20 @@ div.synopsis{
 
 .headings_index{
 	padding-top: 1px;
+}
+
+.headings_statement{
+	float: right;
+	font-family: Lato, sans-serif;
+	font-weight: 100;
+	font-size: 1.2em;
+	color: #ebebeb;
+	letter-spacing: 0.2em;
+	margin-left: auto;
+	margin-right: 130px;
+	padding-top: 120px;
+	text-align: center;
+	width: 50%;
 }
 
 .headings_about{
@@ -320,7 +357,7 @@ ul.gallery img{
 .galwrap {
    overflow: hidden;
    margin: 5px;
-   height: 149vh;
+   height: 153vh;
 }
 
 .galimg {
