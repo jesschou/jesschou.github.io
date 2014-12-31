@@ -44,6 +44,8 @@ body {
 }
 
 #gallery{
+	background: url("images/blurred.jpg") no-repeat center center fixed;
+	background-size: cover;
 	height: 100vh;
 }
 
@@ -355,16 +357,23 @@ ul.gallery img{
 }*/
 
 .galwrap {
-   overflow: hidden;
-   margin: 5px;
-   height: 153vh;
+   	overflow: hidden;
+   	margin-left: 40px;
+   	margin-right: auto;
+}
+
+.gal_row1{
+	margin-top: 100px;
 }
 
 .galimg {
-   float: left;
-   position: relative;
-   width: 50%;
-   padding: 5px;
+	border: solid;
+	border-color: white;
+	float: left;
+	margin: 10px;
+	margin-top: 30px;
+	position: relative;
+	width: 29%;
 }
 
 footer{
