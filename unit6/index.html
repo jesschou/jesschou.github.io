@@ -67,7 +67,7 @@
 			Born with a rare syndrome that prevents her from gaining weight, Elizabeth "Lizzie" Velasquez was first bullied as a child in school for looking different and, later online, as a teenager when she discovered a YouTube video labeling her "The World's Ugliest Woman." The film chronicles unheard stories and details of Lizzie’s physical and emotional journey up to her multi-million viewed TEDx talk, and follows her pursuit from a motivational speaker to Capitol Hill as she lobbies for the first federal anti-bullying bill.</p></div>
 	</section>
 	<section id="directorsstatement">
-		<header class="headings_statement">
+		<header class="headings">
 			<h1>DIRECTOR'S STATEMENT</h1>
 		</header>
 		<div class="directorsstatement">
@@ -165,6 +165,10 @@
 		<header class="headings">
 		<h1>VIDEO</h1>
 		</header>
+		<ul class="list">
+	<li><a class="fancybox-media" href="https://www.youtube.com/watch?v=c62Aqdlzvqk">Youtube</a></li>
+	<li><a class="fancybox-media" href="http://vimeo.com/36031564">Vimeo</a></li>
+</ul>
 	</section>
   <!--<section id="interviewees">
     <header class="headings_interviewees">
@@ -301,6 +305,16 @@ $(document).ready(function() {
 	});
 });
 
+$(document).ready(function() {
+	$('.fancybox-media').fancybox({
+		openEffect  : 'none',
+		closeEffect : 'none',
+		helpers : {
+			media : {}
+		}
+	});
+});
+
 $jQuery(function($){
      $( '.menu-btn' ).click(function(){
      $('.responsive-menu').addClass('expand')
@@ -312,6 +326,7 @@ $jQuery(function($){
      $('.menu-btn').removeClass('btn-none')
      });
 });
+
 </script>
 	</script>
 

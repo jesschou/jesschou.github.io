@@ -20,9 +20,9 @@ body {
 }
 
 #directorsstatement{
-	background: url("images/austinflag.jpg") no-repeat center center fixed;
+	background: url("images/austinflag-2.jpg") no-repeat center center fixed;
 	background-size: cover;
-	height: 160vh;
+	height: 170vh;
 }
 
 #filmmakers{
@@ -209,13 +209,11 @@ div.directorsstatement{
 	/*background:rgba(0,0,0,.3);*/
 	clear: both;
 	color: white;
-	float: right;
 	font-size: 1.1em;
 	font-weight: 300;
 	line-height: 22px;
 	margin: auto;
 	margin-top: 15px;
-	margin-right: 80px;
 	padding: 19px;
 	text-align: justify;
 	width: 60%;
@@ -238,20 +236,6 @@ div.directorsstatement{
 
 .headings_index{
 	padding-top: 1px;
-}
-
-.headings_statement{
-	float: right;
-	font-family: Lato, sans-serif;
-	font-weight: 100;
-	font-size: 1.2em;
-	color: #ebebeb;
-	letter-spacing: 0.2em;
-	margin-left: auto;
-	margin-right: 130px;
-	padding-top: 120px;
-	text-align: center;
-	width: 50%;
 }
 
 .headings_about{
