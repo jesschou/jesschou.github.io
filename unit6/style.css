@@ -26,7 +26,7 @@ body {
 }
 
 #filmmakers{
-	background: url("images/lizzie-london-2.jpg") no-repeat center center fixed;
+	background: url("images/classroom-1.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 390vh;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 #gallery{
-	background: url("images/blurred.jpg") no-repeat center center fixed;
+	background: url("images/blurred2.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 100vh;
 }
@@ -143,7 +143,7 @@ hr{
 }
 
 .filmmakerwrap{
-	background: rgba(0,0,0,.7);
+	background: rgba(0,0,0,.5);
 	border-style: solid;
 	color: #ebebeb;
 	font-size: 1em;
@@ -342,27 +342,66 @@ ul.gallery img{
 
 .trailerthumb{
 	display: block;
-	margin: auto;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 10px;
 	border: solid;
 	border-color: white;
+}
+
+.trailercaption{
+	background: white;
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	line-height: 25px;
+	text-align: center;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+.vidwrap{
+	width: 90%;
+	margin-top: 30px;
+	margin-left: 90px;
+}
+
+.vidbox{
+	float: left;
+	margin: 10px;
+	width: 30%;
 }
 
 .vidthumb{
 	border: solid;
 	border-color: white;
-	margin: 10px;
-	width: 25%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
 }
 
-.vidwrap{
-	margin-top: 30px;
-   	margin-left: 180px;
-   	margin-right: auto;
+.caption{
+	background: white;
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	line-height: 25px;
+	text-align: center;
+	width: 70%;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
 }
 
 .galwrap {
+	clear:both;
    	overflow: hidden;
    	margin-left: 40px;
    	margin-right: auto;
@@ -385,7 +424,7 @@ ul.gallery img{
 footer{
 	clear: both;
 	font-size: .8em;
-	font-family: Roboto+Condensed, sans-serif;
+	font-family: Lato, sans-serif;
 	font-weight: 300;
 	letter-spacing: .1em;
 	position: fixed;
