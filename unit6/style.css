@@ -26,7 +26,7 @@ body {
 }
 
 #filmmakers{
-	background: url("images/classroom-1.jpg") no-repeat center center fixed;
+	background: url("images/hallway.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 390vh;
 }
