@@ -795,8 +795,16 @@
 		display: block !important;
 	}
 
+	.hero{
+		width: 80%;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 60px;
+	}
+
 	img.logo{
-		width: 270px;
+		width: 70%;
 	}
 
 	aside {
@@ -982,13 +990,13 @@
 	}
 
 	#directorsstatement{
-		background: url("images/austinflag-360.jpg") no-repeat center center fixed;
+		background: url("images/lizzie-school-360.jpg") no-repeat center center fixed;
 		background-size: cover;
 		height: 420vh;
 	}
 
 	#filmmakers{
-		background: url("images/hallway-360.jpg") no-repeat center center fixed;
+		background: url("images/austinflag-360.jpg") no-repeat center center fixed;
 		background-size: cover;
 		height: 1050vh;
 	}
@@ -1063,8 +1071,16 @@
 		display: block !important;
 	}
 
+	.hero{
+		width: 80%;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 60px;
+	}
+
 	img.logo{
-		width: 270px;
+		width: 70%;
 	}
 
 	aside {
@@ -1103,6 +1119,16 @@
 		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	h2.by{
+		font-size: .8em;
+		letter-spacing: 2px;
+		font-weight: 400;
+		margin-bottom: -12px;
+		margin-top: 10px;
+		text-align: center;
+		text-transform: uppercase;
 	}
 
 	div.directorsstatement{

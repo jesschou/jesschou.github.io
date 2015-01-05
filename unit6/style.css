@@ -20,13 +20,13 @@ body {
 }
 
 #directorsstatement{
-	background: url("images/austinflag-2.jpg") no-repeat center center fixed;
+	background: url("images/lizzie-school-4.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 170vh;
 }
 
 #filmmakers{
-	background: url("images/hallway.jpg") no-repeat center center fixed;
+	background: url("images/austinflag-2.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 390vh;
 }
@@ -56,7 +56,7 @@ nav{
 }
 
 nav a{
-	color: white;
+	color: #c5c6c4;
 	display: inline-block;
 	float: right;
 	text-decoration: none;
@@ -79,11 +79,11 @@ nav#fixednav{
 }
 
 a:hover{
-	color: #5561ba;
+	color: #ffffff;
 } 
 
 .active{
-	color: #5561ba;
+	color: #ffffff;
 }
 
 h1{
@@ -101,12 +101,20 @@ h2{
 	text-align: left;
 }
 
-.logo{
-	width: 56%;
+.hero{
+	width: 50%;
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 60px;
+}
+
+.logo{
+	width: 35%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
 }
 
 aside {
@@ -143,7 +151,7 @@ hr{
 }
 
 .filmmakerwrap{
-	background: rgba(0,0,0,.5);
+	background: rgba(0,0,0,.3);
 	border-style: solid;
 	color: #ebebeb;
 	font-size: 1em;
@@ -206,7 +214,7 @@ div.synopsis{
 }
 
 div.directorsstatement{
-	/*background:rgba(0,0,0,.3);*/
+	/*background:rgba(0,0,0,.4);*/
 	clear: both;
 	color: white;
 	font-size: 1.1em;
@@ -220,6 +228,15 @@ div.directorsstatement{
 	word-spacing: .8px;
 }
 
+h2.by{
+	font-size: 1.2em;
+	letter-spacing: 2px;
+	font-weight: 400;
+	margin-bottom: -12px;
+	margin-top: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
 
 .headings{
 	font-family: Lato, sans-serif;
@@ -250,6 +267,19 @@ div.directorsstatement{
 	padding-top: 120px;
 	text-align: center;
 	width: 40%;
+}
+
+.headings_statement{
+	font-family: Lato, sans-serif;
+	font-weight: 100;
+	font-size: 1.2em;
+	color: #ebebeb;
+	letter-spacing: 0.2em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 110px;
+	text-align: center;
+	width: 100%;
 }
 
 .headings_interviewees{
