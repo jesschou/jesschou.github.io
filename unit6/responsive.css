@@ -24,6 +24,8 @@
 	}
 
 	#gallery{
+		background: url("images/blurred2.jpg") no-repeat center center scroll;
+		background-size: cover;
 		height: 360vh;
 	}
 
@@ -218,13 +220,13 @@
 
 @media only screen and (min-width: 481px) and (max-width: 570px){
 	#index{
-		background: url("images/lizzie-speech-360.jpg") no-repeat center center fixed;
+		background: url("images/lizzie-speech-360.jpg") no-repeat center center scroll;
 		background-size: cover;
 		height: 100vh;
 	}
 
 	#about{
-		background: url("images/lizzie-cam-360.jpg") no-repeat center center fixed;
+		background: url("images/lizzie-cam-360.jpg") no-repeat center center scroll;
 		background-size: cover;
 		height: 130vh;
 	}
@@ -718,31 +720,31 @@
 
 @media only screen and (min-width: 326px) and (max-width: 480px){
 	#index{
-		background: url("images/lizzie-speech-360.jpg") no-repeat center center fixed;
+		background: url("images/lizzie-speech-360.jpg") no-repeat center center scroll;
 		background-size: cover;
 		height: 100vh;
 	}
 
 	#about{
-		background: url("images/lizzie-cam-360.jpg") no-repeat center center fixed;
+		background: url("images/lizzie-cam-360.jpg") no-repeat center center scroll;
 		background-size: cover;
 		height: 130vh;
 	}
 
 	#directorsstatement{
-		background: url("images/lizzie-school-360.jpg") no-repeat center center fixed;
+		background: url("images/lizzie-school-360.jpg") no-repeat center center scroll;
 		background-size: cover;
 		height: 420vh;
 	}
 
 	#filmmakers{
-		background: url("images/austinflag-360.jpg") no-repeat center center fixed;
+		background: url("images/austinflag-360.jpg") no-repeat center center scroll;
 		background-size: cover;
 		height: 1050vh;
 	}
 
 	#video{
-		background: url("images/capitol-2.jpg") no-repeat center center fixed;
+		background: url("images/capitol-2.jpg") no-repeat center center scroll;
 		background-size: cover;
 		height: 200vh;
 	}
@@ -1000,25 +1002,25 @@
 	}
 
 	#about{
-		background: url("images/lizzie-cam-360.jpg") no-repeat center center fixed;
+		background: url("images/lizzie-cam-360.jpg") no-repeat center center scroll;
 		background-size: cover;
 		height: 130vh;
 	}
 
 	#directorsstatement{
-		background: url("images/lizzie-school-360.jpg") no-repeat center center fixed;
+		background: url("images/lizzie-school-360.jpg") no-repeat center center scroll;
 		background-size: cover;
 		height: 420vh;
 	}
 
 	#filmmakers{
-		background: url("images/austinflag-360.jpg") no-repeat center center fixed;
+		background: url("images/austinflag-360.jpg") no-repeat center center scroll;
 		background-size: cover;
 		height: 1050vh;
 	}
 
 	#video{
-		background: url("images/capitol-2.jpg") no-repeat center center fixed;
+		background: url("images/capitol-2.jpg") no-repeat center center scroll;
 		background-size: cover;
 		height: 200vh;
 	}
