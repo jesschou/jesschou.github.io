@@ -35,15 +35,23 @@
 		font-size: 12px;
 	}
 
+	.hero{
+		width: 80%;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 60px;
+	}
+
 	img.logo{
-		width: 480px;
+		width: 375px;
 	}
 
 	aside {
 		margin: 0 0 0 0;
 		margin-right: -8px;
 		position: fixed;
-		top: 33px;
+		top: 50px;
 		z-index: 2;
 	}
 
@@ -297,6 +305,14 @@
 		display: block !important;
 	}
 
+	.hero{
+		width: 80%;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 60px;
+	}
+
 	img.logo{
 		width: 400px;
 	}
@@ -305,7 +321,7 @@
 		margin: 0 0 0 0;
 		margin-right: -8px;
 		position: fixed;
-		top: 33px;
+		top: 40px;
 		z-index: 2;
 	}
 
@@ -811,7 +827,7 @@
 		margin: 0 0 0 0;
 		margin-right: -8px;
 		position: fixed;
-		top: 33px;
+		top: 40px;
 		z-index: 2;
 	}
 
@@ -1087,7 +1103,7 @@
 		margin: 0 0 0 0;
 		margin-right: -8px;
 		position: fixed;
-		top: 33px;
+		top: 40px;
 		z-index: 2;
 	}
 
@@ -1132,19 +1148,19 @@
 	}
 
 	div.directorsstatement{
-	/*background:rgba(0,0,0,.3);*/
-	clear: both;
-	color: white;
-	font-size: 1.1em;
-	font-weight: 300;
-	line-height: 22px;
-	margin: auto;
-	margin-top: 15px;
-	padding: 19px;
-	text-align: justify;
-	width: 90%;
-	word-spacing: .8px;
-}
+		/*background:rgba(0,0,0,.3);*/
+		clear: both;
+		color: white;
+		font-size: 1.1em;
+		font-weight: 300;
+		line-height: 22px;
+		margin: auto;
+		margin-top: 15px;
+		padding: 19px;
+		text-align: justify;
+		width: 90%;
+		word-spacing: .8px;
+	}
 
 	.biophoto{
 		width: 50%;
@@ -1220,23 +1236,27 @@
 	}
 
 	.trailerthumb{
-		width: 52%;
+		width: 60%%;
 	}
 
 	.trailercaption{
 		width: 40%;
 	}
 
-	.vidwrap{
-		width: 90%;
-		margin-top: 0px;
-		margin-left: 50px;
-	}
-
 	.vidbox{
-		float: left;
+		float: none;
+		margin-left: auto;
 		margin: 10px;
 		width: 70%;
+	}
+
+			display: block;
+		float: none;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-bottom: 10px;
+
+	.vidwrap{
 	}
 
 	.vidthumb{

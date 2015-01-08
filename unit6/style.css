@@ -200,7 +200,6 @@ p.bioflow{
 }
 
 div.synopsis{
-	/*background:rgba(0,0,0,.3);*/
 	clear: both;
 	color: white;
 	float: left;
@@ -285,7 +284,7 @@ h2.by{
 	width: 100%;
 }
 
-.headings_interviewees{
+/*.headings_interviewees{
 	font-family: Lato, sans-serif;
 	font-weight: 100;
 	font-size: 1.2em;
@@ -353,7 +352,8 @@ p.intbioflow{
 	text-align: justify;
 }
 
-/*div.gallery{
+
+div.gallery{
 	margin: 0;
 	padding: 0;
 }
@@ -380,6 +380,7 @@ ul.gallery img{
 	margin-top: 10px;
 	border: solid;
 	border-color: white;
+	width: 35%;
 }
 
 .trailercaption{
@@ -389,7 +390,7 @@ ul.gallery img{
 	font-weight: 300;
 	line-height: 25px;
 	text-align: center;
-	width: 400px;
+	width: 20%;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 5px;
@@ -398,14 +399,13 @@ ul.gallery img{
 }
 
 .vidwrap{
-	width: 90%;
-	margin-top: 30px;
-	margin-left: 90px;
+	width: 100%;
+	margin-top: 20px;
 }
 
 .vidbox{
 	float: left;
-	margin: 10px;
+	margin: 16px;
 	width: 30%;
 }
 
@@ -434,7 +434,7 @@ ul.gallery img{
 }
 
 .galwrap {
-	clear:both;
+	clear: both;
    	overflow: hidden;
    	margin-left: 40px;
    	margin-right: auto;
@@ -454,11 +454,12 @@ ul.gallery img{
 	width: 29%;
 }
 
-.footer{
+footer{
 	clear: both;
+	color: #ffffff;
+	float: right;
 	font-size: .8em;
 	font-family: Lato, sans-serif;
 	font-weight: 300;
 	letter-spacing: .1em;
-	position: fixed;
 }
