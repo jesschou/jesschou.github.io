@@ -1276,4 +1276,8 @@
 	.galimg{
 		width: 80%;
 	}
+
+	footer{
+		font-size: .5em;
+	}
 }
