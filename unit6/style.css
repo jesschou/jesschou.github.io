@@ -454,6 +454,15 @@ ul.gallery img{
 	width: 29%;
 }
 
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: ".";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
 footer{
 	clear: both;
 	color: #ffffff;
