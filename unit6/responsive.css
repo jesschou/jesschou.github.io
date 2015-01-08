@@ -1,0 +1,199 @@
+@media only screen and (max-width: 1110px) {
+	.vidbox{
+		width: 32%;
+	}
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1109px) {
+	#directorsstatement{
+		height: 1300px;
+	}
+
+	.hero{
+		width: 55%;
+	}
+
+	.logo{
+		width: 40%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 909px) and (max-width: 999px) {
+	#directorsstatement{
+		height: 1400px;
+	}
+
+	#filmmakers{
+		height: 3000px;
+	}
+
+	.hero{
+		width: 60%;
+	}
+
+	.logo{
+		width: 45%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 800px) and (max-width: 908px) {
+	#directorsstatement{
+		height: 1500px;
+	}
+
+	#filmmakers{
+		height: 3300px;
+	}
+
+	#about{
+		height: 900px;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 60%;
+	}
+
+	.logo{
+		width: 45%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	div.synopsis{
+		width: 45%;
+	}
+
+	.galimg {
+		margin: 8px;
+	}
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 750px) and (max-width: 799px) {
+	#directorsstatement{
+		height: 1500px;
+	}
+
+	#filmmakers{
+		height: 3200px;
+	}
+
+	#about{
+		height: 900px;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 60%;
+	}
+
+	.logo{
+		width: 45%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	div.synopsis{
+		width: 45%;
+	}
+}
+
+@media only screen and (min-width: 700px) and (max-width: 749px) {
+	#directorsstatement{
+		height: 1500px;
+	}
+
+	#filmmakers{
+		height: 3500px;
+	}
+
+	#about{
+		height: 900px;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 70%;
+	}
+
+	.logo{
+		width: 50%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	div.synopsis{
+		width: 50%;
+	}
+
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.filmmakerwrap{
+		width: 75%;
+	}
+
+	.galimg {
+		margin: 5px;
+	}
+
+	footer{
+		font-size: .7em;
+	}
+}

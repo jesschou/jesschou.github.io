@@ -10,13 +10,13 @@ body {
 #index{
 	background: url("images/lizzie-speech-5.jpg") no-repeat center center fixed;
 	background-size: cover;
-	height: 100vh;
+	height: 750px;
 }
 
 #about{
 	background: url("images/lizzie-cam-2.jpg") no-repeat center center fixed;
 	background-size: cover;
-	height: 100vh;
+	height: 750px;
 }
 
 #directorsstatement{
@@ -154,7 +154,7 @@ hr{
 }
 
 .filmmakerwrap{
-	background: rgba(0,0,0,.3);
+	background: rgba(0,0,0,.4);
 	border-style: solid;
 	color: #ebebeb;
 	font-size: 1em;
@@ -405,8 +405,8 @@ ul.gallery img{
 
 .vidbox{
 	float: left;
-	margin: 16px;
-	width: 30%;
+	padding: 3%;
+	width: 33.3%;
 }
 
 .vidthumb{
