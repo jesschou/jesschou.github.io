@@ -22,13 +22,13 @@ body {
 #directorsstatement{
 	background: url("images/lizzie-school-4.jpg") no-repeat center center fixed;
 	background-size: cover;
-	height: 170vh;
+	height: 1200px;
 }
 
 #filmmakers{
 	background: url("images/austinflag-2.jpg") no-repeat center center fixed;
 	background-size: cover;
-	height: 390vh;
+	height: 2800px;
 }
 
 #video{

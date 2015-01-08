@@ -1004,33 +1004,29 @@
 	#about{
 		background: url("images/lizzie-cam-360.jpg") no-repeat center center scroll;
 		background-size: cover;
-		height: 130vh;
+		height: 750px;
 	}
 
 	#directorsstatement{
 		background: url("images/lizzie-school-360.jpg") no-repeat center center scroll;
 		background-size: cover;
-		height: 420vh;
+		height: 2150px;
 	}
 
 	#filmmakers{
 		background: url("images/austinflag-360.jpg") no-repeat center center scroll;
 		background-size: cover;
-		height: 1050vh;
+		height: 5400px;
 	}
 
 	#video{
 		background: url("images/capitol-2.jpg") no-repeat center center scroll;
 		background-size: cover;
-		height: 200vh;
-	}
-
-	#interviewees{
-		height: 280vh;
+		height: 800px;
 	}
 
 	#gallery{
-		height: 250vh;
+		height: 1000px;
 	}
 
 	.biophoto{
@@ -1270,7 +1266,7 @@
 	}
 
 	.galwrap{
-		height: 220vh;
+		height: 850px;
 	}
 
 	.galimg{
