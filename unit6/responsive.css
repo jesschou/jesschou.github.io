@@ -5,10 +5,34 @@
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1109px) {
-	#directorsstatement{
-		height: 1300px;
+		#index{
+		background: url("images/lizzie-speech-799.jpg") no-repeat center center scroll;
+		height: 1024px;
 	}
 
+	#about{
+		background: url("images/lizzie-cam-2.jpg") no-repeat center center scroll;
+		height: 1024px;
+}
+
+	#directorsstatement{
+		background: url("images/lizzie-school-1500.jpg") no-repeat center center scroll;
+		height: 1500px;
+	}
+
+	#filmmakers{
+		background: url("images/austinflag-3200.jpg") no-repeat center center scroll;
+		height: 3200px;
+	}
+
+	#video{
+		background: url("images/capitol-2.jpg") no-repeat center center scroll;
+		height: 1024px;
+	}
+
+	#gallery{
+		background: url("images/blurred2.jpg") no-repeat center center scroll;
+		height: 1024px;
 	.hero{
 		width: 55%;
 	}
