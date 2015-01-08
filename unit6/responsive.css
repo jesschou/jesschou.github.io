@@ -103,6 +103,12 @@
 }
 
 @media only screen and (min-width: 750px) and (max-width: 799px) {
+	#index{
+		background: url("images/lizzie-speech-5.jpg") no-repeat center center scroll;
+		background-size: cover;
+		height: 750px;
+	}
+
 	#directorsstatement{
 		height: 1500px;
 	}
@@ -139,6 +145,22 @@
 
 	div.synopsis{
 		width: 45%;
+	}
+
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.filmmakerwrap{
+		width: 75%;
+	}
+
+	.galimg {
+		margin: 6px;
+	}
+
+	footer{
+		font-size: .7em;
 	}
 }
 
