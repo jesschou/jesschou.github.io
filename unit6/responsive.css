@@ -88,18 +88,17 @@
 	}
 
 	div.directorsstatement{
-	/*background:rgba(0,0,0,.3);*/
-	clear: both;
-	color: white;
-	font-size: 1.1em;
-	font-weight: 300;
-	line-height: 22px;
-	margin: auto;
-	margin-top: 15px;
-	padding: 19px;
-	text-align: justify;
-	width: 80%;
-	word-spacing: .8px;
+		clear: both;
+		color: white;
+		font-size: 1.1em;
+		font-weight: 300;
+		line-height: 22px;
+		margin: auto;
+		margin-top: 15px;
+		padding: 19px;
+		text-align: justify;
+		width: 80%;
+		word-spacing: .8px;
 }
 
 	.biophoto{
@@ -215,7 +214,7 @@
 
 	.galimg{
 		width: 80%;
-	}
+	}*/
 }
 
 @media only screen and (min-width: 481px) and (max-width: 570px){
@@ -358,18 +357,17 @@
 	}
 
 	div.directorsstatement{
-	/*background:rgba(0,0,0,.3);*/
-	clear: both;
-	color: white;
-	font-size: 1.1em;
-	font-weight: 300;
-	line-height: 22px;
-	margin: auto;
-	margin-top: 15px;
-	padding: 19px;
-	text-align: justify;
-	width: 90%;
-	word-spacing: .8px;
+		clear: both;
+		color: white;
+		font-size: 1.1em;
+		font-weight: 300;
+		line-height: 22px;
+		margin: auto;
+		margin-top: 15px;
+		padding: 19px;
+		text-align: justify;
+		width: 90%;
+		word-spacing: .8px;
 }
 
 	.biophoto{
@@ -485,7 +483,7 @@
 
 	.galimg{
 		width: 80%;
-	}
+	}*/
 }
 
 /*@media only screen and (min-width:481px) and (max-width: 768px){
@@ -864,18 +862,17 @@
 	}
 
 	div.directorsstatement{
-	/*background:rgba(0,0,0,.3);*/
-	clear: both;
-	color: white;
-	font-size: 1.1em;
-	font-weight: 300;
-	line-height: 22px;
-	margin: auto;
-	margin-top: 15px;
-	padding: 19px;
-	text-align: justify;
-	width: 90%;
-	word-spacing: .8px;
+		clear: both;
+		color: white;
+		font-size: 1.1em;
+		font-weight: 300;
+		line-height: 22px;
+		margin: auto;
+		margin-top: 15px;
+		padding: 19px;
+		text-align: justify;
+		width: 90%;
+		word-spacing: .8px;
 }
 
 	.biophoto{
@@ -991,7 +988,7 @@
 
 	.galimg{
 		width: 80%;
-	}
+	}*/
 }
 
 @media only screen and (max-width: 325px) {
@@ -1146,7 +1143,6 @@
 	}
 
 	div.directorsstatement{
-		/*background:rgba(0,0,0,.3);*/
 		clear: both;
 		color: white;
 		font-size: 1.1em;
@@ -1159,6 +1155,7 @@
 		width: 90%;
 		word-spacing: .8px;
 	}
+
 
 	.biophoto{
 		width: 50%;
@@ -1276,5 +1273,5 @@
 
 	footer{
 		font-size: .5em;
-	}
+	}*/
 }
