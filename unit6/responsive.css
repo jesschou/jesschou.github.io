@@ -105,12 +105,12 @@
 @media only screen and (min-width: 750px) and (max-width: 799px) {
 	#index{
 		background: url("images/lizzie-speech-799.jpg") no-repeat center center scroll;
-		height: 1050px;
+		height: 1024px;
 	}
 
 	#about{
 		background: url("images/lizzie-cam-2.jpg") no-repeat center center scroll;
-		height: 1050px;
+		height: 1024px;
 }
 
 	#directorsstatement{
@@ -125,12 +125,12 @@
 
 	#video{
 		background: url("images/capitol-2.jpg") no-repeat center center scroll;
-		height: 1050px;
+		height: 1024px;
 	}
 
 	#gallery{
 		background: url("images/blurred2.jpg") no-repeat center center scroll;
-		height: 1050px;
+		height: 1024px;
 	}
 
 
