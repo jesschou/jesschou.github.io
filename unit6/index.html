@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style.css" type="text/css">
 	<link rel="stylesheet" href="responsive.css" type="text/css">
 	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans|Hind:400,300|Alegreya+Sans+SC:400,300,700,500,400italic,300italic|Lato:400,300,100,700,300italic,400italic|Roboto+Condensed:400,300,700,400italic' rel='stylesheet' type='text/css'>
@@ -236,6 +236,7 @@ jQuery(function($){
 </script>
 <script>
 $(document).ready(function(){
+if (window.width>768){
   function filterPath(string) {
   return string
     .replace(/^\//,'')
@@ -280,6 +281,7 @@ $(document).ready(function(){
     }
     return [];
   }
+}
     /**
      * This part handles the highlighting functionality.
      * We use the scroll functionality again, some array creation and 
