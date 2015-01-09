@@ -22,12 +22,17 @@
 		height: 40px;
 	}
 
+	.vidbox{
+		float: left;
+		width: 50%;
+	}
+
 	footer{
 		font-size: .7em;
 	}
 }
 
-@media only screen and (min-width: 909px) and (max-width: 999px) {
+@media only screen and (min-width: 900px) and (max-width: 999px) {
 	#directorsstatement{
 		height: 1400px;
 	}
@@ -49,12 +54,21 @@
 		height: 40px;
 	}
 
+	div.directorsstatement{
+		width: 65%;
+	}
+
+	.vidbox{
+		float: left;
+		width: 50%;
+	}
+
 	footer{
 		font-size: .7em;
 	}
 }
 
-@media only screen and (min-width: 800px) and (max-width: 908px) {
+@media only screen and (min-width: 800px) and (max-width: 899px) {
 	#directorsstatement{
 		height: 1500px;
 	}
@@ -93,8 +107,17 @@
 		width: 45%;
 	}
 
-	.galimg {
-		margin: 8px;
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.vidwrap{
+		width: 80%;
+	}
+
+	.vidbox{
+		float: left;
+		width: 50%;
 	}
 
 	footer{
@@ -104,33 +127,26 @@
 
 @media only screen and (min-width: 750px) and (max-width: 799px) {
 	#index{
-		background: url("images/lizzie-speech-4.jpg") no-repeat center center scroll;
-		background-size: contain;
 		height: 1024px;
 	}
 
 	#about{
-		background: url("images/lizzie-cam-2.jpg") no-repeat center center scroll;
 		height: 1024px;
 }
 
 	#directorsstatement{
-		background: url("images/lizzie-school-1500.jpg") no-repeat center center scroll;
 		height: 1500px;
 	}
 
 	#filmmakers{
-		background: url("images/austinflag-3200.jpg") no-repeat center center scroll;
 		height: 3200px;
 	}
 
 	#video{
-		background: url("images/capitol-2.jpg") no-repeat center center scroll;
-		height: 1024px;
+		height: 800px;
 	}
 
 	#gallery{
-		background: url("images/blurred2.jpg") no-repeat center center scroll;
 		height: 1050px;
 	}
 
@@ -145,11 +161,11 @@
 	}
 
 	.hero{
-		width: 60%;
+		width: 65%;
 	}
 
 	.logo{
-		width: 45%;
+		width: 50%;
 	}
 
 	.icon{
@@ -169,8 +185,22 @@
 		width: 75%;
 	}
 
-	.galimg {
-		margin: 6px;
+	.vidwrap{
+		width: 80%;
+	}
+
+	.vidbox{
+		float: left;
+		width: 50%;
+	}
+
+	.vidthumb{
+		width: 90%;
+	}
+
+	.imgbox{
+		float: left;
+		width: 50%;
 	}
 
 	footer{
@@ -188,6 +218,10 @@
 	}
 
 	#about{
+		height: 900px;
+	}
+
+	#gallery{
 		height: 900px;
 	}
 
@@ -224,9 +258,105 @@
 	.filmmakerwrap{
 		width: 75%;
 	}
+	
+	.vidwrap{
+		width: 80%;
+	}
 
-	.galimg {
-		margin: 5px;
+	.vidbox{
+		float: left;
+		width: 50%;
+	}
+
+	.vidthumb{
+		width: 90%;
+	}
+
+	.imgbox{
+		float: left;
+		width: 50%;
+	}
+
+	.galimg{
+		width: 89%;
+	}
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 650px) and (max-width: 699px) {
+	#directorsstatement{
+		height: 1500px;
+	}
+
+	#filmmakers{
+		height: 3500px;
+	}
+
+	#about{
+		height: 900px;
+	}
+
+	#gallery{
+		height: 900px;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 70%;
+	}
+
+	.logo{
+		width: 55%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	div.synopsis{
+		width: 50%;
+	}
+
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.filmmakerwrap{
+		width: 75%;
+	}
+	
+	.vidwrap{
+		width: 80%;
+	}
+
+	.vidbox{
+		float: left;
+		width: 50%;
+	}
+
+	.vidthumb{
+		width: 90%;
+	}
+
+	.imgbox{
+		float: left;
+		width: 50%;
+	}
+
+	.galimg{
+		width: 89%;
 	}
 
 	footer{

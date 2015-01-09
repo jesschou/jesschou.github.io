@@ -127,15 +127,6 @@ aside {
 	height: 50px;
 }
 
-/*hr{
-	border: 0;
-	color: #9E9E9E;
-	background-color: #9E9E9E;
-	height: 1px;
-	width: 45%;
-	margin: 0 auto;
-}*/
-
 hr{ 
 	border: 0; 
 	height: 1.3px; 
@@ -210,7 +201,6 @@ div.synopsis{
 }
 
 div.directorsstatement{
-	/*background:rgba(0,0,0,.4);*/
 	clear: both;
 	color: white;
 	font-size: 1.1em;
@@ -278,103 +268,14 @@ h2.by{
 	width: 100%;
 }
 
-/*.headings_interviewees{
-	font-family: Lato, sans-serif;
-	font-weight: 100;
-	font-size: 1.2em;
-	color: #ebebeb;
-	letter-spacing: 0.2em;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 100px;
-	padding-bottom: 20px;
-	text-align: center;
-	width: 100%;
-}
-
-.intwrap{
-	width: 89%;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.intbio{
-	background: rgba(0,0,0,.5);
-	border: solid;
-	width: 31%;
-	height: 55%;
-	color: #ebebeb;
-	font-size: 1em;
-	font-weight: 300;
-	float: left;
-	margin: 10px;
-	padding: 15px;
-	text-align: left;
-}
-
-.intphoto{
-	width: 43%;
-	display: block;
-	float: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 10px;
-}
-
-h2.intname{
-	clear: both;
-	letter-spacing: 0.1em;
-	text-align: center;
-	padding-bottom: 20px;
-}
-
-span.inttitle{
-	font-size: 0.9em;
-	font-weight: 200;
-	letter-spacing: 0em;
-}
-
-span.bobtitle{
-	font-size: 0.75em;
-	font-weight: 200;
-	letter-spacing: 0em;
-}
-
-p.intbioflow{
-	clear: both;
-	padding-top: 10px;
-	text-align: justify;
-}
-
-
-div.gallery{
-	margin: 0;
-	padding: 0;
-}
-
-.gallery{
-	width: 7400px;
-}
-
-ul.gallery img{
-	height: 100vh;
-}
-
-.still{
-	float: left;
-	padding: 0;
-	margin-top: 0;
-	margin-right: 30px;
-}*/
-
-.trailerthumb{
+/*.trailerthumb{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
 	border: solid;
 	border-color: white;
-	width: 30%;
+	width: 28%;
 }
 
 .trailercaption{
@@ -390,17 +291,19 @@ ul.gallery img{
 	margin-top: 5px;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
-}
+}*/
 
 .vidwrap{
-	width: 100%;
-	margin-top: 20px;
+	clear: both;
+	width: 70%;
+	margin-top: 1%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .vidbox{
 	float: left;
-	padding: 3%;
-	width: 33.3%;
+	width: 50%;
 }
 
 .vidthumb{
@@ -409,6 +312,7 @@ ul.gallery img{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 6%;
 	width: 80%;
 }
 
@@ -420,7 +324,7 @@ ul.gallery img{
 	line-height: 25px;
 	text-align: center;
 	width: 70%;
-	margin-top: 5px;
+	margin-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
 	text-transform: uppercase;
@@ -430,22 +334,24 @@ ul.gallery img{
 .galwrap {
 	clear: both;
    	overflow: hidden;
-   	margin-left: 40px;
+   	margin-top: 1%;
+   	margin-left: auto;
    	margin-right: auto;
+   	width: 90%;
 }
 
-.gal_row1{
-	margin-top: 25px;
+.imgbox{
+	float: left;
+	width: 33.3%;
 }
 
 .galimg {
 	border: solid;
 	border-color: white;
-	float: left;
-	margin: 10px;
-	margin-top: 30px;
+	display: block;
+	margin-top: 10%;
 	position: relative;
-	width: 29%;
+	width: 95%;
 }
 
 .clearfix:after{
@@ -465,8 +371,8 @@ footer{
 	font-family: Lato, sans-serif;
 	font-weight: 300;
 	letter-spacing: .1em;
-	margin: 0 10px 0 0;
+	margin: 0 1em 0 0;
 	position: fixed;
-	bottom: 10px;
-	right: 5px;
+	bottom: 1em;
+	right: .5em;
 }
