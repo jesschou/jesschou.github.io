@@ -843,20 +843,20 @@
 
 /*iphone 5*/
 
-@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation : landscape){
+@media only screen and (min-width: 320px) and (max-width: 568px){
 	#index{
-		background: url("images/playground-568x320.jpg") no-repeat center center scroll;
-		height: 320px;
+		background: url("images/lizzie-speech-320x568.jpg") no-repeat center center fixed;
+		height: 568px;
 	}
 
 	#about{
-		background: url("images/lizzie-cam-568x320.jpg") no-repeat center center scroll;
-		height: 320px;
+		background: url("images/lizzie-cam-320x568.jpg") no-repeat center center fixed;
+		height: 568px;
 	}
 
 	#directorsstatement{
-		background: url("images/lizzie-school-568x320.jpg") no-repeat center center fixed;
-		height: 320px;
+		background: url("images/lizzie-school-320x568.jpg") no-repeat center center fixed;
+		height: 568px;
 	}
 
 	#filmmakers{
@@ -872,15 +872,6 @@
 	#gallery{
 		background: url("images/blurred-568x320.jpg") no-repeat center center fixed;
 		height: 320px;
-	}
-
-}	
-
-@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation : portrait){
-	#index{
-		background: url("images/lizzie-speech-320x568.jpg") no-repeat center center scroll;
-		background-size: cover;
-		height: 568px;
 	}
 }	
 
