@@ -8,16 +8,9 @@ body {
 }
 
 #index{
-	background: url("images/lizzie-speech-5.jpg");
+	background: url("images/lizzie-speech-5.jpg") no-repeat center center fixed;
 	background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
+	height: 750px;
 }
 
 #about{
