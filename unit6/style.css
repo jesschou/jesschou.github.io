@@ -8,9 +8,16 @@ body {
 }
 
 #index{
-	background: url("images/lizzie-speech-5.jpg") no-repeat center center fixed;
+	background: url("images/lizzie-speech-5.jpg");
 	background-size: cover;
-	height: 750px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 #about{
@@ -33,12 +40,6 @@ body {
 
 #video{
 	background: url("images/capitol-2.jpg") no-repeat center center fixed;
-	background-size: cover;
-	height: 100vh;
-}
-
-#interviewees{
-	background: url("images/capitol.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 100vh;
 }
