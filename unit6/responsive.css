@@ -363,3 +363,645 @@
 		font-size: .7em;
 	}
 }
+
+@media only screen and (min-width: 500px) and (max-width: 649px) {
+	#directorsstatement{
+		height: 1800px;
+	}
+
+	#filmmakers{
+		height: 5900px;
+	}
+
+	#about{
+		height: 900px;
+	}
+
+	#gallery{
+		height: 1800px;
+	}
+
+	#video{
+		height: 1300px;
+	}
+
+	nav a{
+		background-color: rgba(0,0,0,1);
+		color: white;
+		clear:both;
+		text-align: center;
+		width: 100%;
+	}
+
+	nav#fixednav{
+		height: 8%;
+	}
+
+	.menu-btn div {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		margin-top: 8px;
+	}
+ 
+	.menu-btn span {
+		display: block;
+		width: 25px;
+		height: 3px;
+		margin: 5px;
+		margin-left: auto;
+	    margin-right: auto;
+		background: rgb(255, 255, 255);
+		z-index: 99;
+	}
+ 
+	.responsive-menu{
+		display: none;
+	}
+ 
+	.expand {
+		display: block !important;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 80%;
+	}
+
+	.logo{
+		width: 65%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		width: 75%;
+	}
+
+	.headings_statement{
+		font-size: .8em;
+	}
+
+	div.synopsis{
+		width: 80%;
+	}
+
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.filmmakerwrap{
+		background: none;
+		width: 75%;
+		border: none;
+	}
+
+	.biophoto{
+		width: 50%;
+		display: block;
+		float: none;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-bottom: 10px;
+	}
+
+	h2.fname{
+		text-align: center;
+	}
+
+	p.bioflow{
+		clear: both;
+		padding-top: 10px;
+		text-align: justify;
+	}
+	
+	.vidwrap{
+		width: 100%;
+	}
+
+	.vidbox{
+		clear: both;
+		width: 100%;
+	}
+
+	.vidthumb{
+		width: 55%;
+	}
+
+	.caption{
+		width: 50%;
+	}
+
+	.imgbox{
+		clear:both;
+		width: 80%;
+		margin-left: 18%;
+	}
+
+	.galimg{
+		width: 80%;
+	}
+
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+	#directorsstatement{
+		height: 2300px;
+	}
+
+	#filmmakers{
+		height: 6400px;
+	}
+
+	#about{
+		height: 900px;
+	}
+
+	#gallery{
+		height: 1400px;
+	}
+
+	#video{
+		height: 1100px;
+	}
+
+	nav a{
+		background-color: rgba(0,0,0,1);
+		color: white;
+		clear:both;
+		text-align: center;
+		width: 100%;
+	}
+
+	nav#fixednav{
+		height: 8%;
+	}
+
+	.menu-btn div {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		margin-top: 8px;
+	}
+ 
+	.menu-btn span {
+		display: block;
+		width: 25px;
+		height: 3px;
+		margin: 5px;
+		margin-left: auto;
+	    margin-right: auto;
+		background: rgb(255, 255, 255);
+		z-index: 99;
+	}
+ 
+	.responsive-menu{
+		display: none;
+	}
+ 
+	.expand {
+		display: block !important;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 80%;
+	}
+
+	.logo{
+		width: 65%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	.headings_about{
+		font-size: .8em;
+		width: 70%;
+	}
+
+	.headings_statement{
+		font-size: .8em;
+		width: 60%;
+	}
+
+	div.synopsis{
+		width: 80%;
+	}
+
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.filmmakerwrap{
+		background: none;
+		width: 75%;
+		border: none;
+	}
+
+	.biophoto{
+		width: 50%;
+		display: block;
+		float: none;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-bottom: 10px;
+	}
+
+	h2.fname{
+		text-align: center;
+	}
+
+	p.bioflow{
+		clear: both;
+		padding-top: 10px;
+		text-align: justify;
+	}
+	
+	.vidwrap{
+		width: 100%;
+	}
+
+	.vidbox{
+		clear: both;
+		width: 100%;
+	}
+
+	.vidthumb{
+		width: 55%;
+	}
+
+	.caption{
+		width: 50%;
+	}
+
+	.imgbox{
+		clear:both;
+		width: 80%;
+		margin-left: 18%;
+	}
+
+	.galimg{
+		width: 80%;
+	}
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 325px) and (max-width: 399px) {
+	#directorsstatement{
+		height: 2300px;
+	}
+
+	#filmmakers{
+		height: 5900px;
+	}
+
+	#about{
+		height: 900px;
+	}
+
+	#video{
+		height: 1000px;
+	}
+
+	#gallery{
+		height: 1100px;
+	}
+
+	body{
+		font-size: 13px;
+	}
+
+	nav a{
+		background-color: rgba(0,0,0,1);
+		color: white;
+		clear:both;
+		text-align: center;
+		width: 100%;
+	}
+
+	nav#fixednav{
+		height: 8%;
+	}
+
+	.menu-btn div {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		margin-top: 8px;
+	}
+ 
+	.menu-btn span {
+		display: block;
+		width: 25px;
+		height: 3px;
+		margin: 5px;
+		margin-left: auto;
+	    margin-right: auto;
+		background: rgb(255, 255, 255);
+		z-index: 99;
+	}
+ 
+	.responsive-menu{
+		display: none;
+	}
+ 
+	.expand {
+		display: block !important;
+	}
+
+	.hero{
+		width: 80%;
+	}
+
+	.logo{
+		width: 75%;
+	}
+
+	aside{
+		margin: 0 4px 0 0;
+	}
+
+	.icon{
+		width: 30px;
+		height: 30px;
+	}
+
+	.headings{
+		font-size: .8em;
+		width: 60%;
+	}
+
+	.headings_about{
+		font-size: .8em;
+		width: 60%;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: .8em;
+		width: 60%;
+	}
+
+	div.synopsis{
+		float: none;
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div.directorsstatement{
+		width: 85%;
+	}
+
+	.filmmakerwrap{
+		background: none;
+		width: 90%;
+		border: none;
+	}
+
+	.biophoto{
+		width: 50%;
+		display: block;
+		float: none;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-bottom: 10px;
+	}
+
+	h2.fname{
+		font-size: .9em;
+		text-align: center;
+	}
+
+	p.bioflow{
+		clear: both;
+		padding-top: 10px;
+		text-align: justify;
+	}
+	
+	.vidwrap{
+		width: 100%;
+	}
+
+	.vidbox{
+		clear: both;
+		width: 100%;
+	}
+
+	.vidthumb{
+		width: 55%;
+	}
+
+	.caption{
+		width: 50%;
+	}
+
+	.imgbox{
+		clear:both;
+		width: 80%;
+		margin-left: 18%;
+	}
+
+	.galimg{
+		width: 80%;
+	}
+
+	footer{
+		font-size: .6em;
+	}
+}
+
+@media only screen and (min-width: 200px) and (max-width: 324px) {
+	#directorsstatement{
+		height: 2300px;
+	}
+
+	#filmmakers{
+		height: 5900px;
+	}
+
+	#about{
+		height: 900px;
+	}
+
+	#video{
+		height: 1000px;
+	}
+
+	#gallery{
+		height: 1100px;
+	}
+
+	body{
+		font-size: 13px;
+	}
+
+	nav a{
+		background-color: rgba(0,0,0,1);
+		color: white;
+		clear:both;
+		text-align: center;
+		width: 100%;
+	}
+
+	nav#fixednav{
+		height: 8%;
+	}
+
+	.menu-btn div {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		margin-top: 8px;
+	}
+ 
+	.menu-btn span {
+		display: block;
+		width: 25px;
+		height: 3px;
+		margin: 5px;
+		margin-left: auto;
+	    margin-right: auto;
+		background: rgb(255, 255, 255);
+		z-index: 99;
+	}
+ 
+	.responsive-menu{
+		display: none;
+	}
+ 
+	.expand {
+		display: block !important;
+	}
+
+	.hero{
+		width: 80%;
+	}
+
+	.logo{
+		width: 80%;
+	}
+
+	aside{
+		margin: 0 1px 0 0;
+	}
+
+	.icon{
+		width: 30px;
+		height: 30px;
+	}
+
+	.headings{
+		font-size: .8em;
+		width: 60%;
+	}
+
+	.headings_about{
+		font-size: .8em;
+		width: 60%;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: .8em;
+		width: 60%;
+	}
+
+	div.synopsis{
+		float: none;
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div.directorsstatement{
+		width: 85%;
+	}
+
+	.filmmakerwrap{
+		background: none;
+		width: 90%;
+		border: none;
+	}
+
+	.biophoto{
+		width: 50%;
+		display: block;
+		float: none;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-bottom: 10px;
+	}
+
+	h2.fname{
+		font-size: .9em;
+		text-align: center;
+	}
+
+	p.bioflow{
+		clear: both;
+		padding-top: 10px;
+		text-align: justify;
+	}
+	
+	.vidwrap{
+		width: 100%;
+	}
+
+	.vidbox{
+		clear: both;
+		width: 100%;
+	}
+
+	.vidthumb{
+		width: 65%;
+	}
+
+	.caption{
+		width: 50%;
+	}
+
+	.imgbox{
+		clear:both;
+		width: 80%;
+		margin-left: 13%;
+	}
+
+	.galimg{
+		width: 90%;
+	}
+
+	footer{
+		font-size: .6em;
+	}
+}
