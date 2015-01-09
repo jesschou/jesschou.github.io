@@ -677,6 +677,10 @@
 }
 
 @media only screen and (min-width: 325px) and (max-width: 399px) {
+	#index{
+		height: 500px;
+	}
+
 	#directorsstatement{
 		height: 2300px;
 	}
@@ -842,6 +846,10 @@
 }
 
 @media only screen and (min-width: 200px) and (max-width: 324px) {
+	#index{
+		height: 500px;
+	}
+
 	#directorsstatement{
 		height: 2300px;
 	}
