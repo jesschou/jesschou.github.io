@@ -841,12 +841,39 @@
 	}
 }
 
+/*iphone 5*/
+
 @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation : landscape){
 	#index{
 		background: url("images/playground-568x320.jpg") no-repeat center center scroll;
-		background-size: cover;
-		height: 568px;
+		height: 320px;
 	}
+
+	#about{
+		background: url("images/lizzie-cam-568x320.jpg") no-repeat center center scroll;
+		height: 320px;
+	}
+
+	#directorsstatement{
+		background: url("images/lizzie-school-568x320.jpg") no-repeat center center fixed;
+		height: 320px;
+	}
+
+	#filmmakers{
+		background: url("images/austinflag-568x320.jpg") no-repeat center center fixed;
+		height: 320px;
+	}
+
+	#video{
+		background: url("images/capitol-568x320.jpg") no-repeat center center fixed;
+		height: 320px;
+	}
+
+	#gallery{
+		background: url("images/blurred-568x320.jpg") no-repeat center center fixed;
+		height: 320px;
+	}
+
 }	
 
 @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation : portrait){
@@ -856,6 +883,9 @@
 		height: 568px;
 	}
 }	
+
+/*iphone 2,3,4*/
+
 
 @media only screen and (min-width: 200px) and (max-width: 324px) {
 	#directorsstatement{
