@@ -841,46 +841,6 @@
 	}
 }
 
-/*iphone 5*/
-
-@media only screen and (min-width: 320px) and (max-width: 568px){
-	#index{
-		background: url("images/lizzie-speech-320x568.jpg") no-repeat center center scroll;
-		background-size: contain;
-		height: 568px;
-	}
-
-	#about{
-		background: url("images/lizzie-cam-320x568.jpg") no-repeat center center scroll;
-		background-size: contain;
-		height: 568px;
-	}
-
-	#directorsstatement{
-		background: url("images/lizzie-school-320x568.jpg") no-repeat center center scroll;
-		background-size: contain;
-		height: 568px;
-	}
-
-	#filmmakers{
-		background: url("images/austinflag-568x320.jpg") no-repeat center center fixed;
-		height: 320px;
-	}
-
-	#video{
-		background: url("images/capitol-568x320.jpg") no-repeat center center fixed;
-		height: 320px;
-	}
-
-	#gallery{
-		background: url("images/blurred-568x320.jpg") no-repeat center center fixed;
-		height: 320px;
-	}
-}	
-
-/*iphone 2,3,4*/
-
-
 @media only screen and (min-width: 200px) and (max-width: 324px) {
 	#directorsstatement{
 		height: 2300px;
