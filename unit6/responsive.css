@@ -679,7 +679,7 @@
 @media only screen and (min-width: 325px) and (max-width: 399px) {
 	#index{
 		background-image: none;
-		background-color: #0f3b90;
+		background-color: #1b1b33;
 		height: 500px;
 	}
 
@@ -703,7 +703,7 @@
 
 	#video{
 		background-image: none;
-		background-color: #6d8eb7;
+		background-color: #bdad9e;
 		height: 1000px;
 	}
 
@@ -860,7 +860,7 @@
 @media only screen and (min-width: 200px) and (max-width: 324px) {
 	#index{
 		background-image: none;
-		background-color: #0f3b90;
+		background-color: #1b1b33;
 		height: 500px;
 	}
 
@@ -884,7 +884,7 @@
 
 	#video{
 		background-image: none;
-		background-color: #6d8eb7;
+		background-color: #bdad9e;
 		height: 1000px;
 	}
 
