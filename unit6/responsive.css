@@ -678,26 +678,38 @@
 
 @media only screen and (min-width: 325px) and (max-width: 399px) {
 	#index{
+		background-image: none;
+		background-color: #0f3b90;
 		height: 500px;
 	}
 
 	#directorsstatement{
+		background-image: none;
+		background-color: #aa875d;
 		height: 2300px;
 	}
 
 	#filmmakers{
+		background-image: none;
+		background-color: #6f92c8;
 		height: 5900px;
 	}
 
 	#about{
+		background-image: none;
+		background-color: #cfbb86;
 		height: 900px;
 	}
 
 	#video{
+		background-image: none;
+		background-color: #6d8eb7;
 		height: 1000px;
 	}
 
 	#gallery{
+		background-image: none;
+		background-color: #314465;
 		height: 1100px;
 	}
 
@@ -847,26 +859,38 @@
 
 @media only screen and (min-width: 200px) and (max-width: 324px) {
 	#index{
+		background-image: none;
+		background-color: #0f3b90;
 		height: 500px;
 	}
 
 	#directorsstatement{
+		background-image: none;
+		background-color: #aa875d;
 		height: 2300px;
 	}
 
 	#filmmakers{
+		background-image: none;
+		background-color: #6f92c8;
 		height: 5900px;
 	}
 
 	#about{
+		background-image: none;
+		background-color: #cfbb86;
 		height: 900px;
 	}
 
 	#video{
+		background-image: none;
+		background-color: #6d8eb7;
 		height: 1000px;
 	}
 
 	#gallery{
+		background-image: none;
+		background-color: #314465;
 		height: 1100px;
 	}
 
