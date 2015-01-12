@@ -125,7 +125,191 @@
 	}
 }
 
-@media only screen and (min-width: 750px) and (max-width: 799px) {
+@media only screen and (min-width: 770px) and (max-width: 799px) {
+	#index{
+		height: 1024px;
+	}
+
+	#about{
+		height: 1024px;
+}
+
+	#directorsstatement{
+		height: 1500px;
+	}
+
+	#filmmakers{
+		height: 3200px;
+	}
+
+	#video{
+		height: 1024px;
+	}
+
+	#gallery{
+		height: 1050px;
+	}
+
+
+	.headings_about{
+		font-size: 1em;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 65%;
+	}
+
+	.logo{
+		width: 85%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	div.synopsis{
+		width: 45%;
+	}
+
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.filmmakerwrap{
+		width: 75%;
+	}
+
+	.vidwrap{
+		width: 80%;
+	}
+
+	.vidbox{
+		float: left;
+		width: 50%;
+	}
+
+	.vidthumb{
+		width: 90%;
+	}
+
+	.imgbox{
+		float: left;
+		width: 50%;
+	}
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 769px) {
+	#index{
+			background: url("images/lizzie-speech-4.jpg") no-repeat center center scroll;
+	background-size: cover;
+		height: 1024px;
+	}
+
+	#about{
+			background: url("images/lizzie-cam-2.jpg") no-repeat center center scroll;
+	background-size: cover;
+		height: 1024px;
+}
+
+	#directorsstatement{
+			background: url("images/lizzie-school-4.jpg") no-repeat center center scroll;
+	background-size: cover;
+		height: 1500px;
+	}
+
+	#filmmakers{
+			background: url("images/austinflag-2.jpg") no-repeat center center scroll;
+	background-size: cover;
+		height: 3200px;
+	}
+
+	#video{
+			background: url("images/capitol-2.jpg") no-repeat center center scroll;
+	background-size: cover;
+		height: 1024px;
+	}
+
+	#gallery{
+			background: url("images/blurred2.jpg") no-repeat center center scroll;
+	background-size: cover;
+		height: 1050px;
+	}
+
+
+	.headings_about{
+		float: none;
+		width: 100%;
+		font-size: 1em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 65%;
+	}
+
+	.logo{
+		width: 85%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	div.synopsis{
+		float: none;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.filmmakerwrap{
+		width: 75%;
+	}
+
+	.vidwrap{
+		width: 80%;
+	}
+
+	.vidbox{
+		float: left;
+		width: 50%;
+	}
+
+	.vidthumb{
+		width: 90%;
+	}
+
+	.imgbox{
+		float: left;
+		width: 50%;
+	}
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 750px) and (max-width: 767px) {
 	#index{
 		height: 1024px;
 	}
