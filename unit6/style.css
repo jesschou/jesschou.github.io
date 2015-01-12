@@ -10,7 +10,7 @@ body {
 #index{
 	background: url("images/lizzie-speech-4.jpg") no-repeat center center fixed;
 	background-size: cover;
-	height: 750px;
+	min-height: 100vh;
 }
 
 #about{
