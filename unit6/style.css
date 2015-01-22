@@ -43,6 +43,12 @@ body {
 	height: 100vh;
 }
 
+#specialthanks{
+	background: url("images/blurred3.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 14400px;
+}
+
 nav{
 	background:rgba(0,0,0,.2);
 	font-size: 0.85em;
@@ -361,6 +367,25 @@ h2.by{
 	margin-top: 10%;
 	position: relative;
 	width: 95%;
+}
+
+.kstitle{
+	font-size: 1.8em;
+	letter-spacing: .2em;
+	margin-bottom: 25px;
+}
+
+.kswrap{
+	clear: both;
+	margin-left: 80px;
+}
+
+.ks{
+	float: left;
+	color: white;
+	margin: 20px;
+	line-height: 35px;
+	text-align: center;
 }
 
 .clearfix:after{

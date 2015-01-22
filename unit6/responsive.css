@@ -1,6 +1,16 @@
+@media only screen and (min-width: 1110px) and (max-width: 1140px) {
+	.ks{
+		margin: 15px;
+	}
+}
+
 @media only screen and (max-width: 1110px) {
 	.vidbox{
 		width: 32%;
+	}
+
+	.ks{
+		margin: 10px;
 	}
 }
 
@@ -27,6 +37,14 @@
 		width: 50%;
 	}
 
+	.kstitle{
+		font-size: 1.5em;
+	}
+
+	.ks{
+		margin: 7px;
+	}
+
 	footer{
 		font-size: .7em;
 	}
@@ -40,6 +58,10 @@
 	#filmmakers{
 		height: 3000px;
 	}
+
+	#specialthanks{
+		height: 14500px;
+}
 
 	.hero{
 		width: 60%;
@@ -61,6 +83,15 @@
 	.vidbox{
 		float: left;
 		width: 50%;
+	}
+
+	.kstitle{
+		font-size: 1.4em;
+	}
+
+	.ks{
+		font-size: .9em;
+		margin: 0px;
 	}
 
 	footer{
@@ -120,6 +151,15 @@
 		width: 50%;
 	}
 
+	.kstitle{
+		font-size: 1.3em;
+	}
+
+	.ks{
+		font-size: .85em;
+		margin: 0px;
+	}
+
 	footer{
 		font-size: .7em;
 	}
@@ -150,6 +190,9 @@
 		height: 1050px;
 	}
 
+	nav{
+		font-size: 0.8em;
+	}
 
 	.headings_about{
 		font-size: 1em;
@@ -203,6 +246,15 @@
 		width: 50%;
 	}
 
+	.kstitle{
+		font-size: 1.25em;
+	}
+
+	.ks{
+		font-size: .8em;
+		margin: 0px;
+	}
+
 	footer{
 		font-size: .7em;
 	}
@@ -245,6 +297,9 @@
 		height: 1050px;
 	}
 
+	nav{
+		font-size: 0.8em;
+	}
 
 	.headings_about{
 		float: none;
@@ -304,6 +359,15 @@
 		width: 50%;
 	}
 
+	.kstitle{
+		font-size: 1.2em;
+	}
+
+	.ks{
+		font-size:.75em;
+		margin: 0px;
+	}
+
 	footer{
 		font-size: .7em;
 	}
@@ -316,14 +380,14 @@
 
 	#about{
 		height: 1024px;
-}
+	}
 
 	#directorsstatement{
 		height: 1500px;
 	}
 
 	#filmmakers{
-		height: 3200px;
+		height: 3400px;
 	}
 
 	#video{
@@ -334,6 +398,9 @@
 		height: 1050px;
 	}
 
+	nav{
+		font-size: 0.8em;
+	}
 
 	.headings_about{
 		font-size: 1em;
@@ -387,6 +454,15 @@
 		width: 50%;
 	}
 
+	.kstitle{
+		font-size: 1.2em;
+	}
+
+	.ks{
+		font-size:.75em;
+		margin: 0px;
+	}
+
 	footer{
 		font-size: .7em;
 	}
@@ -398,7 +474,7 @@
 	}
 
 	#filmmakers{
-		height: 3500px;
+		height: 3700px;
 	}
 
 	#about{
@@ -407,6 +483,10 @@
 
 	#gallery{
 		height: 900px;
+	}
+
+	nav{
+		font-size: 0.7em;
 	}
 
 	.headings_about{
@@ -464,6 +544,16 @@
 	.galimg{
 		width: 89%;
 	}
+
+	.kstitle{
+		font-size: 1.2em;
+	}
+
+	.ks{
+		font-size:.75em;
+		margin: 0px;
+	}
+
 
 	footer{
 		font-size: .7em;
@@ -476,7 +566,7 @@
 	}
 
 	#filmmakers{
-		height: 3500px;
+		height: 3750px;
 	}
 
 	#about{
@@ -485,6 +575,44 @@
 
 	#gallery{
 		height: 900px;
+	}
+
+	nav a{
+		background-color: rgba(0,0,0,1);
+		color: white;
+		clear:both;
+		text-align: center;
+		width: 100%;
+	}
+
+	nav#fixednav{
+		height: 8%;
+	}
+
+	.menu-btn div {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		margin-top: 8px;
+	}
+ 
+	.menu-btn span {
+		display: block;
+		width: 25px;
+		height: 3px;
+		margin: 5px;
+		margin-left: auto;
+	    margin-right: auto;
+		background: rgb(255, 255, 255);
+		z-index: 99;
+	}
+ 
+	.responsive-menu{
+		display: none;
+	}
+ 
+	.expand {
+		display: block !important;
 	}
 
 	.headings_about{
@@ -543,12 +671,21 @@
 		width: 89%;
 	}
 
+	.kstitle{
+		font-size: 1.15em;
+	}
+
+	.ks{
+		font-size:.67em;
+		margin: 0px;
+	}
+
 	footer{
 		font-size: .7em;
 	}
 }
 
-@media only screen and (min-width: 500px) and (max-width: 649px) {
+@media only screen and (min-width: 570px) and (max-width: 649px) {
 	#directorsstatement{
 		height: 1800px;
 	}
@@ -698,6 +835,179 @@
 		width: 80%;
 	}
 
+	.kstitle{
+		font-size: 1em;
+	}
+
+	.ks{
+		font-size:.6em;
+		margin: 0px;
+	}
+
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 569px) {
+	#directorsstatement{
+		height: 1800px;
+	}
+
+	#filmmakers{
+		height: 5900px;
+	}
+
+	#about{
+		height: 900px;
+	}
+
+	#gallery{
+		height: 1800px;
+	}
+
+	#video{
+		height: 1300px;
+	}
+
+	nav a{
+		background-color: rgba(0,0,0,1);
+		color: white;
+		clear:both;
+		text-align: center;
+		width: 100%;
+	}
+
+	nav#fixednav{
+		height: 8%;
+	}
+
+	.menu-btn div {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		margin-top: 8px;
+	}
+ 
+	.menu-btn span {
+		display: block;
+		width: 25px;
+		height: 3px;
+		margin: 5px;
+		margin-left: auto;
+	    margin-right: auto;
+		background: rgb(255, 255, 255);
+		z-index: 99;
+	}
+ 
+	.responsive-menu{
+		display: none;
+	}
+ 
+	.expand {
+		display: block !important;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 80%;
+	}
+
+	.logo{
+		width: 100%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		width: 75%;
+	}
+
+	.headings_statement{
+		font-size: .8em;
+	}
+
+	div.synopsis{
+		width: 80%;
+	}
+
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.filmmakerwrap{
+		background: none;
+		width: 75%;
+		border: none;
+	}
+
+	.biophoto{
+		width: 50%;
+		display: block;
+		float: none;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-bottom: 10px;
+	}
+
+	h2.fname{
+		text-align: center;
+	}
+
+	p.bioflow{
+		clear: both;
+		padding-top: 10px;
+		text-align: justify;
+	}
+	
+	.vidwrap{
+		width: 100%;
+	}
+
+	.vidbox{
+		clear: both;
+		width: 100%;
+	}
+
+	.vidthumb{
+		width: 55%;
+	}
+
+	.caption{
+		width: 50%;
+	}
+
+	.imgbox{
+		clear:both;
+		width: 80%;
+		margin-left: 18%;
+	}
+
+	.galimg{
+		width: 80%;
+	}
+
+	.kstitle{
+		font-size: .9em;
+	}
+
+	.ks{
+		font-size:.55em;
+		margin: 0px;
+	}
 
 	footer{
 		font-size: .7em;
@@ -723,6 +1033,11 @@
 
 	#video{
 		height: 1100px;
+	}
+
+
+	#specialthanks{
+		height: 57000px;
 	}
 
 	nav a{
@@ -855,6 +1170,10 @@
 		width: 80%;
 	}
 
+	.kstitle{
+		font-size: 1.2em;
+	}
+
 	footer{
 		font-size: .7em;
 	}
@@ -895,6 +1214,11 @@
 		background-image: none;
 		background-color: #314465;
 		height: 1100px;
+	}
+
+
+	#specialthanks{
+		height: 71200px;
 	}
 
 	body{
@@ -1037,6 +1361,14 @@
 		width: 80%;
 	}
 
+	.ks{
+		font-size: 1em;
+	}
+
+	ul.pair1{
+		float: left;
+	}
+
 	footer{
 		font-size: .6em;
 	}
@@ -1058,7 +1390,7 @@
 	#filmmakers{
 		background-image: none;
 		background-color: #6f92c8;
-		height: 5900px;
+		height: 6200px;
 	}
 
 	#about{
@@ -1077,6 +1409,10 @@
 		background-image: none;
 		background-color: #314465;
 		height: 1100px;
+	}
+
+	#specialthanks{
+		height: 85400px;
 	}
 
 	body{
@@ -1217,6 +1553,10 @@
 
 	.galimg{
 		width: 90%;
+	}
+
+	.ks{
+		clear:both;
 	}
 
 	footer{
