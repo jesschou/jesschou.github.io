@@ -2681,14 +2681,14 @@
 <footer>
 	<p>&copy; 2015 WOMEN RISING CORPORATION. ALL RIGHTS RESERVED.</p>
 </footer>
-<!--<script type="text/javascript">
+<script type="text/javascript">
 jQuery(function($){
           $( '.menu-btn' ).click(function(){
           $('.responsive-menu').toggleClass('expand')
           })
         })
-</script>-->
-<script type="text/javascript">
+</script>
+<script>
 $(document).ready(function(){
  if ($(window).width() > 800){
   function filterPath(string) {
@@ -2789,6 +2789,18 @@ $(document).ready(function() {
 			media : {}
 		}
 	});
+});
+
+$jQuery(function($){
+     $( '.menu-btn' ).click(function(){
+     $('.responsive-menu').addClass('expand')
+     $('.menu-btn').addClass('btn-none')
+     });
+    
+     $( '.close-btn' ).click(function(){
+     $('.responsive-menu').removeClass('expand')
+     $('.menu-btn').removeClass('btn-none')
+     });
 });
 </script>
 	</script>
