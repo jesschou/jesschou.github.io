@@ -1,16 +1,6 @@
-@media only screen and (min-width: 1110px) and (max-width: 1140px) {
-	.ks{
-		margin: 15px;
-	}
-}
-
 @media only screen and (max-width: 1110px) {
 	.vidbox{
 		width: 32%;
-	}
-
-	.ks{
-		margin: 10px;
 	}
 }
 
@@ -41,10 +31,6 @@
 		font-size: 1.5em;
 	}
 
-	.ks{
-		margin: 7px;
-	}
-
 	footer{
 		font-size: .7em;
 	}
@@ -60,7 +46,7 @@
 	}
 
 	#specialthanks{
-		height: 14500px;
+		height: 12500px;
 }
 
 	.hero{
@@ -89,11 +75,6 @@
 		font-size: 1.4em;
 	}
 
-	.ks{
-		font-size: .9em;
-		margin: 0px;
-	}
-
 	footer{
 		font-size: .7em;
 	}
@@ -110,6 +91,10 @@
 
 	#about{
 		height: 900px;
+	}
+
+	#specialthanks{
+		height: 15500px;
 	}
 
 	.headings_about{
@@ -155,10 +140,9 @@
 		font-size: 1.3em;
 	}
 
-	.ks{
-		font-size: .85em;
-		margin: 0px;
-	}
+	.ksnames li{
+	    width: 23%;
+	 }
 
 	footer{
 		font-size: .7em;
@@ -189,6 +173,15 @@
 	#gallery{
 		height: 1050px;
 	}
+
+	#directorsstatement{
+		height: 1500px;
+	}
+
+	#specialthanks{
+		height: 15500px;
+	}
+
 
 	nav{
 		font-size: 0.8em;
@@ -250,10 +243,9 @@
 		font-size: 1.25em;
 	}
 
-	.ks{
-		font-size: .8em;
-		margin: 0px;
-	}
+	.ksnames li{
+	    width: 24%;
+	 }
 
 	footer{
 		font-size: .7em;
@@ -262,39 +254,43 @@
 
 @media only screen and (min-width: 768px) and (max-width: 769px) {
 	#index{
-			background: url("images/lizzie-speech-4.jpg") no-repeat center center fixed;
-	background-size: cover;
+		background: url("images/lizzie-speech-4.jpg") no-repeat center center fixed;
+		background-size: cover;
 		height: 1024px;
 	}
 
 	#about{
-			background: url("images/lizzie-cam-2.jpg") no-repeat center center fixed;
-	background-size: cover;
+		background: url("images/lizzie-cam-2.jpg") no-repeat center center fixed;
+		background-size: cover;
 		height: 1024px;
 }
 
 	#directorsstatement{
-			background: url("images/lizzie-school-4.jpg") no-repeat center center fixed;
-	background-size: cover;
+		background: url("images/lizzie-school-4.jpg") no-repeat center center fixed;
+		background-size: cover;
 		height: 1500px;
 	}
 
 	#filmmakers{
-			background: url("images/austinflag-2.jpg") no-repeat center center fixed;
-	background-size: cover;
+		background: url("images/austinflag-2.jpg") no-repeat center center fixed;
+		background-size: cover;
 		height: 3200px;
 	}
 
 	#video{
-			background: url("images/capitol-2.jpg") no-repeat center center fixed;
-	background-size: cover;
+		background: url("images/capitol-2.jpg") no-repeat center center fixed;
+		background-size: cover;
 		height: 1024px;
 	}
 
 	#gallery{
-			background: url("images/blurred2.jpg") no-repeat center center fixed;
-	background-size: cover;
+		background: url("images/blurred2.jpg") no-repeat center center fixed;
+		background-size: cover;
 		height: 1050px;
+	}
+
+	#specialthanks{
+		height: 15500px;
 	}
 
 	nav{
@@ -363,10 +359,10 @@
 		font-size: 1.2em;
 	}
 
-	.ks{
-		font-size:.75em;
-		margin: 0px;
-	}
+	.ksnames li{
+	    width: 24%;
+	 }
+
 
 	footer{
 		font-size: .7em;
@@ -459,9 +455,13 @@
 	}
 
 	.ks{
-		font-size:.75em;
-		margin: 0px;
+		margin-left: 80px;
 	}
+
+	.ksnames li{
+	    width: 20%;
+	 }
+
 
 	footer{
 		font-size: .7em;
@@ -483,6 +483,10 @@
 
 	#gallery{
 		height: 900px;
+	}
+
+	#specialthanks{
+		height: 15500px;
 	}
 
 	nav{
@@ -550,10 +554,12 @@
 	}
 
 	.ks{
-		font-size:.75em;
-		margin: 0px;
+		margin-left: 80px;
 	}
 
+	.ksnames li{
+	    width: 25%;
+	 }
 
 	footer{
 		font-size: .7em;
@@ -575,6 +581,10 @@
 
 	#gallery{
 		height: 900px;
+	}
+
+	#specialthanks{
+		height: 15500px;
 	}
 
 	nav a{
@@ -676,9 +686,12 @@
 	}
 
 	.ks{
-		font-size:.67em;
-		margin: 0px;
+		margin-left: 80px;
 	}
+
+	.ksnames li{
+	    width: 25%;
+	 }
 
 	footer{
 		font-size: .7em;
@@ -704,6 +717,10 @@
 
 	#video{
 		height: 1300px;
+	}
+
+	#specialthanks{
+		height: 15500px;
 	}
 
 	nav a{
@@ -840,10 +857,12 @@
 	}
 
 	.ks{
-		font-size:.6em;
-		margin: 0px;
+		margin-left: 80px;
 	}
 
+	.ksnames li{
+	    width: 25%;
+	 }
 
 	footer{
 		font-size: .7em;
@@ -869,6 +888,10 @@
 
 	#video{
 		height: 1300px;
+	}
+
+	#specialthanks{
+		height: 29600px;
 	}
 
 	nav a{
@@ -1005,9 +1028,14 @@
 	}
 
 	.ks{
-		font-size:.55em;
-		margin: 0px;
+		margin-left: 100px;
 	}
+
+	.ksnames li{
+	    width: 26%;
+	    margin: 10px;
+	    line-height: 1.2em;
+	 }
 
 	footer{
 		font-size: .7em;
@@ -1035,9 +1063,8 @@
 		height: 1100px;
 	}
 
-
 	#specialthanks{
-		height: 57000px;
+		height: 29800px;
 	}
 
 	nav a{
@@ -1174,6 +1201,17 @@
 		font-size: 1.2em;
 	}
 
+
+	.ks{
+		margin-left: 70px;
+	}
+
+	.ksnames li{
+	    width: 26%;
+	    margin: 10px;
+	    line-height: 1.2em;
+	 }
+
 	footer{
 		font-size: .7em;
 	}
@@ -1216,9 +1254,8 @@
 		height: 1100px;
 	}
 
-
 	#specialthanks{
-		height: 71200px;
+		height: 30500px;
 	}
 
 	body{
@@ -1362,12 +1399,14 @@
 	}
 
 	.ks{
-		font-size: 1em;
+		margin-left: 70px;
 	}
 
-	ul.pair1{
-		float: left;
-	}
+	.ksnames li{
+	    width: 26%;
+	    margin: 10px;
+	    line-height: 1.2em;
+	 }
 
 	footer{
 		font-size: .6em;
@@ -1412,7 +1451,7 @@
 	}
 
 	#specialthanks{
-		height: 85400px;
+		height: 44000px;
 	}
 
 	body{
@@ -1555,9 +1594,15 @@
 		width: 90%;
 	}
 
-	.ks{
-		clear:both;
+		.ks{
+		margin-left: 70px;
 	}
+
+	.ksnames li{
+	    width: 30%;
+	    margin: 10px;
+	    line-height: 1.2em;
+	 }
 
 	footer{
 		font-size: .6em;

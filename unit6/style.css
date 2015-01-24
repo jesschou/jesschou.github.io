@@ -40,13 +40,13 @@ body {
 #gallery{
 	background: url("images/blurred2.jpg") no-repeat center center fixed;
 	background-size: cover;
-	height: 100vh;
+	height: 750px;
 }
 
 #specialthanks{
 	background: url("images/blurred3.jpg") no-repeat center center fixed;
 	background-size: cover;
-	height: 14400px;
+	height: 12500px;
 }
 
 nav{
@@ -375,18 +375,20 @@ h2.by{
 	margin-bottom: 25px;
 }
 
-.kswrap{
-	clear: both;
-	margin-left: 80px;
+.ks{
+	margin-left: 130px;
 }
 
-.ks{
-	float: left;
-	color: white;
-	margin: 20px;
-	line-height: 35px;
-	text-align: center;
-}
+.ksnames li{
+    width:20%;
+    display:inline;
+    float: left;
+   	font-family: Lato, sans-serif;
+	font-weight: 300;
+    line-height: 1.8em;
+    color: white;
+
+ }
 
 .clearfix:after{
 	visibility: hidden;
