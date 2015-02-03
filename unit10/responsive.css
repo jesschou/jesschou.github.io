@@ -1,0 +1,1611 @@
+@media only screen and (max-width: 1110px) {
+	.vidbox{
+		width: 32%;
+	}
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1109px) {
+	#directorsstatement{
+		height: 1300px;
+	}
+
+	.hero{
+		width: 55%;
+	}
+
+	.logo{
+		width: 70%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	.vidbox{
+		float: left;
+		width: 50%;
+	}
+
+	.kstitle{
+		font-size: 1.5em;
+	}
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 900px) and (max-width: 999px) {
+	#directorsstatement{
+		height: 1400px;
+	}
+
+	#filmmakers{
+		height: 3000px;
+	}
+
+	#specialthanks{
+		height: 12500px;
+}
+
+	.hero{
+		width: 60%;
+	}
+
+	.logo{
+		width: 80%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	div.directorsstatement{
+		width: 65%;
+	}
+
+	.vidbox{
+		float: left;
+		width: 50%;
+	}
+
+	.kstitle{
+		font-size: 1.4em;
+	}
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 800px) and (max-width: 899px) {
+	#directorsstatement{
+		height: 1500px;
+	}
+
+	#filmmakers{
+		height: 3300px;
+	}
+
+	#about{
+		height: 900px;
+	}
+
+	#specialthanks{
+		height: 15500px;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 60%;
+	}
+
+	.logo{
+		width: 85%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	div.synopsis{
+		width: 45%;
+	}
+
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.vidwrap{
+		width: 80%;
+	}
+
+	.vidbox{
+		float: left;
+		width: 50%;
+	}
+
+	.kstitle{
+		font-size: 1.3em;
+	}
+
+	.ksnames li{
+	    width: 23%;
+	 }
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 770px) and (max-width: 799px) {
+	#index{
+		height: 1024px;
+	}
+
+	#about{
+		height: 1024px;
+}
+
+	#directorsstatement{
+		height: 1500px;
+	}
+
+	#filmmakers{
+		height: 3200px;
+	}
+
+	#video{
+		height: 1024px;
+	}
+
+	#gallery{
+		height: 1050px;
+	}
+
+	#directorsstatement{
+		height: 1500px;
+	}
+
+	#specialthanks{
+		height: 15500px;
+	}
+
+
+	nav{
+		font-size: 0.8em;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 65%;
+	}
+
+	.logo{
+		width: 85%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	div.synopsis{
+		width: 45%;
+	}
+
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.filmmakerwrap{
+		width: 75%;
+	}
+
+	.vidwrap{
+		width: 80%;
+	}
+
+	.vidbox{
+		float: left;
+		width: 50%;
+	}
+
+	.vidthumb{
+		width: 90%;
+	}
+
+	.imgbox{
+		float: left;
+		width: 50%;
+	}
+
+	.kstitle{
+		font-size: 1.25em;
+	}
+
+	.ksnames li{
+	    width: 24%;
+	 }
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 769px) {
+	#index{
+		background: url("images/lizzie-speech-4.jpg") no-repeat center center fixed;
+		background-size: cover;
+		height: 1024px;
+	}
+
+	#about{
+		background: url("images/lizzie-cam-2.jpg") no-repeat center center fixed;
+		background-size: cover;
+		height: 1024px;
+}
+
+	#directorsstatement{
+		background: url("images/lizzie-school-4.jpg") no-repeat center center fixed;
+		background-size: cover;
+		height: 1500px;
+	}
+
+	#filmmakers{
+		background: url("images/austinflag-2.jpg") no-repeat center center fixed;
+		background-size: cover;
+		height: 3200px;
+	}
+
+	#video{
+		background: url("images/capitol-2.jpg") no-repeat center center fixed;
+		background-size: cover;
+		height: 1024px;
+	}
+
+	#gallery{
+		background: url("images/blurred2.jpg") no-repeat center center fixed;
+		background-size: cover;
+		height: 1050px;
+	}
+
+	#specialthanks{
+		height: 15500px;
+	}
+
+	nav{
+		font-size: 0.8em;
+	}
+
+	.headings_about{
+		float: none;
+		width: 100%;
+		font-size: 1em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 65%;
+	}
+
+	.logo{
+		width: 85%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	div.synopsis{
+		float: none;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.filmmakerwrap{
+		width: 75%;
+	}
+
+	.vidwrap{
+		width: 80%;
+	}
+
+	.vidbox{
+		float: left;
+		width: 50%;
+	}
+
+	.vidthumb{
+		width: 90%;
+	}
+
+	.imgbox{
+		float: left;
+		width: 50%;
+	}
+
+	.kstitle{
+		font-size: 1.2em;
+	}
+
+	.ksnames li{
+	    width: 24%;
+	 }
+
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 750px) and (max-width: 767px) {
+	#index{
+		height: 1024px;
+	}
+
+	#about{
+		height: 1024px;
+	}
+
+	#directorsstatement{
+		height: 1500px;
+	}
+
+	#filmmakers{
+		height: 3400px;
+	}
+
+	#video{
+		height: 1024px;
+	}
+
+	#gallery{
+		height: 1050px;
+	}
+
+	nav{
+		font-size: 0.8em;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 65%;
+	}
+
+	.logo{
+		width: 85%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	div.synopsis{
+		width: 45%;
+	}
+
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.filmmakerwrap{
+		width: 75%;
+	}
+
+	.vidwrap{
+		width: 80%;
+	}
+
+	.vidbox{
+		float: left;
+		width: 50%;
+	}
+
+	.vidthumb{
+		width: 90%;
+	}
+
+	.imgbox{
+		float: left;
+		width: 50%;
+	}
+
+	.kstitle{
+		font-size: 1.2em;
+	}
+
+	.ks{
+		margin-left: 80px;
+	}
+
+	.ksnames li{
+	    width: 20%;
+	 }
+
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 700px) and (max-width: 749px) {
+	#directorsstatement{
+		height: 1500px;
+	}
+
+	#filmmakers{
+		height: 3700px;
+	}
+
+	#about{
+		height: 900px;
+	}
+
+	#gallery{
+		height: 900px;
+	}
+
+	#specialthanks{
+		height: 15500px;
+	}
+
+	nav{
+		font-size: 0.7em;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 70%;
+	}
+
+	.logo{
+		width: 80%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	div.synopsis{
+		width: 50%;
+	}
+
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.filmmakerwrap{
+		width: 75%;
+	}
+	
+	.vidwrap{
+		width: 80%;
+	}
+
+	.vidbox{
+		float: left;
+		width: 50%;
+	}
+
+	.vidthumb{
+		width: 90%;
+	}
+
+	.imgbox{
+		float: left;
+		width: 50%;
+	}
+
+	.galimg{
+		width: 89%;
+	}
+
+	.kstitle{
+		font-size: 1.2em;
+	}
+
+	.ks{
+		margin-left: 80px;
+	}
+
+	.ksnames li{
+	    width: 25%;
+	 }
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 650px) and (max-width: 699px) {
+	#directorsstatement{
+		height: 1500px;
+	}
+
+	#filmmakers{
+		height: 3750px;
+	}
+
+	#about{
+		height: 900px;
+	}
+
+	#gallery{
+		height: 900px;
+	}
+
+	#specialthanks{
+		height: 15500px;
+	}
+
+	nav a{
+		background-color: rgba(0,0,0,1);
+		color: white;
+		clear:both;
+		text-align: center;
+		width: 100%;
+	}
+
+	nav#fixednav{
+		height: 8%;
+	}
+
+	.menu-btn div {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		margin-top: 8px;
+	}
+ 
+	.menu-btn span {
+		display: block;
+		width: 25px;
+		height: 3px;
+		margin: 5px;
+		margin-left: auto;
+	    margin-right: auto;
+		background: rgb(255, 255, 255);
+		z-index: 99;
+	}
+ 
+	.responsive-menu{
+		display: none;
+	}
+ 
+	.expand {
+		display: block !important;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 70%;
+	}
+
+	.logo{
+		width: 90%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	div.synopsis{
+		width: 50%;
+	}
+
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.filmmakerwrap{
+		width: 75%;
+	}
+	
+	.vidwrap{
+		width: 80%;
+	}
+
+	.vidbox{
+		float: left;
+		width: 50%;
+	}
+
+	.vidthumb{
+		width: 90%;
+	}
+
+	.imgbox{
+		float: left;
+		width: 50%;
+	}
+
+	.galimg{
+		width: 89%;
+	}
+
+	.kstitle{
+		font-size: 1.15em;
+	}
+
+	.ks{
+		margin-left: 80px;
+	}
+
+	.ksnames li{
+	    width: 25%;
+	 }
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 570px) and (max-width: 649px) {
+	#directorsstatement{
+		height: 1800px;
+	}
+
+	#filmmakers{
+		height: 5900px;
+	}
+
+	#about{
+		height: 900px;
+	}
+
+	#gallery{
+		height: 1800px;
+	}
+
+	#video{
+		height: 1300px;
+	}
+
+	#specialthanks{
+		height: 15600px;
+	}
+
+	nav a{
+		background-color: rgba(0,0,0,1);
+		color: white;
+		clear:both;
+		text-align: center;
+		width: 100%;
+	}
+
+	nav#fixednav{
+		height: 8%;
+	}
+
+	.menu-btn div {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		margin-top: 8px;
+	}
+ 
+	.menu-btn span {
+		display: block;
+		width: 25px;
+		height: 3px;
+		margin: 5px;
+		margin-left: auto;
+	    margin-right: auto;
+		background: rgb(255, 255, 255);
+		z-index: 99;
+	}
+ 
+	.responsive-menu{
+		display: none;
+	}
+ 
+	.expand {
+		display: block !important;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 80%;
+	}
+
+	.logo{
+		width: 100%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		width: 75%;
+	}
+
+	.headings_statement{
+		font-size: .8em;
+	}
+
+	div.synopsis{
+		width: 80%;
+	}
+
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.filmmakerwrap{
+		background: none;
+		width: 75%;
+		border: none;
+	}
+
+	.biophoto{
+		width: 50%;
+		display: block;
+		float: none;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-bottom: 10px;
+	}
+
+	h2.fname{
+		text-align: center;
+	}
+
+	p.bioflow{
+		clear: both;
+		padding-top: 10px;
+		text-align: justify;
+	}
+	
+	.vidwrap{
+		width: 100%;
+	}
+
+	.vidbox{
+		clear: both;
+		width: 100%;
+	}
+
+	.vidthumb{
+		width: 55%;
+	}
+
+	.caption{
+		width: 50%;
+	}
+
+	.imgbox{
+		clear:both;
+		width: 80%;
+		margin-left: 18%;
+	}
+
+	.galimg{
+		width: 80%;
+	}
+
+	.kstitle{
+		font-size: 1em;
+	}
+
+	.ks{
+		margin-left: 80px;
+	}
+
+	.ksnames li{
+	    width: 25%;
+	 }
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 569px) {
+	#directorsstatement{
+		height: 1800px;
+	}
+
+	#filmmakers{
+		height: 5900px;
+	}
+
+	#about{
+		height: 900px;
+	}
+
+	#gallery{
+		height: 1800px;
+	}
+
+	#video{
+		height: 1300px;
+	}
+
+	#specialthanks{
+		height: 30300px;
+	}
+
+
+	nav a{
+		background-color: rgba(0,0,0,1);
+		color: white;
+		clear:both;
+		text-align: center;
+		width: 100%;
+	}
+
+	nav#fixednav{
+		height: 8%;
+	}
+
+	.menu-btn div {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		margin-top: 8px;
+	}
+ 
+	.menu-btn span {
+		display: block;
+		width: 25px;
+		height: 3px;
+		margin: 5px;
+		margin-left: auto;
+	    margin-right: auto;
+		background: rgb(255, 255, 255);
+		z-index: 99;
+	}
+ 
+	.responsive-menu{
+		display: none;
+	}
+ 
+	.expand {
+		display: block !important;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 80%;
+	}
+
+	.logo{
+		width: 100%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		width: 75%;
+	}
+
+	.headings_statement{
+		font-size: .8em;
+	}
+
+	div.synopsis{
+		width: 80%;
+	}
+
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.filmmakerwrap{
+		background: none;
+		width: 75%;
+		border: none;
+	}
+
+	.biophoto{
+		width: 50%;
+		display: block;
+		float: none;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-bottom: 10px;
+	}
+
+	h2.fname{
+		text-align: center;
+	}
+
+	p.bioflow{
+		clear: both;
+		padding-top: 10px;
+		text-align: justify;
+	}
+	
+	.vidwrap{
+		width: 100%;
+	}
+
+	.vidbox{
+		clear: both;
+		width: 100%;
+	}
+
+	.vidthumb{
+		width: 55%;
+	}
+
+	.caption{
+		width: 50%;
+	}
+
+	.imgbox{
+		clear:both;
+		width: 80%;
+		margin-left: 18%;
+	}
+
+	.galimg{
+		width: 80%;
+	}
+
+	.kstitle{
+		font-size: .9em;
+	}
+
+	.ks{
+		margin-left: 100px;
+	}
+
+	.ksnames li{
+	    width: 26%;
+	    margin: 10px;
+	    line-height: 1.2em;
+	 }
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+	#directorsstatement{
+		height: 2300px;
+	}
+
+	#filmmakers{
+		height: 6400px;
+	}
+
+	#about{
+		height: 900px;
+	}
+
+	#gallery{
+		height: 1400px;
+	}
+
+	#video{
+		height: 1100px;
+	}
+
+	#specialthanks{
+		height: 30400px;
+	}
+
+	nav a{
+		background-color: rgba(0,0,0,1);
+		color: white;
+		clear:both;
+		text-align: center;
+		width: 100%;
+	}
+
+	nav#fixednav{
+		height: 8%;
+	}
+
+	.menu-btn div {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		margin-top: 8px;
+	}
+ 
+	.menu-btn span {
+		display: block;
+		width: 25px;
+		height: 3px;
+		margin: 5px;
+		margin-left: auto;
+	    margin-right: auto;
+		background: rgb(255, 255, 255);
+		z-index: 99;
+	}
+ 
+	.responsive-menu{
+		display: none;
+	}
+ 
+	.expand {
+		display: block !important;
+	}
+
+	.headings_about{
+		font-size: 1em;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: 1em;
+	}
+
+	.hero{
+		width: 80%;
+	}
+
+	.logo{
+		width: 100%;
+	}
+
+	.icon{
+		width: 40px;
+		height: 40px;
+	}
+
+	.headings_about{
+		font-size: .8em;
+		width: 70%;
+	}
+
+	.headings_statement{
+		font-size: .8em;
+		width: 60%;
+	}
+
+	div.synopsis{
+		width: 80%;
+	}
+
+	div.directorsstatement{
+		width: 70%;
+	}
+
+	.filmmakerwrap{
+		background: none;
+		width: 75%;
+		border: none;
+	}
+
+	.biophoto{
+		width: 50%;
+		display: block;
+		float: none;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-bottom: 10px;
+	}
+
+	h2.fname{
+		text-align: center;
+	}
+
+	p.bioflow{
+		clear: both;
+		padding-top: 10px;
+		text-align: justify;
+	}
+	
+	.vidwrap{
+		width: 100%;
+	}
+
+	.vidbox{
+		clear: both;
+		width: 100%;
+	}
+
+	.vidthumb{
+		width: 55%;
+	}
+
+	.caption{
+		width: 50%;
+	}
+
+	.imgbox{
+		clear:both;
+		width: 80%;
+		margin-left: 18%;
+	}
+
+	.galimg{
+		width: 80%;
+	}
+
+	.kstitle{
+		font-size: 1.2em;
+	}
+
+
+	.ks{
+		margin-left: 70px;
+	}
+
+	.ksnames li{
+	    width: 26%;
+	    margin: 10px;
+	    line-height: 1.2em;
+	 }
+
+	footer{
+		font-size: .7em;
+	}
+}
+
+@media only screen and (min-width: 325px) and (max-width: 399px) {
+	#index{
+		background-image: none;
+		background-color: #1b1b33;
+		height: 500px;
+	}
+
+	#directorsstatement{
+		background-image: none;
+		background-color: #aa875d;
+		height: 2300px;
+	}
+
+	#filmmakers{
+		background-image: none;
+		background-color: #6f92c8;
+		height: 5900px;
+	}
+
+	#about{
+		background-image: none;
+		background-color: #cfbb86;
+		height: 900px;
+	}
+
+	#video{
+		background-image: none;
+		background-color: #bdad9e;
+		height: 1000px;
+	}
+
+	#gallery{
+		background-image: none;
+		background-color: #314465;
+		height: 1100px;
+	}
+
+	#specialthanks{
+		height: 45900px;
+	}
+
+	body{
+		font-size: 13px;
+	}
+
+	nav a{
+		background-color: rgba(0,0,0,1);
+		color: white;
+		clear:both;
+		text-align: center;
+		width: 100%;
+	}
+
+	nav#fixednav{
+		height: 8%;
+	}
+
+	.menu-btn div {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		margin-top: 8px;
+	}
+ 
+	.menu-btn span {
+		display: block;
+		width: 25px;
+		height: 3px;
+		margin: 5px;
+		margin-left: auto;
+	    margin-right: auto;
+		background: rgb(255, 255, 255);
+		z-index: 99;
+	}
+ 
+	.responsive-menu{
+		display: none;
+	}
+ 
+	.expand {
+		display: block !important;
+	}
+
+	.hero{
+		width: 80%;
+	}
+
+	.logo{
+		margin-top: 10px;
+		width: 100%;
+	}
+
+	aside{
+		margin: 0 4px 0 0;
+	}
+
+	.icon{
+		width: 30px;
+		height: 30px;
+	}
+
+	.headings{
+		font-size: .8em;
+		width: 60%;
+	}
+
+	.headings_about{
+		font-size: .8em;
+		width: 60%;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: .8em;
+		width: 60%;
+	}
+
+	div.synopsis{
+		float: none;
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div.directorsstatement{
+		width: 85%;
+	}
+
+	.filmmakerwrap{
+		background: none;
+		width: 90%;
+		border: none;
+	}
+
+	.biophoto{
+		width: 50%;
+		display: block;
+		float: none;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-bottom: 10px;
+	}
+
+	h2.fname{
+		font-size: .9em;
+		text-align: center;
+	}
+
+	p.bioflow{
+		clear: both;
+		padding-top: 10px;
+		text-align: justify;
+	}
+	
+	.vidwrap{
+		width: 100%;
+	}
+
+	.vidbox{
+		clear: both;
+		width: 100%;
+	}
+
+	.vidthumb{
+		width: 55%;
+	}
+
+	.caption{
+		width: 50%;
+	}
+
+	.imgbox{
+		clear:both;
+		width: 80%;
+		margin-left: 18%;
+	}
+
+	.galimg{
+		width: 80%;
+	}
+
+	.ks{
+		margin-left: 70px;
+	}
+
+	.ksnames li{
+	    width: 26%;
+	    margin: 10px;
+	    line-height: 1.2em;
+	 }
+
+	footer{
+		font-size: .6em;
+	}
+}
+
+@media only screen and (min-width: 200px) and (max-width: 324px) {
+	#index{
+		background-image: none;
+		background-color: #1b1b33;
+		height: 500px;
+	}
+
+	#directorsstatement{
+		background-image: none;
+		background-color: #aa875d;
+		height: 2300px;
+	}
+
+	#filmmakers{
+		background-image: none;
+		background-color: #6f92c8;
+		height: 6200px;
+	}
+
+	#about{
+		background-image: none;
+		background-color: #cfbb86;
+		height: 900px;
+	}
+
+	#video{
+		background-image: none;
+		background-color: #bdad9e;
+		height: 1000px;
+	}
+
+	#gallery{
+		background-image: none;
+		background-color: #314465;
+		height: 1100px;
+	}
+
+	#specialthanks{
+		height: 44000px;
+	}
+
+	body{
+		font-size: 13px;
+	}
+
+	nav a{
+		background-color: rgba(0,0,0,1);
+		color: white;
+		clear:both;
+		text-align: center;
+		width: 100%;
+	}
+
+	nav#fixednav{
+		height: 8%;
+	}
+
+	.menu-btn div {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+		margin-top: 8px;
+	}
+ 
+	.menu-btn span {
+		display: block;
+		width: 25px;
+		height: 3px;
+		margin: 5px;
+		margin-left: auto;
+	    margin-right: auto;
+		background: rgb(255, 255, 255);
+		z-index: 99;
+	}
+ 
+	.responsive-menu{
+		display: none;
+	}
+ 
+	.expand {
+		display: block !important;
+	}
+
+	.hero{
+		width: 80%;
+	}
+
+	.logo{
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	aside{
+		margin: 0 1px 0 0;
+	}
+
+	.icon{
+		width: 30px;
+		height: 30px;
+	}
+
+	.headings{
+		font-size: .8em;
+		width: 60%;
+	}
+
+	.headings_about{
+		font-size: .8em;
+		width: 60%;
+		margin-left: 80px;
+	}
+
+	.headings_statement{
+		font-size: .8em;
+		width: 60%;
+	}
+
+	div.synopsis{
+		float: none;
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div.directorsstatement{
+		width: 85%;
+	}
+
+	.filmmakerwrap{
+		background: none;
+		width: 90%;
+		border: none;
+	}
+
+	.biophoto{
+		width: 50%;
+		display: block;
+		float: none;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-bottom: 10px;
+	}
+
+	h2.fname{
+		font-size: .9em;
+		text-align: center;
+	}
+
+	p.bioflow{
+		clear: both;
+		padding-top: 10px;
+		text-align: justify;
+	}
+	
+	.vidwrap{
+		width: 100%;
+	}
+
+	.vidbox{
+		clear: both;
+		width: 100%;
+	}
+
+	.vidthumb{
+		width: 65%;
+	}
+
+	.caption{
+		width: 50%;
+	}
+
+	.imgbox{
+		clear:both;
+		width: 80%;
+		margin-left: 13%;
+	}
+
+	.galimg{
+		width: 90%;
+	}
+
+	.ks{
+		margin-left: 70px;
+	}
+
+	.ksnames li{
+	    width: 30%;
+	    margin: 10px;
+	    line-height: 1.2em;
+	 }
+
+	footer{
+		font-size: .6em;
+	}
+}
