@@ -320,6 +320,7 @@ h2.by{
 	margin-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 8%;
 }
 
 .vidbox{
@@ -333,7 +334,7 @@ h2.by{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 6%;
+	margin-top: 5%;
 	width: 80%;
 }
 
@@ -355,9 +356,9 @@ h2.by{
 .galwrap {
 	clear: both;
    	overflow: hidden;
-   	margin-top: 1%;
    	margin-left: auto;
    	margin-right: auto;
+   	padding-top: 8%;
    	width: 90%;
 }
 
@@ -375,21 +376,33 @@ h2.by{
 	width: 95%;
 }
 
-p.support{
-	background: white;
+p.ig{
+	font-family: Amatic SC, cursive;
+	font-size: 4em;
+	color: white;
+	padding-top: 80px;
+	text-align: center;
+}
+
+p.ig2{
+	background-color: rgba(255,255,255,.7);
+	text-align: center;
 	color: black;
 	font-family: Lato, sans-serif;
-	font-weight: 300;
-	font-size: 1.5em;
+	font-weight: 400;
+	font-size: 1.2em;
 	line-height: 30px;
-	text-align: center;
-	width: 50%;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .igwrap{
 	text-align: center;
+	background-size: 50%;
+	padding-top: 20px;
 }
 
 .kstitle{
