@@ -317,7 +317,6 @@ h2.by{
 .vidwrap{
 	clear: both;
 	width: 70%;
-	margin-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 8%;
@@ -387,24 +386,28 @@ p.ig{
 }
 
 p.ig2{
-	background-color: rgba(255,255,255,.7);
+	background-color: rgba(255,255,255,.6);
 	text-align: center;
 	color: black;
+	border: 1px solid;
+	border-color: rgba(255,255,255,.6);
+    border-radius: 5px;
 	font-family: Lato, sans-serif;
 	font-weight: 400;
-	font-size: 1.2em;
-	line-height: 30px;
-	letter-spacing: .1em;
+	font-size: 1em;
+	line-height: 20px;
+	letter-spacing: .05em;
 	text-transform: uppercase;
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 3px;
 }
 
 .igwrap{
 	text-align: center;
 	background-size: 50%;
-	padding-top: 10px;
+	padding-top: 3px;
 }
 
 .kstitle{
