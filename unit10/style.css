@@ -379,7 +379,9 @@ h2.by{
 p.ig{
 	font-family: Amatic SC, cursive;
 	font-size: 4em;
+	font-weight: 700;
 	color: white;
+	letter-spacing: .1em;
 	padding-top: 80px;
 	text-align: center;
 }
@@ -402,7 +404,7 @@ p.ig2{
 .igwrap{
 	text-align: center;
 	background-size: 50%;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 .kstitle{
