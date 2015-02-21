@@ -43,10 +43,10 @@ body {
 	height: 750px;
 }
 
-#support{
+#highroad{
 	background: url("images/hallway.jpg") no-repeat center center fixed;
 	background-size: cover;
-	height: 750px;
+	height: 900px;
 }
 
 #specialthanks{
@@ -375,27 +375,165 @@ h2.by{
 	width: 95%;
 }
 
-p.highroad{
-	font-family: Amatic SC, cursive;
-	font-size: 4em;
-	font-weight: 700;
+h1.highroad{
+	font-family: Lato, sans-serif;
+	font-weight: 100;
+	font-size: 1.2em;
+	color: #ebebeb;
+	letter-spacing: 0.2em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 110px;
+	text-align: center;
+	width: 100%;
+}
+
+.ctawrap {
+	clear: both;
+	margin-left: 50px;
+	margin-right: auto;
+}
+
+div.cta{
+	float: none;
+	width: 90%;
+	margin: 10px;
+	margin-bottom: 20px;
+}
+
+div.lizziemsg{
+	background: rgba(0,0,0,0);
+	border-style: none;
+	border-width: 2px;
+	color: #ebebeb;
+	clear: both;
+	margin-left: 10px;
+	margin-top: 30px;
+	padding: 20px;
+	padding-bottom: 30px;
+}
+
+.ctacaption{
+	background: white;
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	line-height: 25px;
+	font-size: 1.2em;
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.ctavid{
+	float: left;
+}
+
+p.ctaparagraph{
 	color: white;
-	letter-spacing: .1em;
-	padding-top: 80px;
+	font-size: 1.1em;
+	font-weight: 300;
+	line-height: 22px;
+	text-align: justify;
+	word-spacing: .8px;
+	margin-top: 10px;
+	word-spacing: .8px;
+}
+
+p.lizzie{
+	float: right;
+	font-family: 'League Script', cursive;
+	font-size: 3.2em;
+}
+
+.actionwrap{
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+.action{
+	float: left;
+	margin: 25px;
 	text-align: center;
 }
 
-p.ig2{
-	text-align: center;
+.ctaicon{
+	width: 70%;
+}
+
+.icontitle{
 	color: white;
+	font-size: 1.7em;
+	letter-spacing: .3em;
+	margin-bottom: 5px;
+}
+
+.iconcaption{
+	background: white;
+	color: black;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 300;
-	font-size: 1.4em;
-	letter-spacing: .1em;
+	line-height: 20px;
+	font-size: 1em;
+	text-align: center;
+	width: 72%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10px;
 	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.button {
+     
+    /*Step 2: Basic Button Styles*/
+    display: block;
+    height: 50px;
+    width: 75%;
+    background: #f2e5e5;
+    border: 2px solid rgba(242, 229, 229, 5);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+     
+    /*Step 3: Text Styles*/
+    color: rgba(0, 0, 0, 0.55);
+    text-align: center;
+    font: .9em/45px "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+ 
+/*Step 3: Link Styles*/
+a.button2 {
+    text-decoration: none;
+}
+ 
+div.steps{
+	background: rgba(0,0,0,0);
+	border-style: none;
+	border-width: 2px;
+	color: #ebebeb;
+	clear: both;
+	margin-left: 10px;
+	margin-top: 30px;
+	padding: 20px;
+	padding-bottom: 30px;
+}
+
+ul.steps{
+	color: white;
+	font-size: 1.7em;
+	font-weight: 300;
+	line-height: 28px;
+	text-align: justify;
+	word-spacing: .8px;
+	margin-top: 10px;
+	word-spacing: .5px;
 }
 
 .iframe{
