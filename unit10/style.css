@@ -441,6 +441,7 @@ p.ctaparagraph{
 	word-spacing: .8px;
 	margin-top: 10px;
 	word-spacing: .8px;
+	overflow: hidden;
 }
 
 p.lizzie{
