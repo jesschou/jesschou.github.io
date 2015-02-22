@@ -1615,7 +1615,7 @@
 	#filmmakers{
 		background-image: none;
 		background-color: #6f92c8;
-		height: 5900px;
+		height: 5800px;
 	}
 
 	#about{
@@ -1627,7 +1627,7 @@
 	#video{
 		background-image: none;
 		background-color: #bdad9e;
-		height: 1000px;
+		height: 900px;
 	}
 
 	#gallery{
@@ -1770,6 +1770,7 @@
 
 	.vidbox{
 		clear: both;
+		margin-top: 15px;
 		width: 100%;
 	}
 
