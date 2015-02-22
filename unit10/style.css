@@ -433,7 +433,7 @@ div.cta{
 	float: none;
 	width: 90%;
 	margin: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 100px;
 }
 
 div.lizziemsg{
@@ -459,7 +459,7 @@ p.ctaparagraph{
 	line-height: 22px;
 	text-align: justify;
 	word-spacing: .8px;
-	margin-top: 10px;
+	margin-top: 0px;
 	word-spacing: .8px;
 	overflow: hidden;
 }
@@ -469,7 +469,7 @@ p.lizzie{
 	float: right;
 	font-family: 'League Script', cursive;
 	font-size: 3.2em;
-	margin-right: 20px;
+	margin-right: 40px;
 }
 
 .actionwrap{
