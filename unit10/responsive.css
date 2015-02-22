@@ -1683,6 +1683,11 @@
 		height: 45900px;
 	}
 
+	#bravehearts{
+		background-image: none;
+		background-color: #152775;
+	}
+
 	body{
 		font-size: 13px;
 	}
@@ -1937,6 +1942,11 @@
 
 	#specialthanks{
 		height: 44000px;
+	}
+
+	#bravehearts{
+		background-image: none;
+		background-color: #152775;
 	}
 
 	body{
