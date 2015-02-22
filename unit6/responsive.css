@@ -254,7 +254,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 769px) {
 	#index{
-		background: url("images/lizzie-speech-4.jpg") no-repeat center center fixed;
+		background: url("images/lizzie-steps.jpg") no-repeat center center fixed;
 		background-size: cover;
 		height: 1024px;
 	}
@@ -285,6 +285,12 @@
 
 	#gallery{
 		background: url("images/blurred2.jpg") no-repeat center center fixed;
+		background-size: cover;
+		height: 1050px;
+	}
+
+	#highroad{
+		background: url("images/hallway.jpg") no-repeat center center fixed;
 		background-size: cover;
 		height: 1050px;
 	}

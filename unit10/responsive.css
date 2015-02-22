@@ -1,7 +1,24 @@
+@media only screen and (min-width: 1111px) and (max-width: 1129px) {
+	.action{
+		margin: 18px;
+	}
+}
+
+
+
 @media only screen and (max-width: 1110px) {
 	.vidbox{
 		width: 32%;
 	}
+
+	.action{
+		margin: 20px;
+	}
+
+	.ctaicon{
+		width: 40%;
+	}
+
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1109px) {
@@ -28,7 +45,7 @@
 	}
 
 	.action{
-		margin: 12px;
+		margin: 8px;
 	}
 
 	.ctaicon{
@@ -55,7 +72,11 @@
 
 	#specialthanks{
 		height: 12500px;
-}
+	}
+
+	nav{
+		font-size: .79em;
+	}
 
 	.hero{
 		width: 60%;
@@ -122,6 +143,11 @@
 
 	#specialthanks{
 		height: 15500px;
+	}
+
+	nav{
+		font-size: .7em;
+		padding-top: 3px;
 	}
 
 	.headings_about{
@@ -241,9 +267,9 @@
 		height: 15500px;
 	}
 
-
 	nav{
-		font-size: 0.8em;
+		font-size: 0.68em;
+		padding-top: 5px;
 	}
 
 	.headings_about{
@@ -345,7 +371,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 769px) {
 	#index{
-		background: url("images/lizzie-speech-4.jpg") no-repeat center center fixed;
+		background: url("images/lizzie-steps.jpg") no-repeat center center fixed;
 		background-size: cover;
 		height: 1024px;
 	}
@@ -380,12 +406,19 @@
 		height: 1050px;
 	}
 
+	#highroad{
+		background: url("images/hallway.jpg") no-repeat center center fixed;
+		background-size: cover;
+		height: 950px;
+	}
+
 	#specialthanks{
 		height: 15500px;
 	}
 
 	nav{
-		font-size: 0.8em;
+		font-size: 0.67em;
+		padding-top: 5px;
 	}
 
 	.headings_about{
@@ -401,10 +434,12 @@
 	}
 
 	.hero{
+		margin-left: 0px;
 		width: 80%;
 	}
 
 	.logo{
+		margin-left: 0px;
 		width: 80%;
 	}
 
@@ -518,7 +553,8 @@
 	}
 
 	nav{
-		font-size: 0.8em;
+		font-size: 0.66em;
+		padding-top: 5px;
 	}
 
 	.headings_about{
@@ -647,7 +683,8 @@
 	}
 
 	nav{
-		font-size: 0.7em;
+		font-size: 0.61em;
+		padding-top: 5px;
 	}
 
 	.headings_about{
@@ -664,13 +701,13 @@
 		margin-right: auto;
 		margin-bottom: 30px;
 		margin-top: 70px;
-		width: 75%;
+		width: 80%;
 	}
 
 	.logo{
 		margin-left: 0px;
 		margin-right: auto;
-		width: 75%;
+		width: 80%;
 	}
 
 	.icon{

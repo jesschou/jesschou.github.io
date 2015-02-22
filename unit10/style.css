@@ -55,6 +55,40 @@ body {
 	height: 12500px;
 }
 
+#bravehearts{
+	background: url("images/lizzie-speech-4.jpg")no-repeat center center fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+.headings_bravehearts{
+	float: left;
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+	font-size: 1.6em;
+	color: #ffffff;
+	letter-spacing: 0.1em;
+	margin-left: 100px;
+	padding-top: 120px;
+	text-align: center;
+	width: 30%;
+}
+
+h2.bravehearts{
+	font-family: Lato, sans-serif;
+	font-weight: 100;
+	font-size: 1em;
+	line-height: 30px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+iframe{
+	float: right;
+	margin-right: 80px;
+	margin-top: 50px;
+}
+
 nav{
 	background:rgba(0,0,0,.2);
 	font-size: 0.85em;
@@ -92,7 +126,7 @@ a:hover{
 
 .active{
 	color: #ffffff;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 h1{
@@ -460,6 +494,14 @@ p.lizzie{
 	font-size: 1.7em;
 	letter-spacing: .3em;
 	margin-bottom: 5px;
+}
+
+.icondescription{
+	color: white;
+	font-size: 1em;
+	font-weight: 400;
+	letter-spacing: .1em;
+	margin-bottom: 7px;
 }
 
 .iconcaption{
