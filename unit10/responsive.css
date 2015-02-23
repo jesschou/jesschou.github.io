@@ -1645,44 +1645,32 @@
 		height: 500px;
 	}
 
-	#directorsstatement{
-		background-image: none;
-		background-color: #aa875d;
-		height: 1800px;
+		#directorsstatement{
+		height: 2300px;
 	}
 
 	#filmmakers{
-		background-image: none;
-		background-color: #6f92c8;
-		height: 5150px;
+		height: 6800px;
 	}
 
 	#about{
-		background-image: none;
-		background-color: #cfbb86;
-		height: 500px;
-	}
-
-	#video{
-		background-image: none;
-		background-color: #bdad9e;
-		height: 1000px;
+		height: 900px;
 	}
 
 	#gallery{
-		background-image: none;
-		background-color: #314465;
-		height: 1000px;
+		height: 1400px;
+	}
+
+	#video{
+		height: 1100px;
 	}
 
 	#highroad{
-		background-image: none;
-		background-color: #a5a7b0;
-		height: 1680px;
+		height: 1500px;
 	}
 
 	#specialthanks{
-		height: 45900px;
+		height: 30400px;
 	}
 
 	body{
