@@ -452,6 +452,15 @@ div.lizziemsg{
 	float: left;
 }
 
+.ctathumb{
+	border: solid;
+	border-color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
 p.ctaparagraph{
 	color: white;
 	font-size: 1.1em;
@@ -459,7 +468,7 @@ p.ctaparagraph{
 	line-height: 22px;
 	text-align: justify;
 	word-spacing: .8px;
-	margin-top: 0px;
+	margin-top: 10px;
 	word-spacing: .8px;
 	overflow: hidden;
 }
