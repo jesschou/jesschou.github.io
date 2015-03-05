@@ -28,7 +28,7 @@ body {
 #filmmakers{
 	background: url("images/austinflag-2.jpg") no-repeat center center fixed;
 	background-size: cover;
-	height: 2800px;
+	height: 3000px;
 }
 
 #video{
@@ -61,6 +61,7 @@ body {
 	height: 100vh;
 }
 
+
 nav{
 	background:rgba(0,0,0,.2);
 	font-size: 0.85em;
@@ -70,7 +71,7 @@ nav{
 }
 
 nav a{
-	color: #cacaca;
+	color: #dddddd;
 	display: inline-block;
 	float: right;
 	text-decoration: none;
@@ -98,7 +99,7 @@ a:hover{
 
 .active{
 	color: #ffffff;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 h1{
@@ -142,22 +143,22 @@ h2.bravehearts{
 iframe{
 	float: right;
 	margin-top: 50px;
-	position: fixed;
+	margin-right: 50px;
 }
 
 .hero{
-	width: 50%;
+	width: 60%;
 	display: block;
-    margin-left: auto;
+    margin-left: 90px;
     margin-right: auto;
     margin-top: 60px;
 }
 
 .logo{
 	clear: both;
-	width: 70%;
+	width: 60%;
 	display: block;
-    margin-left: auto;
+    margin-left: 90px;
     margin-right: auto;
     margin-top: -40px;
 }
@@ -284,7 +285,7 @@ h2.by{
 	font-family: Lato, sans-serif;
 	font-weight: 100;
 	font-size: 1.2em;
-	color: #ebebeb;
+	color: #ffffff;
 	letter-spacing: 0.2em;
 	margin-left: auto;
 	margin-right: auto;
@@ -302,7 +303,7 @@ h2.by{
 	font-family: Lato, sans-serif;
 	font-weight: 100;
 	font-size: 1.2em;
-	color: #ebebeb;
+	color: #ffffff;
 	letter-spacing: 0.2em;
 	margin-right: auto;
 	margin-left: 40px;
@@ -315,7 +316,7 @@ h2.by{
 	font-family: Lato, sans-serif;
 	font-weight: 100;
 	font-size: 1.2em;
-	color: #ebebeb;
+	color: #ffffff;
 	letter-spacing: 0.2em;
 	margin-left: auto;
 	margin-right: auto;
@@ -352,9 +353,9 @@ h2.by{
 .vidwrap{
 	clear: both;
 	width: 70%;
-	margin-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 8%;
 }
 
 .vidbox{
@@ -368,7 +369,7 @@ h2.by{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 6%;
+	margin-top: 5%;
 	width: 80%;
 }
 
@@ -390,9 +391,9 @@ h2.by{
 .galwrap {
 	clear: both;
    	overflow: hidden;
-   	margin-top: 1%;
    	margin-left: auto;
    	margin-right: auto;
+   	padding-top: 8%;
    	width: 90%;
 }
 
@@ -408,6 +409,173 @@ h2.by{
 	margin-top: 10%;
 	position: relative;
 	width: 95%;
+}
+
+.headings_highroad{
+	font-family: Lato, sans-serif;
+	font-weight: 100;
+	font-size: 1.2em;
+	color: #ffffff;
+	letter-spacing: 0.2em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 110px;
+	text-align: center;
+	width: 100%;
+}
+
+.ctawrap {
+	clear: both;
+	margin-left: 50px;
+	margin-right: auto;
+}
+
+div.cta{
+	float: none;
+	width: 90%;
+	margin: 10px;
+	margin-bottom: 100px;
+}
+
+div.lizziemsg{
+	background: rgba(0,0,0,0);
+	border-style: none;
+	border-width: 2px;
+	color: #ebebeb;
+	clear: both;
+	margin-left: 10px;
+	margin-top: 30px;
+	padding: 20px;
+	padding-bottom: 30px;
+}
+
+.ctavid{
+	float: left;
+}
+
+.ctathumb{
+	border: solid;
+	border-color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+p.ctaparagraph{
+	color: white;
+	font-size: 1.1em;
+	font-weight: 300;
+	line-height: 22px;
+	text-align: justify;
+	word-spacing: .8px;
+	margin-top: 10px;
+	word-spacing: .8px;
+	overflow: hidden;
+}
+
+p.lizzie{
+	color: #ffffff;
+	float: right;
+	font-family: 'League Script', cursive;
+	font-size: 3.2em;
+	margin-right: 40px;
+}
+
+.actionwrap{
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 75%;
+}
+
+.action{
+	float: left;
+	margin: 25px;
+	text-align: center;
+}
+
+.ctaicon{
+	width: 70%;
+}
+
+.icontitle{
+	color: white;
+	font-size: 1.7em;
+	letter-spacing: .3em;
+	margin-bottom: 5px;
+}
+
+.icondescription{
+	color: white;
+	font-size: 1em;
+	font-weight: 400;
+	letter-spacing: .1em;
+	margin-bottom: 7px;
+}
+
+.iconcaption{
+	background: white;
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	line-height: 20px;
+	font-size: 1em;
+	text-align: center;
+	width: 72%;
+	margin-left: auto;
+	margin-right: auto;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.button {
+    display: block;
+    height: 50%;
+    width: 75%;
+    background: #f2e5e5;
+    border: 2px solid rgba(242, 229, 229, 5);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+     
+    color: rgba(0, 0, 0, 0.55);
+    text-align: center;
+    font: .9em/45px "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+ 
+a.button2 {
+    text-decoration: none;
+}
+ 
+div.steps{
+	background: rgba(0,0,0,0);
+	border-style: none;
+	border-width: 2px;
+	color: #ebebeb;
+	clear: both;
+	margin-left: 10px;
+	margin-top: 30px;
+	padding: 20px;
+	padding-bottom: 30px;
+}
+
+ul.steps{
+	color: white;
+	font-size: 1.7em;
+	font-weight: 300;
+	line-height: 28px;
+	text-align: justify;
+	word-spacing: .8px;
+	margin-top: 10px;
+	word-spacing: .5px;
+}
+
+.iframe{
+	text-align: center;
 }
 
 .kstitle{

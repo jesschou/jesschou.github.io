@@ -4,8 +4,6 @@
 	}
 }
 
-
-
 @media only screen and (max-width: 1110px) {
 	.vidbox{
 		width: 32%;
@@ -24,6 +22,10 @@
 @media only screen and (min-width: 1000px) and (max-width: 1109px) {
 	#directorsstatement{
 		height: 1300px;
+	}
+
+	#filmmakers{
+		height: 3050px;
 	}
 
 	.hero{
@@ -67,7 +69,7 @@
 	}
 
 	#filmmakers{
-		height: 3000px;
+		height: 3300px;
 	}
 
 	#specialthanks{
@@ -134,7 +136,7 @@
 	}
 
 	#filmmakers{
-		height: 3300px;
+		height: 3700px;
 	}
 
 	#about{
@@ -248,7 +250,7 @@
 	}
 
 	#filmmakers{
-		height: 3200px;
+		height: 3500px;
 	}
 
 	#video{
@@ -391,7 +393,7 @@
 	#filmmakers{
 		background: url("images/austinflag-2.jpg") no-repeat center center fixed;
 		background-size: cover;
-		height: 3200px;
+		height: 3500px;
 	}
 
 	#video{
@@ -541,7 +543,7 @@
 	}
 
 	#filmmakers{
-		height: 3400px;
+		height: 3500px;
 	}
 
 	#video{
@@ -667,7 +669,7 @@
 	}
 
 	#filmmakers{
-		height: 3700px;
+		height: 3800px;
 	}
 
 	#about{
@@ -804,7 +806,7 @@
 	}
 
 	#filmmakers{
-		height: 3750px;
+		height: 4000px;
 	}
 
 	#about{
@@ -976,7 +978,7 @@
 	}
 
 	#filmmakers{
-		height: 5900px;
+		height: 6300px;
 	}
 
 	#about{
@@ -1196,7 +1198,7 @@
 	}
 
 	#filmmakers{
-		height: 5900px;
+		height: 6400px;
 	}
 
 	#about{
@@ -1419,7 +1421,7 @@
 	}
 
 	#filmmakers{
-		height: 6400px;
+		height: 6800px;
 	}
 
 	#about{
@@ -1643,44 +1645,32 @@
 		height: 500px;
 	}
 
-	#directorsstatement{
-		background-image: none;
-		background-color: #aa875d;
+		#directorsstatement{
 		height: 2300px;
 	}
 
 	#filmmakers{
-		background-image: none;
-		background-color: #6f92c8;
-		height: 5800px;
+		height: 6800px;
 	}
 
 	#about{
-		background-image: none;
-		background-color: #cfbb86;
-		height: 900px;
-	}
-
-	#video{
-		background-image: none;
-		background-color: #bdad9e;
 		height: 900px;
 	}
 
 	#gallery{
-		background-image: none;
-		background-color: #314465;
+		height: 1400px;
+	}
+
+	#video{
 		height: 1100px;
 	}
 
 	#highroad{
-		background-image: none;
-		background-color: #a5a7b0;
-		height: 1550px;
+		height: 1500px;
 	}
 
 	#specialthanks{
-		height: 45900px;
+		height: 30400px;
 	}
 
 	body{
@@ -1842,6 +1832,7 @@
 
 	div.cta{
 		margin: 5px;
+		margin-bottom: 50px;
 	}
 
 	.ctavid{
@@ -1902,31 +1893,31 @@
 	#directorsstatement{
 		background-image: none;
 		background-color: #aa875d;
-		height: 2300px;
+		height: 2200px;
 	}
 
 	#filmmakers{
 		background-image: none;
 		background-color: #6f92c8;
-		height: 6200px;
+		height: 6400px;
 	}
 
 	#about{
 		background-image: none;
 		background-color: #cfbb86;
-		height: 900px;
+		height: 800px;
 	}
 
 	#video{
 		background-image: none;
 		background-color: #bdad9e;
-		height: 1000px;
+		height: 800px;
 	}
 
 	#gallery{
 		background-image: none;
 		background-color: #314465;
-		height: 1100px;
+		height: 1000px;
 	}
 
 	#highroad{
@@ -2097,6 +2088,7 @@
 
 	div.cta{
 		margin: 5px;
+		margin-bottom: 50px;
 	}
 
 	.ctavid{
