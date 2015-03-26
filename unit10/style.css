@@ -49,6 +49,12 @@ body {
 	height: 900px;
 }
 
+#press{
+	background: url("images/lizzie-london-2.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 750px;
+}
+
 #specialthanks{
 	background: url("images/blurred3.jpg") no-repeat center center fixed;
 	background-size: cover;
@@ -576,6 +582,19 @@ ul.steps{
 
 .iframe{
 	text-align: center;
+}
+
+.presswrap{
+	background: rgba(255,255,255,.4);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 80%;
+	margin-top: 1.5%;
+}
+
+.presslogo{
+	padding: 2%;
 }
 
 .kstitle{

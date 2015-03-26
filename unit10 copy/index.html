@@ -32,13 +32,14 @@
 	<div class="mobile-nav">
     	<div class="menu-btn" id="menu-btn">
 			<div></div>
-			<span></span>
-			<span></span>
-			<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
     	</div>
 		<div class="responsive-menu">
 			<ul>
 				<li><a href="#specialthanks">Special Thanks</a></li>
+				<li><a href="#press">Press</a></li>
 				<li><a href="#highroad">Take The High Road</a></li>
 				<li><a href="#gallery">Gallery</a></li>
 	    		<!--<li><a href="#interviewees">Interviewees</a></li>-->
@@ -74,7 +75,7 @@
 			<h1>ABOUT THE FILM</h1>
 		</header>
 		<div class="synopsis">
-			<p>A BRAVE HEART: The Lizzie Velasquez Story is a documentary following the inspiring journey of 25 year old, 58 pound Lizzie from cyber-bullying victim to anti-bullying activist.<br><br>
+			<p>A BRAVE HEART: The Lizzie Velasquez Story is a documentary following the inspiring journey of 26 year old, 58 pound Lizzie from cyber-bullying victim to anti-bullying activist.<br><br>
 			Born with a rare syndrome that prevents her from gaining weight, Elizabeth "Lizzie" Velasquez was first bullied as a child in school for looking different and, later online, as a teenager when she discovered a YouTube video labeling her "The World's Ugliest Woman." The film chronicles unheard stories and details of Lizzie’s physical and emotional journey up to her multi-million viewed TEDx talk, and follows her pursuit from a motivational speaker to Capitol Hill as she lobbies for the first federal anti-bullying bill.</p></div>
 	</section>
 	<section id="directorsstatement">
@@ -2698,10 +2699,10 @@
 	<p>&copy; 2015 WOMEN RISING CORPORATION. ALL RIGHTS RESERVED.</p>
 </footer>
 <script type="text/javascript">
-	jQuery(function($){
-    	     $( '.menu-btn' ).click(function(){
-    	     $('.responsive-menu').toggleClass('expand')
-    	     })
+jQuery(function($){
+          $( '.menu-btn' ).click(function(){
+          $('.responsive-menu').toggleClass('expand')
+          })
         })
 </script>
 <script>
@@ -2807,6 +2808,20 @@ $(document).ready(function() {
 		}
 	});
 });
+
+$jQuery(function($){
+     $( '.menu-btn' ).click(function(){
+     $('.responsive-menu').addClass('expand')
+     $('.menu-btn').addClass('btn-none')
+     });
+    
+     $( '.close-btn' ).click(function(){
+     $('.responsive-menu').removeClass('expand')
+     $('.menu-btn').removeClass('btn-none')
+     });
+});
 </script>
+	</script>
+
 </body>
 </html>
