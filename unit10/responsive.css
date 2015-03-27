@@ -1937,7 +1937,7 @@ nav a{
 	}
 
 	.presslogo{
-		width: 25%;
+		width: 40%;
 	}
 
 	.ks{
@@ -2194,6 +2194,14 @@ nav a{
 	.button {
 	    width: 50%;
 	    font: .7em/45px "Roboto Condensed", sans-serif;
+	}
+
+	.presswrap{
+		width: 70%;
+	}
+
+	.presslogo{
+		width: 40%;
 	}
 
 	.ks{
