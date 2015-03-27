@@ -1935,7 +1935,11 @@ nav a{
 	.presswrap{
 		width: 70%;
 	}
-	
+
+	.presslogo{
+		width: 25%;
+	}
+
 	.ks{
 		margin-left: 70px;
 	}
