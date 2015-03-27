@@ -1729,6 +1729,10 @@ nav a{
 		height: 1500px;
 	}
 
+	#press{
+		height: 500px;
+	}
+
 	#specialthanks{
 		height: 30400px;
 	}
@@ -1928,6 +1932,10 @@ nav a{
 	    font: .7em/45px "Roboto Condensed", sans-serif;
 	}
 
+	.presswrap{
+		width: 70%;
+	}
+	
 	.ks{
 		margin-left: 70px;
 	}
