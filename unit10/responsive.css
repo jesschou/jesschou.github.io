@@ -1054,7 +1054,7 @@ nav a{
 	}
 
 	#highroad{
-		height: 1450px;
+		height: 1650px;
 	}
 
 	#specialthanks{
@@ -1235,6 +1235,14 @@ nav a{
 	    font: .7em/45px "Roboto Condensed", sans-serif;
 	}
 
+	.presswrap{
+		width: 70%;
+	}
+
+	.presslogo{
+		width: 33%;
+	}
+
 	.kstitle{
 		font-size: 1em;
 	}
@@ -1274,7 +1282,7 @@ nav a{
 	}
 
 	#highroad{
-		height: 1500px;
+		height: 1600px;
 	}
 
 	#specialthanks{
@@ -1456,6 +1464,14 @@ nav a{
 	    font: .7em/45px "Roboto Condensed", sans-serif;
 	}
 
+	.presswrap{
+		width: 70%;
+	}
+
+	.presslogo{
+		width: 40%;
+	}
+
 	.kstitle{
 		font-size: .9em;
 	}
@@ -1497,7 +1513,7 @@ nav a{
 	}
 
 	#highroad{
-		height: 1500px;
+		height: 1650px;
 	}
 
 	#specialthanks{
@@ -1677,6 +1693,14 @@ nav a{
 	.button {
 	    width: 30%;
 	    font: .7em/45px "Roboto Condensed", sans-serif;
+	}
+
+	.presswrap{
+		width: 70%;
+	}
+
+	.presslogo{
+		width: 40%;
 	}
 
 	.kstitle{
