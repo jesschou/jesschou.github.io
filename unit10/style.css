@@ -590,12 +590,14 @@ ul.steps{
 	margin-right: auto;
 	text-align: center;
 	width: 80%;
-	margin-top: 1.5%;
+	margin-top: 3%;
 }
 
 .plogo{
 	width: 16%;
-	padding: 1.3%;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	padding-top: 1%;
 }
 
 .kstitle{
