@@ -643,6 +643,17 @@ ul.steps{
 	margin-bottom: 5px;
 }
 
+#signup_email{
+	height: 2em;
+	margin-bottom: 5px;
+	width: 90%;
+}
+
+#webform_submit_button{
+	width: 40%;
+	text-transform: uppercase;
+}
+
 footer{
 	clear: both;
 	color: #ffffff;
