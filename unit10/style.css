@@ -629,6 +629,24 @@ ul.steps{
 	font-size: 0;
 }
 
+.form{
+	margin-left: 150px;
+	margin-bottom: 10px;
+	padding: 6px;
+	width: 60%;
+	text-align: right;
+}
+
+.formtext{
+	font-size: 1.3em;
+	font-weight: 500;
+	line-height: 1px;
+}
+
+.mimi_field{
+	margin-bottom: 10px;
+}
+
 footer{
 	clear: both;
 	color: #ffffff;
