@@ -34,8 +34,8 @@
 		height: 3050px;
 	}
 
-	nav{
-		font-size: .79em;
+	#menu a {
+		font-size: .8em;
 	}
 
 
@@ -92,8 +92,8 @@
 		height: 12500px;
 	}
 
-	nav{
-		font-size: .75em;
+	#menu a {
+		font-size: .8em;
 	}
 
 	.hero{
@@ -163,9 +163,8 @@
 		height: 15500px;
 	}
 
-	nav{
-		font-size: .63em;
-		padding-top: 3px;
+	#menu a {
+		font-size: .8em;
 	}
 
 	.headings_about{
@@ -285,9 +284,8 @@
 		height: 15500px;
 	}
 
-	nav{
-		font-size: 0.61em;
-		padding-top: 5px;
+	#menu a {
+		font-size: .8em;
 	}
 
 	.headings_about{
@@ -434,9 +432,8 @@
 		height: 15500px;
 	}
 
-	nav{
-		font-size: 0.61em;
-		padding-top: 5px;
+	#menu a {
+		font-size: .8em;
 	}
 
 	.headings_about{
@@ -570,9 +567,8 @@
 		height: 1050px;
 	}
 
-	nav{
-		font-size: 0.60em;
-		padding-top: 5px;
+	#menu a {
+		font-size: .8em;
 	}
 
 	.headings_about{
