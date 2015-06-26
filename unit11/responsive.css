@@ -2128,9 +2128,19 @@ nav a{
 	}
 
 	/* nav-wrap */
-		#menu-wrap {
-			position: fixed;
-			width: 100%;
+
+	.fixed-nav-bar {
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  z-index: 9999;
+	  width: 100%;
+	  height: 40px;
+	  background-color: #111;
+	}
+
+	#menu-wrap {
+		position: relative;
 		}
 
 		#menu-wrap * {

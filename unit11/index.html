@@ -28,6 +28,7 @@
 		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 	</head>
 	<body>
+	<nav class="fixed-nav-bar">
 	<nav id="menu-wrap">    
 		<ul id="menu">
 			<li><a href="#index">HOME</a></li>
@@ -65,6 +66,7 @@
 			<li><a href="#press">PRESS</a></li>
 			<li><a href="#specialthanks">SPECIAL THANKS</a></li>
 		</ul>
+	</nav>
 	</nav>
 		<aside id="right">
 			<ul>
@@ -3111,7 +3113,6 @@
 		var isiPad = navigator.userAgent.match(/iPad/i) != null;
 		if (isiPad) $('#menu ul').addClass('no-transition');      
 })();         
-
 
 	jQuery(function($){
 	          $( '.menu-btn' ).click(function(){
