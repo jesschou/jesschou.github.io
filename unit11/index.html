@@ -52,25 +52,31 @@
 			</div>
 		</div>	
 		</nav>-->
-		<div class="menu-wrap">
-		    <nav class="menu">
-		        <ul class="clearfix">
-		            <li><a href="#index">Home</a></li>
-		            <li>
-		                <a href="#index">About The Film<span class="arrow">&#9660;</span></a>
-		                <ul class="sub-menu">
-		                    <li><a href="#about">Synopsis</a></li>
-		                    <li><a href="#directorsstatement">Director's Statement</a></li>
-		                    <li><a href="#filmmakers">Filmmakers</a></li>
-		                    <li><a href="#gallery">Gallery</a></li>
-		                </ul>
-		            </li>
-		            <li><a href="#">Showtimes</a></li>
-		            <li><a href="#press">Press</a></li>
-		            <li><a href="#">Take Action</a></li>
-		        </ul>
-		    </nav>
-		</div>
+		<nav id="nav" role="navigation">
+		    <a href="#nav" title="Show navigation">Show navigation</a>
+		    <a href="#" title="Hide navigation">Hide navigation</a>
+		    <ul>
+		        <li><a href="/">Home</a></li>
+		        <li>
+		            <a href="/" aria-haspopup="true">Blog</a>
+		            <ul>
+		                <li><a href="/">Design</a></li>
+		                <li><a href="/">HTML</a></li>
+		                <li><a href="/">CSS</a></li>
+		                <li><a href="/">JavaScript</a></li>
+		            </ul>
+		        </li>
+		        <li>
+		            <a href="/" aria-haspopup="true">Work</a>
+		            <ul>
+		                <li><a href="/">Web Design</a></li>
+		                <li><a href="/">Typography</a></li>
+		                <li><a href="/">Front-End</a></li>
+		            </ul>
+		        </li>
+		        <li><a href="/">About</a></li>
+		    </ul>
+		</nav>
 		<aside id="right">
 			<ul>
 				<li><a href="http://facebook.com/abraveheartfilm" target="_blank"><img class="icon" src="images/social/facebook.png" alt="Facebook social icon"></a></li>
@@ -3210,6 +3216,8 @@
 			}
 		});
 	});
+
+	$( '#nav li:has(ul)' ).doubleTapToGo();
 
 	$jQuery(function($){
 	     $( '.menu-btn' ).click(function(){
