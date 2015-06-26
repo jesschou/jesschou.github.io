@@ -2129,7 +2129,8 @@ nav a{
 
 	/* nav-wrap */
 		#menu-wrap {
-			position: relative;
+			position: fixed;
+			width: 100%;
 		}
 
 		#menu-wrap * {
@@ -2228,6 +2229,8 @@ nav a{
 		#menu ul ul li:first-child a:after {
 			border: 0;
 		}		
+
+	}	
 
 	.hero{
 		margin-left: auto;
