@@ -123,6 +123,11 @@ body {
 *html #menu li a:hover { /* IE6 only */
 	color: #fafafa;
 }
+
+#menu li:active > a{
+	color: #fafafa;
+	font-weight: 700;
+}
 	
 #menu ul {
 	margin: 20px 0 0 0;
