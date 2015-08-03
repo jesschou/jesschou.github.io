@@ -71,12 +71,10 @@
 
 	.preorder{
 		margin-left: 340px;
-		margin-top: 25px;
 	}
 
 	.tugg{
 		margin-left: 390px;
-		margin-top: 6px;
 	}	
 
 	.icon{
@@ -122,6 +120,10 @@
 
 	#specialthanks{
 		height: 12500px;
+	}
+
+	#seethefilm{
+		height: 1350px;
 	}
 
 	nav{
@@ -197,6 +199,10 @@
 		height: 3700px;
 	}
 
+	#seethefilm{
+		height: 1450px;
+	}
+
 	#about{
 		height: 900px;
 	}
@@ -229,12 +235,10 @@
 
 	.preorder{
 		margin-left: 270px;
-		margin-top: 25px;
 	}
 
 	.tugg{
 		margin-left: 320px;
-		margin-top: 6px;
 		width: 90px;
 	}	
 
@@ -310,9 +314,13 @@
 		height: 1024px;
 	}
 
+	#seethefilm{
+		height: 1450px;
+	}
+
 	#about{
 		height: 1024px;
-}
+	}
 
 	#directorsstatement{
 		height: 1500px;
@@ -366,12 +374,10 @@
 
 	.preorder{
 		margin-left: 230px;
-		margin-top: 25px;
 	}
 
 	.tugg{
 		margin-left: 280px;
-		margin-top: 6px;
 		width: 90px;
 	}	
 
@@ -382,6 +388,10 @@
 
 	div.synopsis{
 		width: 45%;
+	}
+
+	div.tugg{
+		width: 50%;
 	}
 
 	div.directorsstatement{
@@ -466,7 +476,13 @@
 		background: url("images/lizzie-cam-2.jpg") no-repeat center center fixed;
 		background-size: cover;
 		height: 1024px;
-}
+	}
+
+	#seethefilm{
+		background: url("images/lizzie-steps-2.jpg") no-repeat center center fixed;
+		background-size: cover;
+		height: 1200px;
+	}
 
 	#directorsstatement{
 		background: url("images/lizzie-school-4.jpg") no-repeat center center fixed;
@@ -535,12 +551,10 @@
 
 	.preorder{
 		margin-left: 230px;
-		margin-top: 25px;
 	}
 
 	.tugg{
 		margin-left: 280px;
-		margin-top: 6px;
 		width: 90px;
 	}	
 
@@ -554,6 +568,10 @@
 		width: 70%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	div.tugg{
+		width: 80%;
 	}
 
 	div.directorsstatement{
@@ -637,6 +655,10 @@
 		height: 1024px;
 	}
 
+	#seethefilm{
+		height: 1200px;
+	}
+
 	#directorsstatement{
 		height: 1500px;
 	}
@@ -683,12 +705,10 @@
 
 	.preorder{
 		margin-left: 210px;
-		margin-top: 25px;
 	}
 
 	.tugg{
 		margin-left: 260px;
-		margin-top: 6px;
 		width: 90px;
 	}	
 
@@ -699,6 +719,10 @@
 
 	div.synopsis{
 		width: 45%;
+	}
+
+	div.tugg{
+		width: 80%;
 	}
 
 	div.directorsstatement{
@@ -790,6 +814,10 @@
 		height: 900px;
 	}
 
+	#seethefilm{
+		height: 1200px;
+	}
+
 	#gallery{
 		height: 900px;
 	}
@@ -860,12 +888,10 @@
 
 	.preorder{
 		margin-left: 210px;
-		margin-top: 25px;
 	}
 
 	.tugg{
 		margin-left: 260px;
-		margin-top: 6px;
 		width: 90px;
 	}	
 
@@ -876,6 +902,10 @@
 
 	div.synopsis{
 		width: 50%;
+	}
+
+	div.tugg{
+		width: 80%;
 	}
 
 	div.directorsstatement{
@@ -974,6 +1004,10 @@
 		height: 900px;
 	}
 
+	#seethefilm{
+		height: 1200px;
+	}
+
 	#gallery{
 		height: 900px;
 	}
@@ -1062,6 +1096,10 @@
 
 	div.synopsis{
 		width: 50%;
+	}
+
+	div.tugg{
+		width: 80%;
 	}
 
 	div.directorsstatement{
@@ -1160,6 +1198,10 @@
 
 	#about{
 		height: 900px;
+	}
+
+	#seethefilm{
+		height: 1350px;
 	}
 
 	#gallery{
@@ -1269,6 +1311,10 @@
 
 	div.synopsis{
 		width: 80%;
+	}
+
+	div.tugg{
+		width: 75%;
 	}
 
 	div.directorsstatement{
@@ -1404,6 +1450,10 @@
 		height: 900px;
 	}
 
+	#seethefilm{
+		height: 1500px;
+	}
+
 	#gallery{
 		height: 1800px;
 	}
@@ -1512,6 +1562,10 @@
 
 	div.synopsis{
 		width: 80%;
+	}
+
+	div.tugg{
+		width: 70%;
 	}
 
 	div.directorsstatement{
@@ -1649,6 +1703,10 @@
 		height: 900px;
 	}
 
+	#seethefilm{
+		height: 1900px;
+	}
+
 	#gallery{
 		height: 1400px;
 	}
@@ -1757,6 +1815,10 @@
 
 	div.synopsis{
 		width: 80%;
+	}
+
+	div.tugg{
+		width: 65%;
 	}
 
 	div.directorsstatement{
@@ -1900,6 +1962,10 @@
 		height: 800px;
 	}
 
+	#seethefilm{
+		height: 1700px;
+	}
+
 	#directorsstatement{
 		height: 2100px;
 	}
@@ -2020,6 +2086,10 @@
 		width: 85%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	div.tugg{
+		width: 70%;
 	}
 
 	div.directorsstatement{
@@ -2190,6 +2260,12 @@
 		height: 800px;
 	}
 
+	#seethefilm{
+		background-image: none;
+		background-color: #c6e5ea;
+		height: 3000px;
+	}
+
 	#video{
 		background-image: none;
 		background-color: #bdad9e;
@@ -2312,6 +2388,11 @@
 		width: 85%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	div.tugg{
+		width: 70%;
+		margin-left: 20px;
 	}
 
 	div.directorsstatement{
