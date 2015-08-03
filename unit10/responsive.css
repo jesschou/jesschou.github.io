@@ -2349,12 +2349,13 @@
 	}
 
 	.preorder{
-		margin-left: 100px;
+		margin-left: 110px;
 		font-size: .6em;
 	}
 
 	.tugg{
-		margin-left: 130px;
+		margin-left: 140px;
+		margin-top: 10px;
 		width: 40px;
 	}
 
