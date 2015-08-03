@@ -19,6 +19,12 @@ body {
 	height: 750px;
 }
 
+#seethefilm{
+	background: url("images/lizzie-steps-2.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 1200px;
+}
+
 #directorsstatement{
 	background: url("images/lizzie-school-4.jpg") no-repeat center center fixed;
 	background-size: cover;
@@ -70,7 +76,7 @@ body {
 
 nav{
 	background:rgba(0,0,0,.2);
-	font-size: 0.85em;
+	font-size: 0.75em;
 	font-family: Lato, sans-serif;
 	font-weight: 300;
 	letter-spacing: .1em;
@@ -95,18 +101,34 @@ nav#fixednav{
 	left: 0;
 	z-index: 1;
 	width: 100%;
-	height: 46px;
+	height: 43px;
 	background: rgba(0,0,0,.3);
+}
+
+a{
+	outline: none;
 }
 
 a:hover{
 	color: #ffffff;
+	font-weight: 500;
 } 
 
 .active{
 	color: #ffffff;
 	font-weight: 700;
 }
+
+/* Links within paragraphs (subtle) */
+p a {
+	color: black;
+}
+
+/* Links within paragraphs (revealed) */
+p a:hover {
+	color: black;
+	font-weight: 500;
+} 
 
 h1{
 	font-family: 'Alegreya Sans SC', sans-serif;
@@ -157,7 +179,7 @@ iframe{
 	display: block;
     margin-left: 90px;
     margin-right: auto;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .logo{
@@ -166,7 +188,19 @@ iframe{
 	display: block;
     margin-left: 90px;
     margin-right: auto;
-    margin-top: -40px;
+    margin-top: -70px;
+}
+
+.preorder{
+	text-transform: uppercase;
+	margin-left: 380px;
+	margin-top: 25px;
+}
+
+.tugg{
+	margin-left: 430px;
+	margin-top: 6px;
+	outline: none;
 }
 
 #right{
@@ -261,6 +295,68 @@ div.synopsis{
 	text-align: justify;
 	width: 38%;
 	word-spacing: .8px;
+}
+
+a.tugg{
+	color: white;
+}
+
+div.tugg{
+	background: rgba(255,255,255,.7);
+	clear: both;
+	color: black;
+	float: left;
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 20px;
+	margin: auto;
+	margin-left: 70px;
+	padding: 20px;
+	text-align: justify;
+	width: 45%;
+	word-spacing: .8px;
+}
+
+p.theater{
+	margin: auto;
+	width: 80%;
+	text-align: center;
+}
+
+p.community{
+	margin: auto;
+	width: 80%;
+	text-align: center;
+}
+
+p.tuggcontact{
+	text-align: center;
+}
+
+.host{
+	font-weight: 700;
+	font-size: 1.6em;
+	letter-spacing: .1em;
+	text-align: center;
+}
+
+.tugghow{
+	font-weight: 700;
+	font-size: 1.2em;
+	letter-spacing: .1em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+hr.tugghr{ 
+	border: 0; 
+	height: 1.3px; 
+	width: 50%;
+	margin: auto;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,.1), rgba(0,0,0,1), rgba(0,0,0,.1)); 
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,.1), rgba(0,0,0,1), rgba(0,0,0,.1)); 
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,.1), rgba(0,0,0,1), rgba(0,0,0,.1)); 
+	background-image: -o-linear-gradient(left, rgba(0,0,0,.1), rgba(0,0,0,1), rgba(0,0,0,.1)); 
 }
 
 div.directorsstatement{
