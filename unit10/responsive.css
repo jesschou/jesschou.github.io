@@ -1,4 +1,16 @@
 @media only screen and (min-width: 1111px) and (max-width: 1164px) {
+	.preorder{
+		text-transform: uppercase;
+		margin-left: 360px;
+		margin-top: 25px;
+	}
+
+	.tugg{
+		margin-left: 410px;
+		margin-top: 6px;
+		outline: none;
+	}	
+
 	.action{
 		margin: 18px;
 	}
@@ -11,6 +23,16 @@
 
 
 @media only screen and (max-width: 1110px) {
+	.preorder{
+		margin-left: 360px;
+		margin-top: 25px;
+	}
+
+	.tugg{
+		margin-left: 410px;
+		margin-top: 6px;
+	}	
+
 	.vidbox{
 		width: 32%;
 	}
@@ -35,7 +57,7 @@
 	}
 
 	nav{
-		font-size: .79em;
+		font-size: .7em;
 	}
 
 
@@ -47,6 +69,16 @@
 		width: 65%;
 	}
 
+	.preorder{
+		margin-left: 340px;
+		margin-top: 25px;
+	}
+
+	.tugg{
+		margin-left: 390px;
+		margin-top: 6px;
+	}	
+
 	.icon{
 		width: 40px;
 		height: 40px;
@@ -57,7 +89,7 @@
 		width: 50%;
 	}
 
-.action{
+	.action{
 		margin: 0px;
 		margin-top: 10px;
 	}
@@ -93,7 +125,7 @@
 	}
 
 	nav{
-		font-size: .75em;
+		font-size: .65em;
 	}
 
 	.hero{
@@ -103,6 +135,16 @@
 	.logo{
 		width: 60%;
 	}
+
+	.preorder{
+		margin-left: 300px;
+		margin-top: 25px;
+	}
+
+	.tugg{
+		margin-left: 350px;
+		margin-top: 6px;
+	}	
 
 	.icon{
 		width: 40px;
@@ -164,7 +206,7 @@
 	}
 
 	nav{
-		font-size: .63em;
+		font-size: .57em;
 		padding-top: 3px;
 	}
 
@@ -184,6 +226,17 @@
 	.logo{
 		width: 60%;
 	}
+
+	.preorder{
+		margin-left: 270px;
+		margin-top: 25px;
+	}
+
+	.tugg{
+		margin-left: 320px;
+		margin-top: 6px;
+		width: 90px;
+	}	
 
 	.icon{
 		width: 40px;
@@ -286,8 +339,12 @@
 	}
 
 	nav{
-		font-size: 0.61em;
+		font-size: 0.59em;
 		padding-top: 5px;
+	}
+
+	nav a{
+		padding:1em;
 	}
 
 	.headings_about{
@@ -306,6 +363,17 @@
 	.logo{
 		width: 60%;
 	}
+
+	.preorder{
+		margin-left: 230px;
+		margin-top: 25px;
+	}
+
+	.tugg{
+		margin-left: 280px;
+		margin-top: 6px;
+		width: 90px;
+	}	
 
 	.icon{
 		width: 40px;
@@ -435,8 +503,12 @@
 	}
 
 	nav{
-		font-size: 0.61em;
+		font-size: 0.59em;
 		padding-top: 5px;
+	}
+
+	nav a{
+		padding:1em;
 	}
 
 	.headings_about{
@@ -460,6 +532,17 @@
 		margin-left: 0px;
 		width: 80%;
 	}
+
+	.preorder{
+		margin-left: 230px;
+		margin-top: 25px;
+	}
+
+	.tugg{
+		margin-left: 280px;
+		margin-top: 6px;
+		width: 90px;
+	}	
 
 	.icon{
 		width: 40px;
@@ -571,8 +654,12 @@
 	}
 
 	nav{
-		font-size: 0.60em;
+		font-size: 0.59em;
 		padding-top: 5px;
+	}
+
+	nav a{
+		padding:.9em;
 	}
 
 	.headings_about{
@@ -593,6 +680,17 @@
 		margin-left: 0px;
 		width: 80%;
 	}
+
+	.preorder{
+		margin-left: 210px;
+		margin-top: 25px;
+	}
+
+	.tugg{
+		margin-left: 260px;
+		margin-top: 6px;
+		width: 90px;
+	}	
 
 	.icon{
 		width: 40px;
@@ -700,7 +798,7 @@
 		height: 15500px;
 	}
 
-nav a{
+	nav a{
 		background-color: rgba(0,0,0,1);
 		color: white;
 		clear:both;
@@ -759,6 +857,17 @@ nav a{
 		margin-right: auto;
 		width: 80%;
 	}
+
+	.preorder{
+		margin-left: 210px;
+		margin-top: 25px;
+	}
+
+	.tugg{
+		margin-left: 260px;
+		margin-top: 6px;
+		width: 90px;
+	}	
 
 	.icon{
 		width: 40px;
@@ -937,6 +1046,14 @@ nav a{
 		margin-right: auto;
 		width: 85%;
 	}
+
+	.preorder{
+		margin-left: 170px;
+	}
+
+	.tugg{
+		margin-left: 220px;
+	}	
 
 	.icon{
 		width: 40px;
@@ -1125,6 +1242,16 @@ nav a{
 		margin-right: auto;
 		width: 88%;
 	}
+
+	.preorder{
+		margin-left: 160px;
+		font-size: 1em;
+	}
+
+	.tugg{
+		margin-left: 210px;
+		width: 80px;
+	}	
 
 	.icon{
 		width: 40px;
@@ -1359,6 +1486,16 @@ nav a{
 		width: 90%;
 	}
 
+	.preorder{
+		margin-left: 160px;
+		font-size: 1em;
+	}
+
+	.tugg{
+		margin-left: 210px;
+		width: 80px;
+	}	
+
 	.icon{
 		width: 40px;
 		height: 40px;
@@ -1592,6 +1729,16 @@ nav a{
 		margin-right: auto;
 		width: 100%;
 	}
+
+	.preorder{
+		margin-left: 120px;
+		font-size: 1em;
+	}
+
+	.tugg{
+		margin-left: 170px;
+		width: 80px;
+	}	
 
 	.icon{
 		width: 40px;
@@ -1832,6 +1979,16 @@ nav a{
 		margin-right: auto;
 		width: 100%;
 	}
+
+	.preorder{
+		margin-left: 90px;
+		font-size: .9em;
+	}
+
+	.tugg{
+		margin-left: 130px;
+		width: 65px;
+	}	
 
 	aside{
 		margin: 0 4px 0 0;
@@ -2113,6 +2270,16 @@ nav a{
 		margin-left: auto;
 		margin-right: auto;
 		width: 100%;
+	}
+
+	.preorder{
+		margin-left: 40px;
+		font-size: .6em;
+	}
+
+	.tugg{
+		margin-left: 70px;
+		width: 40px;
 	}
 
 	aside{
