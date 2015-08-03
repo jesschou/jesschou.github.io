@@ -2263,7 +2263,7 @@
 	#seethefilm{
 		background-image: none;
 		background-color: #c6e5ea;
-		height: 3000px;
+		height: 2500px;
 	}
 
 	#video{
@@ -2349,12 +2349,12 @@
 	}
 
 	.preorder{
-		margin-left: 40px;
+		margin-left: 100px;
 		font-size: .6em;
 	}
 
 	.tugg{
-		margin-left: 70px;
+		margin-left: 130px;
 		width: 40px;
 	}
 
@@ -2391,7 +2391,7 @@
 	}
 
 	div.tugg{
-		width: 70%;
+		width: 80%;
 		margin-left: 20px;
 	}
 
